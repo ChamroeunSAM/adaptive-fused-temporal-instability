@@ -1,0 +1,120 @@
+{
+ "subset": "S4",
+ "tag": "uncon_p2",
+ "mode": "prune",
+ "structure": null,
+ "period": 2,
+ "draws_search": 100,
+ "draws_final": 2000,
+ "caps": {
+  "random_parameters": 2,
+  "het_means": 2,
+  "het_variances": 1
+ },
+ "N": 3505,
+ "P_structure": 45,
+ "LL_fixed": -1535.488565602171,
+ "LL": -1527.4171487707401,
+ "k": 29,
+ "AIC": 3112.8342975414803,
+ "BIC": 3291.5307257260724,
+ "random": [
+  "truck_10_1 [2018]",
+  "pickup_>1 [2018]"
+ ],
+ "HM": [
+  [
+   "truck_10_1 [2018]",
+   "normal_curve [2018]"
+  ],
+  [
+   "pickup_>1 [2018]",
+   "truck_>10_>1 [2018]"
+  ]
+ ],
+ "HV": [],
+ "dropped": [
+  "truck_6_1 [2018]",
+  "weekend [2018]",
+  "songkran [2018]",
+  "new_year [2018]",
+  "Northern [2018]",
+  "Evening [2018]",
+  "Midnight/early morning [2018]",
+  "Peak hours [2018]",
+  "speeding [2018]",
+  "cutting_in_too_close [2018]",
+  "main_carriageway [2018]",
+  "under_construction [2018]",
+  "painted_median [2018]",
+  "uturn_both_lanes [2018]",
+  "raining [2018]",
+  "large_bas [2018]",
+  "on_grade [2018]",
+  "t_intersection [2018]"
+ ],
+ "start": "uncon_p2_search",
+ "start_spec": {
+  "rnd": [
+   6,
+   4
+  ],
+  "hm": [
+   [
+    6,
+    34
+   ],
+   [
+    4,
+    8
+   ]
+  ],
+  "hv": [],
+  "drop": []
+ },
+ "prune_history": [
+  {
+   "removed": [
+    "fixed:truck_6_1 [2018] (t=0.40)",
+    "fixed:weekend [2018] (t=0.44)",
+    "fixed:songkran [2018] (t=0.16)",
+    "fixed:new_year [2018] (t=0.61)",
+    "fixed:Northern [2018] (t=0.84)",
+    "fixed:Evening [2018] (t=0.51)",
+    "fixed:Midnight/early morning [2018] (t=0.58)",
+    "fixed:Peak hours [2018] (t=0.18)",
+    "fixed:speeding [2018] (t=0.13)",
+    "fixed:cutting_in_too_close [2018] (t=0.73)",
+    "fixed:main_carriageway [2018] (t=0.98)",
+    "fixed:under_construction [2018] (t=0.16)",
+    "fixed:painted_median [2018] (t=0.81)",
+    "fixed:uturn_both_lanes [2018] (t=0.24)",
+    "fixed:raining [2018] (t=0.86)"
+   ],
+   "k": 32,
+   "LL": -1524.5140804343546
+  },
+  {
+   "removed": [
+    "fixed:large_bas [2018] (t=1.23)"
+   ],
+   "k": 31,
+   "LL": -1525.2941861097243
+  },
+  {
+   "removed": [
+    "fixed:on_grade [2018] (t=1.35)"
+   ],
+   "k": 30,
+   "LL": -1526.241376704776
+  },
+  {
+   "removed": [
+    "fixed:t_intersection [2018] (t=1.50)"
+   ],
+   "k": 29,
+   "LL": -1527.4171487707401
+  }
+ ],
+ "seconds": 4
+}

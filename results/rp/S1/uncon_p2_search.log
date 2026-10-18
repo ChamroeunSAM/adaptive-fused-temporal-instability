@@ -1,0 +1,12 @@
+== S1 uncon_p2_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=1791, parameters=40, fixed-parameter LL=-1098.518
+RP screen (38 s): 4 of 39 significant; top 4 by LL gain enter the joint model: ['normal_curve [2020-21]', 'barrier_median [2020-21]', 'weekend [2020-21]', 'concrete_surface [2020-21]']
+  joint RP: 4 random, LL=-1093.042, min SD t=0.26
+  joint RP: 3 random, LL=-1093.075, min SD t=1.22
+  joint RP: 2 random, LL=-1093.556, min SD t=2.17
+RP model: ['normal_curve [2020-21]', 'weekend [2020-21]']  LL=-1093.556
+hm: added speeding [2020-21] -> weekend [2020-21]  (LL gain 2.09, LL=-1091.464, 44 tried, 56 s)
+hm: added raining [2020-21] -> weekend [2020-21]  (LL gain 2.05, LL=-1089.409, 42 tried, 71 s)
+hv: added concrete_surface [2020-21] -> weekend [2020-21]  (LL gain 1.87, LL=-1087.543, 38 tried, 86 s)
+2000-draw confirmation removed: SD [], HM [], HV ['concrete_surface [2020-21]']
+FINAL (2000 draws): random=['normal_curve [2020-21]', 'weekend [2020-21]'], HM=[('weekend [2020-21]', 'speeding [2020-21]'), ('weekend [2020-21]', 'raining [2020-21]')], HV=[], LL=-1089.574, k=42
+DONE uncon_p2_search: LL=-1089.574 k=42  (96 s)

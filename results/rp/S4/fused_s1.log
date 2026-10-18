@@ -1,0 +1,10 @@
+== S4 fused_s1 [mode prune, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=8/3/1]: N=33646, parameters=68, fixed-parameter LL=-12743.537
+start from fused_s1_search: k=76, LL=-12637.642
+  removed 6: ['fixed:van (t=0.52)', 'fixed:Northern [2016-2020] (t=0.37)', 'fixed:speeding (t=0.09)', 'fixed:main_carriageway [2018-2023] (t=0.39)', 'fixed:under_construction [2020-2023] (t=0.52)', 'fixed:raining [2018-2019] (t=0.66)'] -> k=70, LL=-12638.283  (110 s)
+  removed 1: ['fixed:raining [2016-2017] (t=0.99)'] -> k=69, LL=-12638.773  (134 s)
+  removed 1: ['fixed:large_bas (t=1.35)'] -> k=68, LL=-12639.703  (158 s)
+  removed 1: ['fixed:Evening [2016] (t=1.57)'] -> k=67, LL=-12640.927  (182 s)
+  removed 1: ['fixed:uturn_decel_only (t=1.61)'] -> k=66, LL=-12642.192  (205 s)
+  removed 1: ['fixed:weekend (t=1.64)'] -> k=65, LL=-12643.534  (229 s)
+FINAL (all significant at 90%): random=['normal_curve [2017-2023]', 'truck_10_1', 'sideswipe_parallel [2020-2023]', 'truck_>10_1 [2016-2018]', 'truck_>10_1 [2019-2023]', 'cutting_in_too_close [2016-2022]', 'truck_6_1', 'pickup_>1'], HM=[('truck_>10_1 [2019-2023]', 'Evening [2017-2023]'), ('normal_curve [2017-2023]', 'raining [2020-2023]'), ('pickup_>1', 'Peak hours')], HV=[('truck_6_1', 'songkran')], dropped=11, LL=-12643.534, k=65
+DONE fused_s1: LL=-12643.534 k=65  (229 s)

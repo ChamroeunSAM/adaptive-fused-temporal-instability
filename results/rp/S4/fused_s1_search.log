@@ -1,0 +1,18 @@
+== S4 fused_s1_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=8/3/1]: N=33646, parameters=68, fixed-parameter LL=-12743.537
+RP screen (26 s): 36 of 64 significant; top 16 by LL gain enter the joint model: ['normal_curve [2017-2023]', 'truck_10_1', 'on_grade', 'truck_>10_>1', 'sideswipe_parallel [2020-2023]', 'Midnight/early morning', 'truck_>10_1 [2016-2018]', 'falling_asleep', 'Western', 'truck_>10_1 [2019-2023]', 'head_on [2016-2020]', 'depressed_median [2019-2023]', 'cutting_in_too_close [2016-2022]', 'truck_6_1', 'pickup_>1', 'dark_no_lighting [2016-2019]']
+  joint RP: 16 random, LL=-12639.866, min SD t=1.86
+  joint RP: 15 random, LL=-12640.651, min SD t=2.46
+  joint RP: 14 random, LL=-12640.209, min SD t=1.63
+  joint RP: 13 random, LL=-12632.283, min SD t=2.85
+  joint RP: 12 random, LL=-12645.717, min SD t=3.40
+  joint RP: 11 random, LL=-12642.489, min SD t=3.97
+  joint RP: 10 random, LL=-12647.059, min SD t=4.07
+  joint RP: 9 random, LL=-12648.748, min SD t=4.16
+  joint RP: 8 random, LL=-12663.721, min SD t=5.12
+RP model: ['normal_curve [2017-2023]', 'truck_10_1', 'sideswipe_parallel [2020-2023]', 'truck_>10_1 [2016-2018]', 'truck_>10_1 [2019-2023]', 'cutting_in_too_close [2016-2022]', 'truck_6_1', 'pickup_>1']  LL=-12663.721
+hm: added Evening [2017-2023] -> truck_>10_1 [2019-2023]  (LL gain 10.66, LL=-12653.066, 104 tried, 132 s)
+hm: added raining [2020-2023] -> normal_curve [2017-2023]  (LL gain 6.49, LL=-12646.577, 96 tried, 191 s)
+hm: added Peak hours -> pickup_>1  (LL gain 4.30, LL=-12642.276, 84 tried, 244 s)
+hv: added songkran -> truck_6_1  (LL gain 3.15, LL=-12639.121, 84 tried, 298 s)
+FINAL (2000 draws): random=['normal_curve [2017-2023]', 'truck_10_1', 'sideswipe_parallel [2020-2023]', 'truck_>10_1 [2016-2018]', 'truck_>10_1 [2019-2023]', 'cutting_in_too_close [2016-2022]', 'truck_6_1', 'pickup_>1'], HM=[('truck_>10_1 [2019-2023]', 'Evening [2017-2023]'), ('normal_curve [2017-2023]', 'raining [2020-2023]'), ('pickup_>1', 'Peak hours')], HV=[('truck_6_1', 'songkran')], LL=-12637.642, k=76
+DONE fused_s1_search: LL=-12637.642 k=76  (395 s)

@@ -1,0 +1,176 @@
+{
+ "subset": "S4",
+ "tag": "uncon_p5",
+ "mode": "prune",
+ "structure": null,
+ "period": 5,
+ "draws_search": 100,
+ "draws_final": 2000,
+ "caps": {
+  "random_parameters": 2,
+  "het_means": 2,
+  "het_variances": 1
+ },
+ "N": 4189,
+ "P_structure": 45,
+ "LL_fixed": -1512.104449141636,
+ "LL": -1505.406505796941,
+ "k": 24,
+ "AIC": 3058.813011593882,
+ "BIC": 3210.978227296611,
+ "random": [
+  "depressed_median [2021]",
+  "Northeastern [2021]"
+ ],
+ "HM": [
+  [
+   "Northeastern [2021]",
+   "dark_no_lighting [2021]"
+  ],
+  [
+   "depressed_median [2021]",
+   "raining [2021]"
+  ]
+ ],
+ "HV": [
+  [
+   "Northeastern [2021]",
+   "weekend [2021]"
+  ]
+ ],
+ "dropped": [
+  "truck_10_1 [2021]",
+  "truck_>10_1 [2021]",
+  "van [2021]",
+  "large_bas [2021]",
+  "new_year [2021]",
+  "Peak hours [2021]",
+  "speeding [2021]",
+  "falling_asleep [2021]",
+  "normal_curve [2021]",
+  "concrete_surface [2021]",
+  "on_grade [2021]",
+  "t_intersection [2021]",
+  "uturn_both_lanes [2021]",
+  "dark_with_lighting [2021]",
+  "painted_median [2021]",
+  "under_construction [2021]",
+  "uturn_decel_only [2021]",
+  "truck_6_1 [2021]",
+  "cutting_in_too_close [2021]",
+  "rear_end_same_lane [2021]",
+  "sideswipe_parallel [2021]",
+  "plus_intersection [2021]",
+  "truck_>10_>1 [2021]"
+ ],
+ "start": "uncon_p5_search",
+ "start_spec": {
+  "rnd": [
+   32,
+   15
+  ],
+  "hm": [
+   [
+    15,
+    43
+   ],
+   [
+    32,
+    42
+   ]
+  ],
+  "hv": [
+   [
+    15,
+    11
+   ]
+  ],
+  "drop": []
+ },
+ "prune_history": [
+  {
+   "removed": [
+    "fixed:truck_10_1 [2021] (t=0.01)",
+    "fixed:truck_>10_1 [2021] (t=0.37)",
+    "fixed:van [2021] (t=0.13)",
+    "fixed:large_bas [2021] (t=0.85)",
+    "fixed:new_year [2021] (t=0.73)",
+    "fixed:Peak hours [2021] (t=0.58)",
+    "fixed:speeding [2021] (t=0.31)",
+    "fixed:falling_asleep [2021] (t=0.95)",
+    "fixed:normal_curve [2021] (t=0.56)",
+    "fixed:concrete_surface [2021] (t=0.15)",
+    "fixed:on_grade [2021] (t=0.94)",
+    "fixed:t_intersection [2021] (t=0.94)",
+    "fixed:uturn_both_lanes [2021] (t=0.76)",
+    "fixed:dark_with_lighting [2021] (t=0.27)"
+   ],
+   "k": 33,
+   "LL": -1497.063118565191
+  },
+  {
+   "removed": [
+    "fixed:painted_median [2021] (t=1.15)"
+   ],
+   "k": 32,
+   "LL": -1497.7466107904072
+  },
+  {
+   "removed": [
+    "fixed:under_construction [2021] (t=1.30)"
+   ],
+   "k": 31,
+   "LL": -1498.5561730715717
+  },
+  {
+   "removed": [
+    "fixed:uturn_decel_only [2021] (t=1.30)"
+   ],
+   "k": 30,
+   "LL": -1499.3723716220165
+  },
+  {
+   "removed": [
+    "fixed:truck_6_1 [2021] (t=1.40)"
+   ],
+   "k": 29,
+   "LL": -1500.3768973294689
+  },
+  {
+   "removed": [
+    "fixed:cutting_in_too_close [2021] (t=1.57)"
+   ],
+   "k": 28,
+   "LL": -1501.6457099922109
+  },
+  {
+   "removed": [
+    "fixed:rear_end_same_lane [2021] (t=1.31)"
+   ],
+   "k": 27,
+   "LL": -1502.499412900699
+  },
+  {
+   "removed": [
+    "fixed:sideswipe_parallel [2021] (t=0.90)"
+   ],
+   "k": 26,
+   "LL": -1502.9087599634613
+  },
+  {
+   "removed": [
+    "fixed:plus_intersection [2021] (t=1.45)"
+   ],
+   "k": 25,
+   "LL": -1504.0166037311506
+  },
+  {
+   "removed": [
+    "fixed:truck_>10_>1 [2021] (t=1.63)"
+   ],
+   "k": 24,
+   "LL": -1505.406505796941
+  }
+ ],
+ "seconds": 7
+}

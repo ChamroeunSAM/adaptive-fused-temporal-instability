@@ -1,0 +1,12 @@
+== S1 uncon_p3_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=1728, parameters=40, fixed-parameter LL=-1063.828
+RP screen (37 s): 5 of 39 significant; top 5 by LL gain enter the joint model: ['new_year [2022-23]', 'songkran [2022-23]', 'off_left [2022-23]', 'dark_with_lighting [2022-23]', 'raised_earth_median [2022-23]']
+  joint RP: 5 random, LL=-1056.994, min SD t=0.22
+  joint RP: 4 random, LL=-1057.088, min SD t=0.63
+  joint RP: 3 random, LL=-1057.147, min SD t=1.95
+  joint RP: 2 random, LL=-1058.060, min SD t=2.23
+RP model: ['new_year [2022-23]', 'songkran [2022-23]']  LL=-1058.060
+hm: added Eastern [2022-23] -> new_year [2022-23]  (LL gain 4.72, LL=-1053.340, 50 tried, 58 s)
+hm: no qualifying term (46 pairings tried, 72 s)
+hv: no qualifying term (46 pairings tried, 89 s)
+FINAL (2000 draws): random=['new_year [2022-23]', 'songkran [2022-23]'], HM=[('new_year [2022-23]', 'Eastern [2022-23]')], HV=[], LL=-1053.256, k=42
+DONE uncon_p3_search: LL=-1053.256 k=42  (97 s)

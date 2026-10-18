@@ -1,0 +1,15 @@
+== PC structure in the RP model S1 [LR merges at 90%, 2000 draws] [torch, cuda]: N=7325, K=40, T=4; random=['songkran', 'concrete_surface [2018-23]', 'new_year [2018-19]', 'off_left [2016-17]', 'mounts_traffic_island', 'new_year [2020-23]'], HM=[('concrete_surface [2018-23]', 'Eastern [2022-23]'), ('songkran', 'Southern'), ('songkran', 'Northern [2016-19]')], HV=[]
+separate period models before pruning: LL=-4484.155, k=167
+ round 1: current structure k=169, LL=-4468.512  (69 s)
+   40 merges  (241 s)
+ round 2: current structure k=129, LL=-4476.113  (257 s)
+   30 merges  (373 s)
+ round 3: current structure k=99, LL=-4493.001  (383 s)
+   15 merges  (471 s)
+ round 4: current structure k=84, LL=-4502.336  (478 s)
+   5 merges  (541 s)
+ round 5: current structure k=79, LL=-4507.781  (547 s)
+   2 merges  (593 s)
+ round 6: current structure k=77, LL=-4509.672  (598 s)
+   0 merges  (643 s)
+DONE: k=77, LL=-4509.672; against the yearly models before pruning LR=51.0, df=90, conf=0.000; 17 of 40 variables differ from the Stage-1 PC structure  (643 s)

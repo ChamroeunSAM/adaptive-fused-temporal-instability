@@ -1,0 +1,133 @@
+{
+ "subset": "S4",
+ "tag": "uncon_p0",
+ "mode": "prune",
+ "structure": null,
+ "period": 0,
+ "draws_search": 100,
+ "draws_final": 2000,
+ "caps": {
+  "random_parameters": 2,
+  "het_means": 2,
+  "het_variances": 1
+ },
+ "N": 3509,
+ "P_structure": 45,
+ "LL_fixed": -1429.8714919614133,
+ "LL": -1426.646262793501,
+ "k": 32,
+ "AIC": 2917.292525587002,
+ "BIC": 3114.511289605665,
+ "random": [
+  "cutting_in_too_close [2016]"
+ ],
+ "HM": [
+  [
+   "cutting_in_too_close [2016]",
+   "t_intersection [2016]"
+  ]
+ ],
+ "HV": [],
+ "dropped": [
+  "truck_6_1 [2016]",
+  "truck_10_1 [2016]",
+  "van [2016]",
+  "large_bas [2016]",
+  "songkran [2016]",
+  "Peak hours [2016]",
+  "concrete_surface [2016]",
+  "raining [2016]",
+  "uturn_decel_only [2016]",
+  "Northern [2016]",
+  "weekend [2016]",
+  "falling_asleep [2016]",
+  "truck_>10_>1 [2016]",
+  "dark_with_lighting [2016]"
+ ],
+ "start": "uncon_p0_search",
+ "start_spec": {
+  "rnd": [
+   26,
+   7
+  ],
+  "hm": [
+   [
+    26,
+    37
+   ]
+  ],
+  "hv": [
+   [
+    7,
+    44
+   ]
+  ],
+  "drop": []
+ },
+ "prune_history": [
+  {
+   "removed": [
+    "fixed:truck_6_1 [2016] (t=0.28)",
+    "fixed:truck_10_1 [2016] (t=0.72)",
+    "fixed:van [2016] (t=0.81)",
+    "fixed:large_bas [2016] (t=0.17)",
+    "fixed:songkran [2016] (t=0.14)",
+    "fixed:Peak hours [2016] (t=0.78)",
+    "fixed:concrete_surface [2016] (t=0.53)",
+    "fixed:raining [2016] (t=0.97)"
+   ],
+   "k": 39,
+   "LL": -1414.140387478455
+  },
+  {
+   "removed": [
+    "fixed:uturn_decel_only [2016] (t=1.05)"
+   ],
+   "k": 38,
+   "LL": -1414.7612323288317
+  },
+  {
+   "removed": [
+    "fixed:Northern [2016] (t=1.01)"
+   ],
+   "k": 37,
+   "LL": -1415.2633298344713
+  },
+  {
+   "removed": [
+    "fixed:weekend [2016] (t=1.29)"
+   ],
+   "k": 36,
+   "LL": -1416.0868457115066
+  },
+  {
+   "removed": [
+    "fixed:falling_asleep [2016] (t=1.52)"
+   ],
+   "k": 35,
+   "LL": -1417.245861820699
+  },
+  {
+   "removed": [
+    "fixed:truck_>10_>1 [2016] (t=1.52)"
+   ],
+   "k": 34,
+   "LL": -1418.4357426050422
+  },
+  {
+   "removed": [
+    "sd:truck_>10_1 [2016] (t=1.50)"
+   ],
+   "k": 33,
+   "LL": -1426.1848873517802
+  },
+  {
+   "removed": [
+    "fixed:dark_with_lighting [2016] (t=0.95)"
+   ],
+   "k": 32,
+   "LL": -1426.646262793501
+  }
+ ],
+ "seconds": 5
+}

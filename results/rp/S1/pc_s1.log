@@ -1,0 +1,15 @@
+== S1 pc_s1 [mode prune, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=8/3/1]: N=7325, parameters=73, fixed-parameter LL=-4552.262
+start from pc_s1_search: k=80, LL=-4513.839
+  removed 18: ['fixed:weekend (t=0.02)', 'fixed:Western [2016-19] (t=0.03)', 'fixed:Western [2022-23] (t=0.86)', 'fixed:Midnight/early morning (t=0.76)', 'fixed:rear_end_same_lane [2016-19] (t=0.28)', 'fixed:sideswipe_parallel [2022-23] (t=0.39)', 'fixed:out_of_control [2016-17] (t=0.48)', 'fixed:off_left_bend (t=0.15)', 'fixed:off_right_bend [2018-23] (t=0.77)', 'fixed:speeding [2018-19] (t=0.08)', 'fixed:falling_asleep [2016-21] (t=0.47)', 'fixed:frontage_road [2020-23] (t=0.89)', 'fixed:barrier_median [2018-19] (t=0.34)', 'fixed:normal_curve (t=0.04)', 'fixed:concrete_surface [2016-17] (t=0.10)', 'fixed:t_intersection (t=0.28)', 'fixed:wet_road [2016-21] (t=0.71)', 'fixed:raining [2016-19] (t=0.62)'] -> k=62, LL=-4518.718  (59 s)
+  removed 1: ['fixed:sideswipe_parallel [2016-19] (t=1.13)'] -> k=61, LL=-4519.351  (66 s)
+  removed 1: ['fixed:raised_earth_median [2018-23] (t=1.18)'] -> k=60, LL=-4520.047  (74 s)
+  removed 1: ['fixed:under_construction [2022-23] (t=1.33)'] -> k=59, LL=-4520.945  (81 s)
+  removed 1: ['fixed:cutting_in_too_close [2020-23] (t=1.33)'] -> k=58, LL=-4521.842  (88 s)
+  removed 1: ['fixed:cutting_in_too_close [2018-19] (t=1.48)'] -> k=57, LL=-4522.973  (95 s)
+  removed 1: ['fixed:under_construction [2016-21] (t=1.60)'] -> k=56, LL=-4524.278  (102 s)
+  removed 1: ['sd:predestrain (t=1.60)'] -> k=55, LL=-4524.903  (108 s)
+  removed 1: ['fixed:predestrain (t=0.73)'] -> k=54, LL=-4525.170  (114 s)
+  removed 1: ['fixed:raining [2020-23] (t=1.64)'] -> k=53, LL=-4526.514  (121 s)
+  removed 1: ['fixed:wet_road [2022-23] (t=0.92)'] -> k=52, LL=-4526.939  (127 s)
+FINAL (all significant at 90%): random=['songkran', 'concrete_surface [2018-23]', 'new_year [2018-19]', 'off_left [2016-17]', 'mounts_traffic_island', 'new_year [2020-23]'], HM=[('concrete_surface [2018-23]', 'Eastern [2022-23]'), ('songkran', 'Southern'), ('songkran', 'Northern [2016-19]')], HV=[], dropped=27, LL=-4526.939, k=52
+DONE pc_s1: LL=-4526.939 k=52  (133 s)

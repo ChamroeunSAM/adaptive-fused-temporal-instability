@@ -1,0 +1,14 @@
+== S3 uncon_p6 [mode prune, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=10320, parameters=51, fixed-parameter LL=-2849.402
+start from uncon_p6_search: k=53, LL=-2838.949
+  removed 19: ['fixed:weekend [2022] (t=0.43)', 'fixed:Eastern [2022] (t=0.84)', 'fixed:Northeastern [2022] (t=0.89)', 'fixed:Midnight/early morning [2022] (t=0.24)', 'fixed:Peak hours [2022] (t=0.93)', 'fixed:off_left_hit_object [2022] (t=0.08)', 'fixed:off_hit_object_right_bend [2022] (t=0.07)', 'fixed:off_hit_object_left_bend [2022] (t=0.31)', 'fixed:off_left_bend [2022] (t=0.44)', 'fixed:under_construction [2022] (t=0.86)', 'fixed:normal_curve [2022] (t=0.53)', 'fixed:concrete_surface [2022] (t=0.13)', 'fixed:crest [2022] (t=0.18)', 'fixed:sag [2022] (t=0.42)', 'fixed:on_grade [2022] (t=0.52)', 'fixed:t_intersection [2022] (t=0.26)', 'fixed:uturn_decel_only [2022] (t=0.39)', 'fixed:wet_road [2022] (t=0.83)', 'fixed:raining [2022] (t=0.39)'] -> k=34, LL=-2849.040  (10 s)
+  removed 1: ['fixed:holiday [2022] (t=1.03)'] -> k=33, LL=-2849.614  (11 s)
+  removed 1: ['fixed:uturn_both_lanes [2022] (t=1.14)'] -> k=32, LL=-2850.327  (12 s)
+  removed 1: ['fixed:Southern [2022] (t=1.32)'] -> k=31, LL=-2851.185  (13 s)
+  removed 1: ['fixed:raised_earth_median [2022] (t=1.49)'] -> k=30, LL=-2852.308  (14 s)
+  removed 1: ['fixed:depressed_median [2022] (t=0.99)'] -> k=29, LL=-2852.795  (14 s)
+  removed 1: ['fixed:painted_median [2022] (t=1.46)'] -> k=28, LL=-2853.919  (15 s)
+  removed 1: ['fixed:Western [2022] (t=1.58)'] -> k=27, LL=-2855.125  (16 s)
+  removed 1: ['fixed:songkran [2022] (t=1.55)'] -> k=26, LL=-2856.293  (17 s)
+  removed 1: ['fixed:dark_with_lighting [2022] (t=1.59)'] -> k=25, LL=-2857.556  (17 s)
+FINAL (all significant at 90%): random=['Northern [2022]', 'car_1 [2022]'], HM=[('Northern [2022]', 'off_right_hit_object [2022]'), ('Northern [2022]', 'Evening [2022]')], HV=[], dropped=28, LL=-2857.556, k=25
+DONE uncon_p6: LL=-2857.556 k=25  (18 s)

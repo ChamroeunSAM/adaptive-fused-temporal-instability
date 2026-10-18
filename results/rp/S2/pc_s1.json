@@ -1,0 +1,204 @@
+{
+ "subset": "S2",
+ "tag": "pc_s1",
+ "mode": "prune",
+ "structure": "results/stage1/struct_S2_pc.json",
+ "period": null,
+ "draws_search": 100,
+ "draws_final": 2000,
+ "caps": {
+  "random_parameters": 8,
+  "het_means": 3,
+  "het_variances": 1
+ },
+ "N": 21371,
+ "P_structure": 109,
+ "LL_fixed": -12140.477179130281,
+ "LL": -11979.041734622624,
+ "k": 85,
+ "AIC": 24128.083469245248,
+ "BIC": 24805.515631297414,
+ "random": [
+  "new_year [2016-2018]",
+  "songkran [2017-2023]",
+  "truck_>10_1",
+  "new_year [2019-2023]",
+  "cutting_in_too_close [2016-2022]",
+  "wet_road [2019-2023]",
+  "normal_curve [2017-2023]",
+  "Southern [2018-2023]"
+ ],
+ "HM": [
+  [
+   "Southern [2018-2023]",
+   "rear_end_same_lane [2019-2023]"
+  ],
+  [
+   "cutting_in_too_close [2016-2022]",
+   "van [2016-2022]"
+  ],
+  [
+   "cutting_in_too_close [2016-2022]",
+   "main_carriageway [2022-2023]"
+  ]
+ ],
+ "HV": [],
+ "dropped": [
+  "pickup_1 [2022-2023]",
+  "pickup_>1 [2018]",
+  "songkran [2016]",
+  "holiday [2016-2018]",
+  "Northern [2023]",
+  "Evening [2016-2021]",
+  "Midnight/early morning [2016]",
+  "Peak hours [2021-2023]",
+  "speeding [2019-2022]",
+  "running_red_light [2017]",
+  "running_red_light [2023]",
+  "frontage_road [2021]",
+  "under_construction [2016-2022]",
+  "painted_median [2016-2021]",
+  "raised_earth_median [2020]",
+  "depressed_median [2016-2017]",
+  "concrete_surface [2016-2017]",
+  "concrete_surface [2019]",
+  "t_intersection [2019-2023]",
+  "plus_intersection [2016-2017]",
+  "access_public_commercial",
+  "wet_road [2016-2018]",
+  "dark_with_lighting [2019]",
+  "concrete_surface [2022-2023]",
+  "pickup_1 [2016-2017]",
+  "uturn_both_lanes [2017-2020]",
+  "plus_intersection [2020-2023]",
+  "cutting_in_too_close [2023]",
+  "pickup_>1 [2016-2017]",
+  "holiday [2019-2021]",
+  "Peak hours [2016-2020]",
+  "van [2023]"
+ ],
+ "start": "pc_s1_search",
+ "start_spec": {
+  "rnd": [
+   24,
+   23,
+   18,
+   25,
+   54,
+   101,
+   81,
+   37
+  ],
+  "hm": [
+   [
+    37,
+    48
+   ],
+   [
+    54,
+    19
+   ],
+   [
+    54,
+    62
+   ]
+  ],
+  "hv": [],
+  "drop": []
+ },
+ "prune_history": [
+  {
+   "removed": [
+    "fixed:pickup_1 [2022-2023] (t=0.86)",
+    "fixed:pickup_>1 [2018] (t=0.55)",
+    "fixed:songkran [2016] (t=0.37)",
+    "fixed:holiday [2016-2018] (t=0.66)",
+    "fixed:Northern [2023] (t=0.42)",
+    "fixed:Evening [2016-2021] (t=0.16)",
+    "fixed:Midnight/early morning [2016] (t=0.68)",
+    "fixed:Peak hours [2021-2023] (t=0.67)",
+    "fixed:speeding [2019-2022] (t=0.04)",
+    "fixed:running_red_light [2017] (t=0.08)",
+    "fixed:running_red_light [2023] (t=0.47)",
+    "fixed:frontage_road [2021] (t=0.76)",
+    "fixed:under_construction [2016-2022] (t=0.12)",
+    "fixed:painted_median [2016-2021] (t=0.99)",
+    "fixed:raised_earth_median [2020] (t=0.62)",
+    "fixed:depressed_median [2016-2017] (t=0.73)",
+    "fixed:concrete_surface [2016-2017] (t=0.87)",
+    "fixed:concrete_surface [2019] (t=0.85)",
+    "fixed:t_intersection [2019-2023] (t=0.55)",
+    "fixed:plus_intersection [2016-2017] (t=0.33)",
+    "fixed:access_public_commercial (t=0.70)",
+    "fixed:wet_road [2016-2018] (t=0.89)",
+    "fixed:dark_with_lighting [2019] (t=0.18)"
+   ],
+   "k": 94,
+   "LL": -11971.063462045251
+  },
+  {
+   "removed": [
+    "fixed:concrete_surface [2022-2023] (t=1.13)"
+   ],
+   "k": 93,
+   "LL": -11971.703867064356
+  },
+  {
+   "removed": [
+    "fixed:pickup_1 [2016-2017] (t=1.12)"
+   ],
+   "k": 92,
+   "LL": -11972.327595358845
+  },
+  {
+   "removed": [
+    "fixed:uturn_both_lanes [2017-2020] (t=1.23)"
+   ],
+   "k": 91,
+   "LL": -11973.088527853739
+  },
+  {
+   "removed": [
+    "fixed:plus_intersection [2020-2023] (t=1.27)"
+   ],
+   "k": 90,
+   "LL": -11973.903102906756
+  },
+  {
+   "removed": [
+    "fixed:cutting_in_too_close [2023] (t=1.19)"
+   ],
+   "k": 89,
+   "LL": -11974.615776779083
+  },
+  {
+   "removed": [
+    "fixed:pickup_>1 [2016-2017] (t=1.41)"
+   ],
+   "k": 88,
+   "LL": -11975.615125412693
+  },
+  {
+   "removed": [
+    "fixed:holiday [2019-2021] (t=1.46)"
+   ],
+   "k": 87,
+   "LL": -11976.701300646626
+  },
+  {
+   "removed": [
+    "fixed:Peak hours [2016-2020] (t=1.47)"
+   ],
+   "k": 86,
+   "LL": -11977.787270744333
+  },
+  {
+   "removed": [
+    "fixed:van [2023] (t=1.56)"
+   ],
+   "k": 85,
+   "LL": -11979.041734622624
+  }
+ ],
+ "seconds": 235
+}

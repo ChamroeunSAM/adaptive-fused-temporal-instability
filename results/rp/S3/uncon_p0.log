@@ -1,0 +1,11 @@
+== S3 uncon_p0 [mode prune, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=7482, parameters=51, fixed-parameter LL=-2860.617
+start from uncon_p0_search: k=53, LL=-2843.232
+  removed 17: ['fixed:car_1 [2016] (t=0.48)', 'fixed:weekend [2016] (t=0.36)', 'fixed:holiday [2016] (t=0.18)', 'fixed:Eastern [2016] (t=0.71)', 'fixed:Northeastern [2016] (t=0.34)', 'fixed:Western [2016] (t=0.63)', 'fixed:Evening [2016] (t=0.53)', 'fixed:speeding [2016] (t=0.16)', 'fixed:cutting_in_too_close [2016] (t=0.86)', 'fixed:under_construction [2016] (t=0.97)', 'fixed:crest [2016] (t=0.95)', 'fixed:on_grade [2016] (t=0.16)', 'fixed:uturn_decel_only [2016] (t=0.34)', 'fixed:uturn_both_lanes [2016] (t=0.22)', 'fixed:bridge [2016] (t=0.85)', 'fixed:wet_road [2016] (t=0.47)', 'fixed:raining [2016] (t=0.26)'] -> k=36, LL=-2848.803  (6 s)
+  removed 1: ['fixed:painted_median [2016] (t=1.11)'] -> k=35, LL=-2849.434  (7 s)
+  removed 1: ['fixed:concrete_surface [2016] (t=1.16)'] -> k=34, LL=-2850.087  (7 s)
+  removed 1: ['fixed:normal_curve [2016] (t=1.45)'] -> k=33, LL=-2851.157  (7 s)
+  removed 1: ['fixed:off_left_bend [2016] (t=1.21)'] -> k=32, LL=-2851.874  (7 s)
+  removed 1: ['fixed:off_right_bend [2016] (t=1.10)'] -> k=31, LL=-2852.463  (7 s)
+  removed 1: ['fixed:Southern [2016] (t=1.47)'] -> k=30, LL=-2853.524  (8 s)
+FINAL (all significant at 90%): random=['songkran [2016]', 'new_year [2016]'], HM=[('songkran [2016]', 'dark_with_lighting [2016]'), ('new_year [2016]', 'Northern [2016]')], HV=[('songkran [2016]', 'Peak hours [2016]')], dropped=23, LL=-2853.524, k=30
+DONE uncon_p0: LL=-2853.524 k=30  (8 s)

@@ -1,0 +1,8 @@
+== S1 fused_rp_c0 [mode prune, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=8/3/1]: N=7325, parameters=49, fixed-parameter LL=-4610.926
+start from fused_rp_c0_search: k=56, LL=-4548.238
+  removed 14: ['fixed:weekend (t=0.92)', 'fixed:Western [2016-19] (t=0.63)', 'fixed:Peak hours (t=0.67)', 'fixed:sideswipe_parallel (t=0.52)', 'fixed:off_left [2016-17] (t=0.19)', 'fixed:out_of_control [2016-17] (t=0.67)', 'fixed:off_left_bend (t=0.11)', 'fixed:cutting_in_too_close [2016-19] (t=0.80)', 'fixed:frontage_road [2020-23] (t=0.40)', 'fixed:under_construction (t=0.56)', 'fixed:painted_median (t=0.43)', 'fixed:normal_curve (t=0.84)', 'fixed:t_intersection (t=0.31)', 'fixed:raining [2016-19] (t=0.18)'] -> k=42, LL=-4550.782  (55 s)
+  removed 1: ['fixed:mounts_traffic_island (t=1.16)'] -> k=41, LL=-4551.484  (61 s)
+  removed 1: ['fixed:falling_asleep (t=1.42)'] -> k=40, LL=-4552.512  (67 s)
+  removed 1: ['fixed:predestrain (t=1.64)'] -> k=39, LL=-4553.857  (73 s)
+FINAL (all significant at 90%): random=['concrete_surface', 'songkran', 'new_year', 'raised_earth_median', 'off_right_bend', 'Northeastern', 'Eastern'], HM=[('concrete_surface', 'Midnight/early morning'), ('Eastern', 'rear_end_same_lane'), ('Eastern', 'speeding')], HV=[('songkran', 'Northern')], dropped=17, LL=-4553.857, k=39
+DONE fused_rp_c0: LL=-4553.857 k=39  (83 s)

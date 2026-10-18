@@ -1,0 +1,19 @@
+== S2 uncon_p2_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=2759, parameters=46, fixed-parameter LL=-1525.163
+RP screen (40 s): 12 of 45 significant; top 12 by LL gain enter the joint model: ['new_year [2018]', 'cutting_in_too_close [2018]', 'Northeastern [2018]', 'painted_median [2018]', 'songkran [2018]', 'plus_intersection [2018]', 'sideswipe_parallel [2018]', 'truck_>10_1 [2018]', 'pickup_1 [2018]', 'dark_no_lighting [2018]', 'Northern [2018]', 'Peak hours [2018]']
+  joint RP: 12 random, LL=-1452.755, min SD t=1.75
+  joint RP: 11 random, LL=-1453.513, min SD t=2.22
+  joint RP: 10 random, LL=-1454.483, min SD t=1.14
+  joint RP: 9 random, LL=-1458.560, min SD t=1.59
+  joint RP: 8 random, LL=-1461.612, min SD t=2.56
+  joint RP: 7 random, LL=-1464.588, min SD t=2.45
+  joint RP: 6 random, LL=-1502.027, min SD t=2.57
+  joint RP: 5 random, LL=-1504.877, min SD t=2.54
+  joint RP: 4 random, LL=-1506.562, min SD t=3.07
+  joint RP: 3 random, LL=-1510.725, min SD t=3.16
+  joint RP: 2 random, LL=-1514.253, min SD t=3.24
+RP model: ['cutting_in_too_close [2018]', 'sideswipe_parallel [2018]']  LL=-1514.253
+hm: added van [2018] -> cutting_in_too_close [2018]  (LL gain 1.41, LL=-1512.844, 36 tried, 54 s)
+hm: no qualifying term (34 pairings tried, 60 s)
+hv: no qualifying term (34 pairings tried, 70 s)
+FINAL (2000 draws): random=['cutting_in_too_close [2018]', 'sideswipe_parallel [2018]'], HM=[('cutting_in_too_close [2018]', 'van [2018]')], HV=[], LL=-1512.589, k=48
+DONE uncon_p2_search: LL=-1512.589 k=48  (77 s)

@@ -1,0 +1,17 @@
+== fused structure in the RP model S3 [refit 2000 draws, penalised fits 100 draws] [torch, cuda]: N=73731, K=51, T=8; random=['off_hit_object_left_bend', 'new_year', 'songkran', 'normal_curve', 'Northern [2019-2023]', 'concrete_surface', 'barrier_median [2019-2023]', 'predestrain [2016-2022]'], HM=[('predestrain [2016-2022]', 'Northeastern'), ('normal_curve', 'dark_with_lighting'), ('normal_curve', 'raining [2020-2023]')], HV=[('normal_curve', 'raining [2016-2019]')]
+separate period models before pruning: LL=-23463.516, k=424
+start (no steps): LL=-23764.137; lambda_max=1.5163e-03  (14 s)
+  lambda=1.1372e-03: k=65, LL=-23702.347, LR=477.7, df=359, conf=1.000, passes: False  (190 s)
+  lambda=8.5291e-04: k=66, LL=-23695.871, LR=464.7, df=358, conf=1.000, passes: False  (213 s)
+  lambda=2.0240e-04: k=69, LL=-23675.901, LR=424.8, df=355, conf=0.994, passes: False  (258 s)
+  lambda=1.5180e-04: k=71, LL=-23669.529, LR=412.0, df=353, conf=0.984, passes: False  (280 s)
+  lambda=1.1385e-04: k=77, LL=-23654.601, LR=382.2, df=347, conf=0.906, passes: False  (307 s)
+  lambda=8.5388e-05: k=86, LL=-23623.326, LR=319.6, df=338, conf=0.244, passes: True  (335 s)
+  lambda=9.8597e-05: k=80, LL=-23641.808, LR=356.6, df=344, conf=0.691, passes: True  (370 s)
+  lambda=1.0221e-04: k=78, LL=-23651.260, LR=375.5, df=346, conf=0.868, passes: True  (404 s)
+  lambda=7.9106e-05: k=90, LL=-23611.211, LR=295.4, df=334, conf=0.063, passes: True  (437 s)
+  lambda=5.9329e-05: k=104, LL=-23586.557, LR=246.1, df=320, conf=0.001, passes: True  (468 s)
+  lambda=4.4497e-05: k=112, LL=-23575.721, LR=224.4, df=312, conf=0.000, passes: True  (499 s)
+  lambda=3.3373e-05: k=130, LL=-23555.215, LR=183.4, df=294, conf=0.000, passes: True  (540 s)
+  lambda=2.5030e-05: k=149, LL=-23539.269, LR=151.5, df=275, conf=0.000, passes: True  (580 s)
+CHOSEN lambda=1.0547e-04: k=78, LR=375.5, df=346, conf=0.868; 5 step-down candidates  (580 s)

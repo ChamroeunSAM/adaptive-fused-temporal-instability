@@ -1,0 +1,15 @@
+== S2 uncon_p1_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=2269, parameters=46, fixed-parameter LL=-1296.579
+RP screen (44 s): 7 of 45 significant; top 7 by LL gain enter the joint model: ['new_year [2017]', 'painted_median [2017]', 'cutting_in_too_close [2017]', 'Western [2017]', 'pickup_1 [2017]', 'depressed_median [2017]', 'Peak hours [2017]']
+  joint RP: 7 random, LL=-1279.868, min SD t=0.88
+  joint RP: 6 random, LL=-1280.677, min SD t=0.80
+  joint RP: 5 random, LL=-1283.429, min SD t=1.69
+  joint RP: 4 random, LL=-1285.901, min SD t=2.14
+  joint RP: 3 random, LL=-1286.805, min SD t=2.44
+  joint RP: 2 random, LL=-1291.675, min SD t=2.32
+RP model: ['cutting_in_too_close [2017]', 'depressed_median [2017]']  LL=-1291.675
+hm: added uturn_no_lane [2017] -> depressed_median [2017]  (LL gain 3.47, LL=-1288.208, 46 tried, 71 s)
+hm: added Peak hours [2017] -> depressed_median [2017]  (LL gain 2.55, LL=-1285.660, 44 tried, 87 s)
+hv: added weekend [2017] -> cutting_in_too_close [2017]  (LL gain 4.00, LL=-1281.658, 42 tried, 104 s)
+2000-draw confirmation removed: SD ['cutting_in_too_close [2017]'], HM [], HV []
+FINAL (2000 draws): random=['depressed_median [2017]'], HM=[('depressed_median [2017]', 'uturn_no_lane [2017]'), ('depressed_median [2017]', 'Peak hours [2017]')], HV=[], LL=-1289.553, k=47
+DONE uncon_p1_search: LL=-1289.553 k=47  (116 s)

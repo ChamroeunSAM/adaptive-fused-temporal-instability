@@ -1,0 +1,148 @@
+{
+ "subset": "S4",
+ "tag": "fused_s1",
+ "mode": "prune",
+ "structure": "results/stage1/struct_S4_fused.json",
+ "period": null,
+ "draws_search": 100,
+ "draws_final": 2000,
+ "caps": {
+  "random_parameters": 8,
+  "het_means": 3,
+  "het_variances": 1
+ },
+ "N": 33646,
+ "P_structure": 68,
+ "LL_fixed": -12743.537248922707,
+ "LL": -12643.533907851916,
+ "k": 65,
+ "AIC": 25417.06781570383,
+ "BIC": 25964.605030426974,
+ "random": [
+  "normal_curve [2017-2023]",
+  "truck_10_1",
+  "sideswipe_parallel [2020-2023]",
+  "truck_>10_1 [2016-2018]",
+  "truck_>10_1 [2019-2023]",
+  "cutting_in_too_close [2016-2022]",
+  "truck_6_1",
+  "pickup_>1"
+ ],
+ "HM": [
+  [
+   "truck_>10_1 [2019-2023]",
+   "Evening [2017-2023]"
+  ],
+  [
+   "normal_curve [2017-2023]",
+   "raining [2020-2023]"
+  ],
+  [
+   "pickup_>1",
+   "Peak hours"
+  ]
+ ],
+ "HV": [
+  [
+   "truck_6_1",
+   "songkran"
+  ]
+ ],
+ "dropped": [
+  "van",
+  "Northern [2016-2020]",
+  "speeding",
+  "main_carriageway [2018-2023]",
+  "under_construction [2020-2023]",
+  "raining [2018-2019]",
+  "raining [2016-2017]",
+  "large_bas",
+  "Evening [2016]",
+  "uturn_decel_only",
+  "weekend"
+ ],
+ "start": "fused_s1_search",
+ "start_spec": {
+  "rnd": [
+   51,
+   10,
+   31,
+   11,
+   12,
+   35,
+   9,
+   8
+  ],
+  "hm": [
+   [
+    12,
+    26
+   ],
+   [
+    51,
+    63
+   ],
+   [
+    8,
+    28
+   ]
+  ],
+  "hv": [
+   [
+    9,
+    17
+   ]
+  ],
+  "drop": []
+ },
+ "prune_history": [
+  {
+   "removed": [
+    "fixed:van (t=0.52)",
+    "fixed:Northern [2016-2020] (t=0.37)",
+    "fixed:speeding (t=0.09)",
+    "fixed:main_carriageway [2018-2023] (t=0.39)",
+    "fixed:under_construction [2020-2023] (t=0.52)",
+    "fixed:raining [2018-2019] (t=0.66)"
+   ],
+   "k": 70,
+   "LL": -12638.283449574166
+  },
+  {
+   "removed": [
+    "fixed:raining [2016-2017] (t=0.99)"
+   ],
+   "k": 69,
+   "LL": -12638.773408068391
+  },
+  {
+   "removed": [
+    "fixed:large_bas (t=1.35)"
+   ],
+   "k": 68,
+   "LL": -12639.70304949045
+  },
+  {
+   "removed": [
+    "fixed:Evening [2016] (t=1.57)"
+   ],
+   "k": 67,
+   "LL": -12640.927224334693
+  },
+  {
+   "removed": [
+    "fixed:uturn_decel_only (t=1.61)"
+   ],
+   "k": 66,
+   "LL": -12642.191881091312
+  },
+  {
+   "removed": [
+    "fixed:weekend (t=1.64)"
+   ],
+   "k": 65,
+   "LL": -12643.533907851916
+  }
+ ],
+ "seconds": 229
+}

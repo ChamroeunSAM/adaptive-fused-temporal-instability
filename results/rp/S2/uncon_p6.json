@@ -1,0 +1,116 @@
+{
+ "subset": "S2",
+ "tag": "uncon_p6",
+ "mode": "prune",
+ "structure": null,
+ "period": 6,
+ "draws_search": 100,
+ "draws_final": 2000,
+ "caps": {
+  "random_parameters": 2,
+  "het_means": 2,
+  "het_variances": 1
+ },
+ "N": 2511,
+ "P_structure": 46,
+ "LL_fixed": -1458.145882465304,
+ "LL": -1447.4237090351578,
+ "k": 32,
+ "AIC": 2958.8474180703156,
+ "BIC": 3145.357381563358,
+ "random": [
+  "normal_curve [2022]",
+  "new_year [2022]"
+ ],
+ "HM": [
+  [
+   "new_year [2022]",
+   "Peak hours [2022]"
+  ],
+  [
+   "normal_curve [2022]",
+   "access_public_commercial [2022]"
+  ]
+ ],
+ "HV": [],
+ "dropped": [
+  "motor_1 [2022]",
+  "pickup_1 [2022]",
+  "van [2022]",
+  "rear_end_same_lane [2022]",
+  "main_carriageway [2022]",
+  "under_construction [2022]",
+  "depressed_median [2022]",
+  "concrete_surface [2022]",
+  "uturn_no_lane [2022]",
+  "uturn_decel_only [2022]",
+  "wet_road [2022]",
+  "raining [2022]",
+  "dark_with_lighting [2022]",
+  "holiday [2022]",
+  "t_intersection [2022]",
+  "weekend [2022]"
+ ],
+ "start": "uncon_p6_search",
+ "start_spec": {
+  "rnd": [
+   34,
+   11
+  ],
+  "hm": [
+   [
+    11,
+    20
+   ],
+   [
+    34,
+    41
+   ]
+  ],
+  "hv": [],
+  "drop": []
+ },
+ "prune_history": [
+  {
+   "removed": [
+    "fixed:motor_1 [2022] (t=0.33)",
+    "fixed:pickup_1 [2022] (t=0.75)",
+    "fixed:van [2022] (t=0.86)",
+    "fixed:rear_end_same_lane [2022] (t=0.44)",
+    "fixed:main_carriageway [2022] (t=0.61)",
+    "fixed:under_construction [2022] (t=0.80)",
+    "fixed:depressed_median [2022] (t=0.96)",
+    "fixed:concrete_surface [2022] (t=0.47)",
+    "fixed:uturn_no_lane [2022] (t=0.74)",
+    "fixed:uturn_decel_only [2022] (t=0.04)",
+    "fixed:wet_road [2022] (t=0.66)",
+    "fixed:raining [2022] (t=0.63)",
+    "fixed:dark_with_lighting [2022] (t=0.29)"
+   ],
+   "k": 35,
+   "LL": -1445.5167410216995
+  },
+  {
+   "removed": [
+    "fixed:holiday [2022] (t=1.07)"
+   ],
+   "k": 34,
+   "LL": -1446.0811778049751
+  },
+  {
+   "removed": [
+    "fixed:t_intersection [2022] (t=1.16)"
+   ],
+   "k": 33,
+   "LL": -1446.7538324346192
+  },
+  {
+   "removed": [
+    "fixed:weekend [2022] (t=1.15)"
+   ],
+   "k": 32,
+   "LL": -1447.4237090351578
+  }
+ ],
+ "seconds": 3
+}

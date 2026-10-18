@@ -1,0 +1,19 @@
+== S3 pc_s1_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=8/3/1]: N=73731, parameters=103, fixed-parameter LL=-23668.373
+RP screen (83 s): 26 of 99 significant; top 16 by LL gain enter the joint model: ['on_grade', 'off_hit_object_left_bend [2019-2023]', 'songkran', 'new_year [2018-2022]', 'off_hit_object_right_bend [2021-2023]', 'off_hit_object_left_bend [2016-2018]', 'normal_curve [2019-2020]', 'Northern [2019-2023]', 'Western [2018-2020]', 'concrete_surface', 'barrier_median [2019-2023]', 'uturn_decel_only [2019]', 'van [2016-2019]', 'Western [2016-2017]', 'predestrain [2016-2022]', 'off_hit_object_right_bend [2019-2020]']
+  joint RP: 16 random, LL=-23598.722, min SD t=0.39
+  joint RP: 15 random, LL=-23598.789, min SD t=0.46
+  joint RP: 14 random, LL=-23600.078, min SD t=1.30
+  joint RP: 13 random, LL=-23601.864, min SD t=1.69
+  joint RP: 12 random, LL=-23604.336, min SD t=0.28
+  joint RP: 11 random, LL=-23604.240, min SD t=0.64
+  joint RP: 10 random, LL=-23607.695, min SD t=2.38
+  joint RP: 9 random, LL=-23609.908, min SD t=2.49
+  joint RP: 8 random, LL=-23614.191, min SD t=1.64
+  joint RP: 7 random, LL=-23613.129, min SD t=2.14
+RP model: ['on_grade', 'off_hit_object_left_bend [2019-2023]', 'songkran', 'new_year [2018-2022]', 'Northern [2019-2023]', 'Western [2018-2020]', 'concrete_surface']  LL=-23613.129
+hm: added raining -> on_grade  (LL gain 31.75, LL=-23581.375, 174 tried, 376 s)
+hm: added normal_curve [2021-2023] -> Northern [2019-2023]  (LL gain 4.87, LL=-23576.508, 167 tried, 554 s)
+hm: added Eastern [2016-2019] -> on_grade  (LL gain 3.44, LL=-23573.070, 166 tried, 729 s)
+hv: added under_construction [2016-2017] -> on_grade  (LL gain 3.42, LL=-23569.645, 147 tried, 890 s)
+FINAL (2000 draws): random=['on_grade', 'off_hit_object_left_bend [2019-2023]', 'songkran', 'new_year [2018-2022]', 'Northern [2019-2023]', 'Western [2018-2020]', 'concrete_surface'], HM=[('on_grade', 'raining'), ('Northern [2019-2023]', 'normal_curve [2021-2023]'), ('on_grade', 'Eastern [2016-2019]')], HV=[('on_grade', 'under_construction [2016-2017]')], LL=-23571.239, k=110
+DONE pc_s1_search: LL=-23571.239 k=110  (1072 s)

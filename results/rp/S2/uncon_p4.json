@@ -1,0 +1,120 @@
+{
+ "subset": "S2",
+ "tag": "uncon_p4",
+ "mode": "prune",
+ "structure": null,
+ "period": 4,
+ "draws_search": 100,
+ "draws_final": 2000,
+ "caps": {
+  "random_parameters": 2,
+  "het_means": 2,
+  "het_variances": 1
+ },
+ "N": 3327,
+ "P_structure": 46,
+ "LL_fixed": -1837.1221995262194,
+ "LL": -1829.0807202032147,
+ "k": 30,
+ "AIC": 3718.1614404064294,
+ "BIC": 3901.4562286869836,
+ "random": [
+  "pickup_1 [2020]",
+  "cutting_in_too_close [2020]"
+ ],
+ "HM": [
+  [
+   "pickup_1 [2020]",
+   "Evening [2020]"
+  ],
+  [
+   "cutting_in_too_close [2020]",
+   "holiday [2020]"
+  ]
+ ],
+ "HV": [],
+ "dropped": [
+  "car_1 [2020]",
+  "van [2020]",
+  "weekend [2020]",
+  "songkran [2020]",
+  "speeding [2020]",
+  "main_carriageway [2020]",
+  "under_construction [2020]",
+  "painted_median [2020]",
+  "raised_earth_median [2020]",
+  "normal_curve [2020]",
+  "t_intersection [2020]",
+  "uturn_both_lanes [2020]",
+  "access_public_commercial [2020]",
+  "wet_road [2020]",
+  "raining [2020]",
+  "plus_intersection [2020]",
+  "rear_end_same_lane [2020]",
+  "Peak hours [2020]"
+ ],
+ "start": "uncon_p4_search",
+ "start_spec": {
+  "rnd": [
+   3,
+   25
+  ],
+  "hm": [
+   [
+    3,
+    18
+   ],
+   [
+    25,
+    12
+   ]
+  ],
+  "hv": [],
+  "drop": []
+ },
+ "prune_history": [
+  {
+   "removed": [
+    "fixed:car_1 [2020] (t=0.67)",
+    "fixed:van [2020] (t=0.27)",
+    "fixed:weekend [2020] (t=0.34)",
+    "fixed:songkran [2020] (t=0.45)",
+    "fixed:speeding [2020] (t=0.58)",
+    "fixed:main_carriageway [2020] (t=0.65)",
+    "fixed:under_construction [2020] (t=0.72)",
+    "fixed:painted_median [2020] (t=0.22)",
+    "fixed:raised_earth_median [2020] (t=0.45)",
+    "fixed:normal_curve [2020] (t=0.20)",
+    "fixed:t_intersection [2020] (t=0.11)",
+    "fixed:uturn_both_lanes [2020] (t=0.67)",
+    "fixed:access_public_commercial [2020] (t=0.47)",
+    "fixed:wet_road [2020] (t=0.19)",
+    "fixed:raining [2020] (t=0.07)"
+   ],
+   "k": 33,
+   "LL": -1826.4405052988932
+  },
+  {
+   "removed": [
+    "fixed:plus_intersection [2020] (t=1.10)"
+   ],
+   "k": 32,
+   "LL": -1827.0505427675018
+  },
+  {
+   "removed": [
+    "fixed:rear_end_same_lane [2020] (t=1.40)"
+   ],
+   "k": 31,
+   "LL": -1828.0279654003498
+  },
+  {
+   "removed": [
+    "fixed:Peak hours [2020] (t=1.44)"
+   ],
+   "k": 30,
+   "LL": -1829.0807202032147
+  }
+ ],
+ "seconds": 6
+}

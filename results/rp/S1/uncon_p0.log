@@ -1,0 +1,9 @@
+== S1 uncon_p0 [mode prune, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=1874, parameters=40, fixed-parameter LL=-1193.243
+start from uncon_p0_search: k=42, LL=-1185.192
+  removed 16: ['fixed:predestrain [2016-17] (t=0.54)', 'fixed:Northern [2016-17] (t=0.35)', 'fixed:Southern [2016-17] (t=0.61)', 'fixed:Peak hours [2016-17] (t=0.74)', 'fixed:rear_end_same_lane [2016-17] (t=0.05)', 'fixed:off_left_hit_object [2016-17] (t=0.96)', 'fixed:mounts_traffic_island [2016-17] (t=0.50)', 'fixed:sideswipe_parallel [2016-17] (t=0.08)', 'fixed:out_of_control [2016-17] (t=0.36)', 'fixed:off_left_bend [2016-17] (t=0.96)', 'fixed:falling_asleep [2016-17] (t=0.80)', 'fixed:under_construction [2016-17] (t=0.96)', 'fixed:concrete_surface [2016-17] (t=0.27)', 'fixed:t_intersection [2016-17] (t=0.71)', 'fixed:wet_road [2016-17] (t=0.80)', 'fixed:raining [2016-17] (t=0.39)'] -> k=26, LL=-1188.944  (6 s)
+  removed 1: ['fixed:off_right_bend [2016-17] (t=1.12)'] -> k=25, LL=-1189.603  (6 s)
+  removed 1: ['fixed:painted_median [2016-17] (t=1.18)'] -> k=24, LL=-1190.306  (7 s)
+  removed 1: ['fixed:Midnight/early morning [2016-17] (t=1.28)'] -> k=23, LL=-1191.157  (8 s)
+  removed 1: ['fixed:Western [2016-17] (t=1.32)'] -> k=22, LL=-1192.087  (8 s)
+FINAL (all significant at 90%): random=['off_left [2016-17]', 'normal_curve [2016-17]'], HM=[('normal_curve [2016-17]', 'weekend [2016-17]')], HV=[], dropped=20, LL=-1192.087, k=22
+DONE uncon_p0: LL=-1192.087 k=22  (16 s)

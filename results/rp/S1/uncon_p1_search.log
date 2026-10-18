@@ -1,0 +1,13 @@
+== S1 uncon_p1_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=1932, parameters=40, fixed-parameter LL=-1165.333
+RP screen (38 s): 5 of 39 significant; top 5 by LL gain enter the joint model: ['raised_earth_median [2018-19]', 'Northeastern [2018-19]', 'new_year [2018-19]', 'Peak hours [2018-19]', 'concrete_surface [2018-19]']
+  joint RP: 5 random, LL=-1156.016, min SD t=1.29
+  joint RP: 4 random, LL=-1156.380, min SD t=1.62
+  joint RP: 3 random, LL=-1157.039, min SD t=2.52
+  joint RP: 2 random, LL=-1160.171, min SD t=2.59
+RP model: ['raised_earth_median [2018-19]', 'Northeastern [2018-19]']  LL=-1160.171
+hm: added rear_end_same_lane [2018-19] -> raised_earth_median [2018-19]  (LL gain 6.36, LL=-1153.814, 38 tried, 57 s)
+hm: added falling_asleep [2018-19] -> Northeastern [2018-19]  (LL gain 3.11, LL=-1150.703, 38 tried, 69 s)
+hv: added Evening [2018-19] -> Northeastern [2018-19]  (LL gain 1.62, LL=-1149.079, 38 tried, 83 s)
+2000-draw confirmation removed: SD ['Northeastern [2018-19]'], HM [], HV []
+FINAL (2000 draws): random=['raised_earth_median [2018-19]'], HM=[('raised_earth_median [2018-19]', 'rear_end_same_lane [2018-19]')], HV=[], LL=-1156.133, k=41
+DONE uncon_p1_search: LL=-1156.133 k=41  (92 s)

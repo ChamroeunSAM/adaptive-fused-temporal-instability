@@ -1,0 +1,138 @@
+{
+ "subset": "S2",
+ "tag": "uncon_p5",
+ "mode": "prune",
+ "structure": null,
+ "period": 5,
+ "draws_search": 100,
+ "draws_final": 2000,
+ "caps": {
+  "random_parameters": 2,
+  "het_means": 2,
+  "het_variances": 1
+ },
+ "N": 2681,
+ "P_structure": 46,
+ "LL_fixed": -1533.0009757636244,
+ "LL": -1532.5001081286846,
+ "k": 30,
+ "AIC": 3125.000216257369,
+ "BIC": 3301.818570404448,
+ "random": [
+  "depressed_median [2021]",
+  "cutting_in_too_close [2021]"
+ ],
+ "HM": [
+  [
+   "depressed_median [2021]",
+   "wet_road [2021]"
+  ],
+  [
+   "cutting_in_too_close [2021]",
+   "raining [2021]"
+  ]
+ ],
+ "HV": [],
+ "dropped": [
+  "motor_1 [2021]",
+  "pickup_>1 [2021]",
+  "weekend [2021]",
+  "Evening [2021]",
+  "Peak hours [2021]",
+  "speeding [2021]",
+  "under_construction [2021]",
+  "painted_median [2021]",
+  "plus_intersection [2021]",
+  "uturn_no_lane [2021]",
+  "access_public_commercial [2021]",
+  "dark_with_lighting [2021]",
+  "t_intersection [2021]",
+  "uturn_decel_only [2021]",
+  "frontage_road [2021]",
+  "van [2021]",
+  "pickup_1 [2021]",
+  "holiday [2021]"
+ ],
+ "start": "uncon_p5_search",
+ "start_spec": {
+  "rnd": [
+   32,
+   25
+  ],
+  "hm": [
+   [
+    32,
+    42
+   ],
+   [
+    25,
+    43
+   ]
+  ],
+  "hv": [],
+  "drop": []
+ },
+ "prune_history": [
+  {
+   "removed": [
+    "fixed:motor_1 [2021] (t=0.15)",
+    "fixed:pickup_>1 [2021] (t=0.22)",
+    "fixed:weekend [2021] (t=0.71)",
+    "fixed:Evening [2021] (t=0.08)",
+    "fixed:Peak hours [2021] (t=0.58)",
+    "fixed:speeding [2021] (t=0.51)",
+    "fixed:under_construction [2021] (t=0.08)",
+    "fixed:painted_median [2021] (t=0.19)",
+    "fixed:plus_intersection [2021] (t=0.32)",
+    "fixed:uturn_no_lane [2021] (t=0.70)",
+    "fixed:access_public_commercial [2021] (t=0.26)",
+    "fixed:dark_with_lighting [2021] (t=0.50)"
+   ],
+   "k": 36,
+   "LL": -1527.0094400640933
+  },
+  {
+   "removed": [
+    "fixed:t_intersection [2021] (t=1.01)"
+   ],
+   "k": 35,
+   "LL": -1527.5289503155393
+  },
+  {
+   "removed": [
+    "fixed:uturn_decel_only [2021] (t=1.25)"
+   ],
+   "k": 34,
+   "LL": -1528.3121793913933
+  },
+  {
+   "removed": [
+    "fixed:frontage_road [2021] (t=1.31)"
+   ],
+   "k": 33,
+   "LL": -1529.2269917004778
+  },
+  {
+   "removed": [
+    "fixed:van [2021] (t=1.52)"
+   ],
+   "k": 32,
+   "LL": -1530.3820342321446
+  },
+  {
+   "removed": [
+    "fixed:pickup_1 [2021] (t=1.26)"
+   ],
+   "k": 31,
+   "LL": -1531.1868315973384
+  },
+  {
+   "removed": [
+    "fixed:holiday [2021] (t=1.60)"
+   ],
+   "k": 30,
+   "LL": -1532.5001081286846
+  }
+ ],
+ "seconds": 4
+}

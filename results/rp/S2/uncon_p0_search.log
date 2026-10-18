@@ -1,0 +1,17 @@
+== S2 uncon_p0_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=2617, parameters=46, fixed-parameter LL=-1409.141
+RP screen (44 s): 9 of 45 significant; top 9 by LL gain enter the joint model: ['songkran [2016]', 'new_year [2016]', 'cutting_in_too_close [2016]', 'Peak hours [2016]', 'Northern [2016]', 't_intersection [2016]', 'pickup_1 [2016]', 'truck_>10_1 [2016]', 'depressed_median [2016]']
+  joint RP: 9 random, LL=-1364.633, min SD t=1.16
+  joint RP: 8 random, LL=-1369.284, min SD t=1.37
+  joint RP: 7 random, LL=-1369.225, min SD t=2.03
+  joint RP: 6 random, LL=-1371.750, min SD t=2.28
+  joint RP: 5 random, LL=-1376.780, min SD t=2.53
+  joint RP: 4 random, LL=-1388.502, min SD t=2.54
+  joint RP: 3 random, LL=-1389.818, min SD t=2.91
+  joint RP: 2 random, LL=-1398.535, min SD t=3.51
+RP model: ['cutting_in_too_close [2016]', 'Peak hours [2016]']  LL=-1398.535
+hm: added depressed_median [2016] -> cutting_in_too_close [2016]  (LL gain 5.23, LL=-1393.305, 40 tried, 74 s)
+hm: added pickup_>1 [2016] -> cutting_in_too_close [2016]  (LL gain 2.05, LL=-1391.257, 38 tried, 86 s)
+hv: added uturn_no_lane [2016] -> Peak hours [2016]  (LL gain 2.11, LL=-1389.148, 38 tried, 104 s)
+2000-draw confirmation removed: SD [], HM [], HV ['uturn_no_lane [2016]']
+FINAL (2000 draws): random=['cutting_in_too_close [2016]', 'Peak hours [2016]'], HM=[('cutting_in_too_close [2016]', 'depressed_median [2016]'), ('cutting_in_too_close [2016]', 'pickup_>1 [2016]')], HV=[], LL=-1390.841, k=48
+DONE uncon_p0_search: LL=-1390.841 k=48  (120 s)

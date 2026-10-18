@@ -1,0 +1,13 @@
+== S3 uncon_p7_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=10968, parameters=51, fixed-parameter LL=-2987.850
+RP screen (15 s): 5 of 50 significant; top 5 by LL gain enter the joint model: ['off_left_hit_object [2023]', 'mounts_traffic_island [2023]', 'songkran [2023]', 'crest [2023]', 't_intersection [2023]']
+  joint RP: 5 random, LL=-2972.068, min SD t=0.41
+  joint RP: 4 random, LL=-2976.338, min SD t=1.35
+  joint RP: 3 random, LL=-2977.181, min SD t=1.72
+  joint RP: 2 random, LL=-2977.831, min SD t=2.33
+RP model: ['off_left_hit_object [2023]', 'mounts_traffic_island [2023]']  LL=-2977.831
+hm: added dark_no_lighting [2023] -> off_left_hit_object [2023]  (LL gain 2.85, LL=-2974.979, 58 tried, 24 s)
+hm: added concrete_surface [2023] -> off_left_hit_object [2023]  (LL gain 1.62, LL=-2973.361, 54 tried, 29 s)
+hv: added truck_6_1 [2023] -> off_left_hit_object [2023]  (LL gain 1.49, LL=-2971.870, 50 tried, 35 s)
+2000-draw confirmation removed: SD [], HM ['concrete_surface [2023]'], HV []
+FINAL (2000 draws): random=['off_left_hit_object [2023]', 'mounts_traffic_island [2023]'], HM=[('off_left_hit_object [2023]', 'dark_no_lighting [2023]')], HV=[('off_left_hit_object [2023]', 'truck_6_1 [2023]')], LL=-2974.478, k=53
+DONE uncon_p7_search: LL=-2974.478 k=53  (47 s)

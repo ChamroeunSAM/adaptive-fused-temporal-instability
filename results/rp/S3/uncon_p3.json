@@ -1,0 +1,184 @@
+{
+ "subset": "S3",
+ "tag": "uncon_p3",
+ "mode": "prune",
+ "structure": null,
+ "period": 3,
+ "draws_search": 100,
+ "draws_final": 2000,
+ "caps": {
+  "random_parameters": 2,
+  "het_means": 2,
+  "het_variances": 1
+ },
+ "N": 8808,
+ "P_structure": 51,
+ "LL_fixed": -3028.9331410347395,
+ "LL": -3021.7416137810897,
+ "k": 29,
+ "AIC": 6101.483227562179,
+ "BIC": 6306.902282235852,
+ "random": [
+  "normal_curve [2019]",
+  "raised_earth_median [2019]"
+ ],
+ "HM": [
+  [
+   "normal_curve [2019]",
+   "Eastern [2019]"
+  ],
+  [
+   "normal_curve [2019]",
+   "Northern [2019]"
+  ]
+ ],
+ "HV": [
+  [
+   "normal_curve [2019]",
+   "raining [2019]"
+  ]
+ ],
+ "dropped": [
+  "weekend [2019]",
+  "songkran [2019]",
+  "holiday [2019]",
+  "Southern [2019]",
+  "Evening [2019]",
+  "off_left_hit_object [2019]",
+  "off_hit_object_right_bend [2019]",
+  "off_hit_object_left_bend [2019]",
+  "cutting_in_too_close [2019]",
+  "painted_median [2019]",
+  "depressed_median [2019]",
+  "concrete_surface [2019]",
+  "crest [2019]",
+  "on_grade [2019]",
+  "off_right_hit_object [2019]",
+  "t_intersection [2019]",
+  "Peak hours [2019]",
+  "main_carriageway [2019]",
+  "Northeastern [2019]",
+  "dark_with_lighting [2019]",
+  "Midnight/early morning [2019]",
+  "uturn_both_lanes [2019]",
+  "new_year [2019]",
+  "sag [2019]"
+ ],
+ "start": "uncon_p3_search",
+ "start_spec": {
+  "rnd": [
+   38,
+   35
+  ],
+  "hm": [
+   [
+    38,
+    11
+   ],
+   [
+    38,
+    13
+   ]
+  ],
+  "hv": [
+   [
+    38,
+    48
+   ]
+  ],
+  "drop": []
+ },
+ "prune_history": [
+  {
+   "removed": [
+    "fixed:weekend [2019] (t=0.15)",
+    "fixed:songkran [2019] (t=0.50)",
+    "fixed:holiday [2019] (t=0.92)",
+    "fixed:Southern [2019] (t=0.13)",
+    "fixed:Evening [2019] (t=0.53)",
+    "fixed:off_left_hit_object [2019] (t=0.80)",
+    "fixed:off_hit_object_right_bend [2019] (t=0.72)",
+    "fixed:off_hit_object_left_bend [2019] (t=0.91)",
+    "fixed:cutting_in_too_close [2019] (t=0.92)",
+    "fixed:painted_median [2019] (t=0.01)",
+    "fixed:depressed_median [2019] (t=0.25)",
+    "fixed:concrete_surface [2019] (t=0.30)",
+    "fixed:crest [2019] (t=0.94)",
+    "fixed:on_grade [2019] (t=0.51)"
+   ],
+   "k": 39,
+   "LL": -3014.6381718435473
+  },
+  {
+   "removed": [
+    "fixed:off_right_hit_object [2019] (t=0.84)"
+   ],
+   "k": 38,
+   "LL": -3014.9900127500714
+  },
+  {
+   "removed": [
+    "fixed:t_intersection [2019] (t=1.04)"
+   ],
+   "k": 37,
+   "LL": -3015.5615901086035
+  },
+  {
+   "removed": [
+    "fixed:Peak hours [2019] (t=1.13)"
+   ],
+   "k": 36,
+   "LL": -3016.2045108083835
+  },
+  {
+   "removed": [
+    "fixed:main_carriageway [2019] (t=1.15)"
+   ],
+   "k": 35,
+   "LL": -3016.8995245846086
+  },
+  {
+   "removed": [
+    "fixed:Northeastern [2019] (t=1.18)"
+   ],
+   "k": 34,
+   "LL": -3017.594160592381
+  },
+  {
+   "removed": [
+    "fixed:dark_with_lighting [2019] (t=1.22)"
+   ],
+   "k": 33,
+   "LL": -3018.3434757159775
+  },
+  {
+   "removed": [
+    "fixed:Midnight/early morning [2019] (t=0.82)"
+   ],
+   "k": 32,
+   "LL": -3018.6794746097394
+  },
+  {
+   "removed": [
+    "fixed:uturn_both_lanes [2019] (t=1.35)"
+   ],
+   "k": 31,
+   "LL": -3019.687071277667
+  },
+  {
+   "removed": [
+    "fixed:new_year [2019] (t=1.39)"
+   ],
+   "k": 30,
+   "LL": -3020.6201725175715
+  },
+  {
+   "removed": [
+    "fixed:sag [2019] (t=1.42)"
+   ],
+   "k": 29,
+   "LL": -3021.7416137810897
+  }
+ ],
+ "seconds": 19
+}

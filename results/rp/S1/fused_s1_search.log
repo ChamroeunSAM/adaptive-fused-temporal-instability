@@ -1,0 +1,17 @@
+== S1 fused_s1_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=8/3/1]: N=7325, parameters=59, fixed-parameter LL=-4579.677
+RP screen (77 s): 14 of 57 significant; top 14 by LL gain enter the joint model: ['concrete_surface', 'songkran', 'new_year', 'main_carriageway [2016-17]', 'drunk_driving [2016-19]', 'under_construction', 'raised_earth_median', 'predestrain', 'frontage_road [2020-23]', 'Eastern [2016-21]', 'off_left [2016-17]', 'Northeastern [2016-21]', 'mounts_traffic_island', 'barrier_median']
+  joint RP: 14 random, LL=-4536.408, min SD t=0.11
+  joint RP: 13 random, LL=-4536.661, min SD t=0.11
+  joint RP: 12 random, LL=-4532.985, min SD t=0.36
+  joint RP: 11 random, LL=-4533.040, min SD t=0.97
+  joint RP: 10 random, LL=-4538.957, min SD t=0.89
+  joint RP: 9 random, LL=-4538.040, min SD t=0.61
+  joint RP: 8 random, LL=-4538.926, min SD t=1.69
+RP model: ['concrete_surface', 'songkran', 'new_year', 'under_construction', 'raised_earth_median', 'Eastern [2016-21]', 'Northeastern [2016-21]', 'mounts_traffic_island']  LL=-4538.926
+hm: added Eastern [2022-23] -> concrete_surface  (LL gain 6.72, LL=-4532.207, 182 tried, 217 s)
+hm: added rear_end_same_lane -> Eastern [2016-21]  (LL gain 4.15, LL=-4528.062, 184 tried, 334 s)
+hm: added Midnight/early morning -> concrete_surface  (LL gain 3.99, LL=-4524.075, 176 tried, 448 s)
+hv: added Northern -> songkran  (LL gain 4.24, LL=-4519.832, 160 tried, 563 s)
+2000-draw confirmation removed: SD ['under_construction'], HM ['rear_end_same_lane'], HV []
+FINAL (2000 draws): random=['concrete_surface', 'songkran', 'new_year', 'raised_earth_median', 'Eastern [2016-21]', 'Northeastern [2016-21]', 'mounts_traffic_island'], HM=[('concrete_surface', 'Eastern [2022-23]'), ('concrete_surface', 'Midnight/early morning')], HV=[('songkran', 'Northern')], LL=-4526.513, k=66
+DONE fused_s1_search: LL=-4526.513 k=66  (636 s)

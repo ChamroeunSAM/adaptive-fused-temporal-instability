@@ -1,0 +1,19 @@
+== S2 uncon_p7_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=2624, parameters=46, fixed-parameter LL=-1474.537
+RP screen (12 s): 12 of 45 significant; top 12 by LL gain enter the joint model: ['concrete_surface [2023]', 'Southern [2023]', 'truck_>10_1 [2023]', 'new_year [2023]', 'Midnight/early morning [2023]', 'truck_10_1 [2023]', 'pickup_1 [2023]', 'depressed_median [2023]', 'raised_earth_median [2023]', 'songkran [2023]', 'Peak hours [2023]', 'cutting_in_too_close [2023]']
+  joint RP: 12 random, LL=-1440.558, min SD t=0.68
+  joint RP: 11 random, LL=-1439.743, min SD t=1.74
+  joint RP: 10 random, LL=-1441.386, min SD t=1.19
+  joint RP: 9 random, LL=-1441.451, min SD t=1.85
+  joint RP: 8 random, LL=-1442.816, min SD t=1.79
+  joint RP: 7 random, LL=-1451.870, min SD t=1.88
+  joint RP: 6 random, LL=-1455.074, min SD t=2.43
+  joint RP: 5 random, LL=-1461.336, min SD t=2.49
+  joint RP: 4 random, LL=-1462.695, min SD t=2.42
+  joint RP: 3 random, LL=-1463.944, min SD t=2.37
+  joint RP: 2 random, LL=-1466.563, min SD t=2.51
+RP model: ['concrete_surface [2023]', 'pickup_1 [2023]']  LL=-1466.563
+hm: added uturn_no_lane [2023] -> concrete_surface [2023]  (LL gain 2.39, LL=-1464.172, 44 tried, 22 s)
+hm: added Northern [2023] -> concrete_surface [2023]  (LL gain 2.40, LL=-1461.775, 42 tried, 27 s)
+hv: no qualifying term (38 pairings tried, 31 s)
+FINAL (2000 draws): random=['concrete_surface [2023]', 'pickup_1 [2023]'], HM=[('concrete_surface [2023]', 'uturn_no_lane [2023]'), ('concrete_surface [2023]', 'Northern [2023]')], HV=[], LL=-1461.791, k=48
+DONE uncon_p7_search: LL=-1461.791 k=48  (34 s)

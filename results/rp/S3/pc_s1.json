@@ -1,0 +1,256 @@
+{
+ "subset": "S3",
+ "tag": "pc_s1",
+ "mode": "prune",
+ "structure": "results/stage1/struct_S3_pc.json",
+ "period": null,
+ "draws_search": 100,
+ "draws_final": 2000,
+ "caps": {
+  "random_parameters": 8,
+  "het_means": 3,
+  "het_variances": 1
+ },
+ "N": 73731,
+ "P_structure": 103,
+ "LL_fixed": -23668.373498763947,
+ "LL": -23590.445490794864,
+ "k": 83,
+ "AIC": 47346.89098158973,
+ "BIC": 48111.16980654275,
+ "random": [
+  "on_grade",
+  "off_hit_object_left_bend [2019-2023]",
+  "songkran",
+  "new_year [2018-2022]",
+  "Northern [2019-2023]",
+  "Western [2018-2020]",
+  "concrete_surface"
+ ],
+ "HM": [
+  [
+   "on_grade",
+   "raining"
+  ],
+  [
+   "Northern [2019-2023]",
+   "normal_curve [2021-2023]"
+  ],
+  [
+   "on_grade",
+   "Eastern [2016-2019]"
+  ]
+ ],
+ "HV": [
+  [
+   "on_grade",
+   "under_construction [2016-2017]"
+  ]
+ ],
+ "dropped": [
+  "van [2020]",
+  "Northern [2016-2017]",
+  "Southern [2019-2021]",
+  "Peak hours",
+  "cutting_in_too_close [2017-2018]",
+  "normal_curve [2016]",
+  "sag [2021-2023]",
+  "bridge [2016]",
+  "dark_with_lighting",
+  "crest",
+  "weekend [2016-2022]",
+  "main_carriageway [2021-2023]",
+  "new_year [2016-2017]",
+  "off_right_bend [2016-2017]",
+  "off_hit_object_right_bend [2019-2020]",
+  "uturn_both_lanes",
+  "new_year [2023]",
+  "off_left_bend [2021-2023]",
+  "off_left_bend [2016-2017]",
+  "uturn_decel_only [2016-2018]",
+  "holiday",
+  "dark_no_lighting [2023]",
+  "uturn_decel_only [2020-2023]",
+  "truck_10_1 [2023]",
+  "Northeastern",
+  "Northern [2018]",
+  "Western [2016-2017]"
+ ],
+ "start": "pc_s1_search",
+ "start_spec": {
+  "rnd": [
+   90,
+   51,
+   17,
+   19,
+   27,
+   32,
+   85
+  ],
+  "hm": [
+   [
+    90,
+    99
+   ],
+   [
+    27,
+    84
+   ],
+   [
+    90,
+    22
+   ]
+  ],
+  "hv": [
+   [
+    90,
+    72
+   ]
+  ],
+  "drop": []
+ },
+ "prune_history": [
+  {
+   "removed": [
+    "fixed:van [2020] (t=0.43)",
+    "fixed:Northern [2016-2017] (t=0.79)",
+    "fixed:Southern [2019-2021] (t=0.10)",
+    "fixed:Peak hours (t=0.76)",
+    "fixed:cutting_in_too_close [2017-2018] (t=0.56)",
+    "fixed:normal_curve [2016] (t=0.02)",
+    "fixed:sag [2021-2023] (t=0.63)",
+    "fixed:bridge [2016] (t=0.56)",
+    "fixed:dark_with_lighting (t=0.63)"
+   ],
+   "k": 101,
+   "LL": -23572.65776899318
+  },
+  {
+   "removed": [
+    "fixed:crest (t=1.05)"
+   ],
+   "k": 100,
+   "LL": -23573.20586031907
+  },
+  {
+   "removed": [
+    "fixed:weekend [2016-2022] (t=1.13)"
+   ],
+   "k": 99,
+   "LL": -23573.844937016733
+  },
+  {
+   "removed": [
+    "fixed:main_carriageway [2021-2023] (t=1.16)"
+   ],
+   "k": 98,
+   "LL": -23574.5357745228
+  },
+  {
+   "removed": [
+    "fixed:new_year [2016-2017] (t=1.23)"
+   ],
+   "k": 97,
+   "LL": -23575.3074532531
+  },
+  {
+   "removed": [
+    "fixed:off_right_bend [2016-2017] (t=1.24)"
+   ],
+   "k": 96,
+   "LL": -23576.062107640824
+  },
+  {
+   "removed": [
+    "fixed:off_hit_object_right_bend [2019-2020] (t=1.19)"
+   ],
+   "k": 95,
+   "LL": -23576.76805604869
+  },
+  {
+   "removed": [
+    "fixed:uturn_both_lanes (t=1.27)"
+   ],
+   "k": 94,
+   "LL": -23577.591650951625
+  },
+  {
+   "removed": [
+    "fixed:new_year [2023] (t=1.31)"
+   ],
+   "k": 93,
+   "LL": -23578.481483345087
+  },
+  {
+   "removed": [
+    "fixed:off_left_bend [2021-2023] (t=1.46)"
+   ],
+   "k": 92,
+   "LL": -23579.517479429112
+  },
+  {
+   "removed": [
+    "fixed:off_left_bend [2016-2017] (t=1.47)"
+   ],
+   "k": 91,
+   "LL": -23580.57944760715
+  },
+  {
+   "removed": [
+    "fixed:uturn_decel_only [2016-2018] (t=1.52)"
+   ],
+   "k": 90,
+   "LL": -23581.811211429682
+  },
+  {
+   "removed": [
+    "fixed:holiday (t=1.56)"
+   ],
+   "k": 89,
+   "LL": -23583.066575557772
+  },
+  {
+   "removed": [
+    "fixed:dark_no_lighting [2023] (t=1.58)"
+   ],
+   "k": 88,
+   "LL": -23584.278584880987
+  },
+  {
+   "removed": [
+    "fixed:uturn_decel_only [2020-2023] (t=1.62)"
+   ],
+   "k": 87,
+   "LL": -23585.65261241324
+  },
+  {
+   "removed": [
+    "fixed:truck_10_1 [2023] (t=1.61)"
+   ],
+   "k": 86,
+   "LL": -23587.056454588434
+  },
+  {
+   "removed": [
+    "fixed:Northeastern (t=1.64)"
+   ],
+   "k": 85,
+   "LL": -23588.396649105674
+  },
+  {
+   "removed": [
+    "fixed:Northern [2018] (t=1.47)"
+   ],
+   "k": 84,
+   "LL": -23589.45697466463
+  },
+  {
+   "removed": [
+    "fixed:Western [2016-2017] (t=1.42)"
+   ],
+   "k": 83,
+   "LL": -23590.445490794864
+  }
+ ],
+ "seconds": 824
+}

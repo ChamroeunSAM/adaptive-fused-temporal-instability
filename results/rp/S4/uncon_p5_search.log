@@ -1,0 +1,19 @@
+== S4 uncon_p5_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=4189, parameters=45, fixed-parameter LL=-1512.104
+RP screen (12 s): 12 of 44 significant; top 12 by LL gain enter the joint model: ['depressed_median [2021]', 'Southern [2021]', 'Western [2021]', 'head_on [2021]', 'sideswipe_parallel [2021]', 'truck_>10_1 [2021]', 'truck_10_1 [2021]', 'normal_curve [2021]', 'Evening [2021]', 'Northeastern [2021]', 'weekend [2021]', 'dark_with_lighting [2021]']
+  joint RP: 12 random, LL=-1488.158, min SD t=0.17
+  joint RP: 11 random, LL=-1490.862, min SD t=0.04
+  joint RP: 10 random, LL=-1490.863, min SD t=1.05
+  joint RP: 9 random, LL=-1491.449, min SD t=1.64
+  joint RP: 8 random, LL=-1493.042, min SD t=0.44
+  joint RP: 7 random, LL=-1493.094, min SD t=1.58
+  joint RP: 6 random, LL=-1494.195, min SD t=2.05
+  joint RP: 5 random, LL=-1496.177, min SD t=2.66
+  joint RP: 4 random, LL=-1498.690, min SD t=2.70
+  joint RP: 3 random, LL=-1502.408, min SD t=2.52
+  joint RP: 2 random, LL=-1504.834, min SD t=2.98
+RP model: ['depressed_median [2021]', 'Northeastern [2021]']  LL=-1504.834
+hm: added dark_no_lighting [2021] -> Northeastern [2021]  (LL gain 4.61, LL=-1500.221, 52 tried, 22 s)
+hm: added raining [2021] -> depressed_median [2021]  (LL gain 3.43, LL=-1496.796, 48 tried, 27 s)
+hv: added weekend [2021] -> Northeastern [2021]  (LL gain 2.58, LL=-1494.217, 44 tried, 31 s)
+FINAL (2000 draws): random=['depressed_median [2021]', 'Northeastern [2021]'], HM=[('Northeastern [2021]', 'dark_no_lighting [2021]'), ('depressed_median [2021]', 'raining [2021]')], HV=[('Northeastern [2021]', 'weekend [2021]')], LL=-1494.050, k=47
+DONE uncon_p5_search: LL=-1494.050 k=47  (35 s)

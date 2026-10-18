@@ -1,0 +1,18 @@
+== S4 pc_rp_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=8/3/1]: N=33646, parameters=91, fixed-parameter LL=-12700.326
+RP screen (50 s): 31 of 87 significant; top 16 by LL gain enter the joint model: ['truck_>10_1', 'normal_curve [2017-2023]', 'sideswipe_parallel [2021-2023]', 'truck_10_1', 'on_grade [2016-2021]', 'truck_>10_>1', 'depressed_median [2019-2023]', 'falling_asleep', 'Midnight/early morning', 'truck_6_1', 'Western [2019-2023]', 'pickup_>1', 'head_on [2016-2020]', 'dark_with_lighting', 'cutting_in_too_close [2016-2021]', 'Southern [2016-2020]']
+  joint RP: 16 random, LL=-12596.813, min SD t=1.51
+  joint RP: 15 random, LL=-12595.601, min SD t=1.65
+  joint RP: 14 random, LL=-12593.425, min SD t=0.62
+  joint RP: 13 random, LL=-12588.680, min SD t=2.33
+  joint RP: 12 random, LL=-12594.833, min SD t=3.27
+  joint RP: 11 random, LL=-12592.306, min SD t=3.43
+  joint RP: 10 random, LL=-12595.426, min SD t=3.58
+  joint RP: 9 random, LL=-12602.352, min SD t=4.27
+  joint RP: 8 random, LL=-12615.733, min SD t=4.69
+RP model: ['truck_>10_1', 'normal_curve [2017-2023]', 'sideswipe_parallel [2021-2023]', 'truck_10_1', 'depressed_median [2019-2023]', 'truck_6_1', 'pickup_>1', 'cutting_in_too_close [2016-2021]']  LL=-12615.733
+hm: added Evening -> truck_>10_1  (LL gain 10.24, LL=-12605.489, 158 tried, 228 s)
+hm: added raining [2020-2023] -> normal_curve [2017-2023]  (LL gain 7.37, LL=-12598.118, 143 tried, 342 s)
+hm: added Peak hours -> pickup_>1  (LL gain 3.58, LL=-12594.539, 135 tried, 446 s)
+hv: added uturn_decel_only [2019-2023] -> truck_>10_1  (LL gain 2.93, LL=-12591.604, 127 tried, 550 s)
+FINAL (2000 draws): random=['truck_>10_1', 'normal_curve [2017-2023]', 'sideswipe_parallel [2021-2023]', 'truck_10_1', 'depressed_median [2019-2023]', 'truck_6_1', 'pickup_>1', 'cutting_in_too_close [2016-2021]'], HM=[('truck_>10_1', 'Evening'), ('normal_curve [2017-2023]', 'raining [2020-2023]'), ('pickup_>1', 'Peak hours')], HV=[('truck_>10_1', 'uturn_decel_only [2019-2023]')], LL=-12589.092, k=99
+DONE pc_rp_search: LL=-12589.092 k=99  (656 s)

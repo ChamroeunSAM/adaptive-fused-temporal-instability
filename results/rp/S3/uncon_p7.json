@@ -1,0 +1,154 @@
+{
+ "subset": "S3",
+ "tag": "uncon_p7",
+ "mode": "prune",
+ "structure": null,
+ "period": 7,
+ "draws_search": 100,
+ "draws_final": 2000,
+ "caps": {
+  "random_parameters": 2,
+  "het_means": 2,
+  "het_variances": 1
+ },
+ "N": 10968,
+ "P_structure": 51,
+ "LL_fixed": -2987.850443998613,
+ "LL": -2984.4288065929613,
+ "k": 31,
+ "AIC": 6030.857613185923,
+ "BIC": 6257.24246704443,
+ "random": [
+  "off_left_hit_object [2023]",
+  "mounts_traffic_island [2023]"
+ ],
+ "HM": [
+  [
+   "off_left_hit_object [2023]",
+   "dark_no_lighting [2023]"
+  ]
+ ],
+ "HV": [
+  [
+   "off_left_hit_object [2023]",
+   "truck_6_1 [2023]"
+  ]
+ ],
+ "dropped": [
+  "songkran [2023]",
+  "Northern [2023]",
+  "Peak hours [2023]",
+  "off_hit_object_left_bend [2023]",
+  "main_carriageway [2023]",
+  "under_construction [2023]",
+  "painted_median [2023]",
+  "depressed_median [2023]",
+  "normal_curve [2023]",
+  "concrete_surface [2023]",
+  "crest [2023]",
+  "sag [2023]",
+  "on_grade [2023]",
+  "raining [2023]",
+  "dark_with_lighting [2023]",
+  "uturn_decel_only [2023]",
+  "truck_10_1 [2023]",
+  "holiday [2023]",
+  "raised_earth_median [2023]",
+  "car_1 [2023]",
+  "new_year [2023]",
+  "uturn_both_lanes [2023]"
+ ],
+ "start": "uncon_p7_search",
+ "start_spec": {
+  "rnd": [
+   20,
+   21
+  ],
+  "hm": [
+   [
+    20,
+    49
+   ]
+  ],
+  "hv": [
+   [
+    20,
+    2
+   ]
+  ],
+  "drop": []
+ },
+ "prune_history": [
+  {
+   "removed": [
+    "fixed:songkran [2023] (t=0.88)",
+    "fixed:Northern [2023] (t=0.80)",
+    "fixed:Peak hours [2023] (t=0.97)",
+    "fixed:off_hit_object_left_bend [2023] (t=0.74)",
+    "fixed:main_carriageway [2023] (t=0.30)",
+    "fixed:under_construction [2023] (t=0.60)",
+    "fixed:painted_median [2023] (t=0.55)",
+    "fixed:depressed_median [2023] (t=0.97)",
+    "fixed:normal_curve [2023] (t=0.59)",
+    "fixed:concrete_surface [2023] (t=0.47)",
+    "fixed:crest [2023] (t=0.16)",
+    "fixed:sag [2023] (t=0.52)",
+    "fixed:on_grade [2023] (t=0.40)",
+    "fixed:raining [2023] (t=0.07)",
+    "fixed:dark_with_lighting [2023] (t=0.51)"
+   ],
+   "k": 38,
+   "LL": -2978.3615174860834
+  },
+  {
+   "removed": [
+    "fixed:uturn_decel_only [2023] (t=1.09)"
+   ],
+   "k": 37,
+   "LL": -2978.9781507167736
+  },
+  {
+   "removed": [
+    "fixed:truck_10_1 [2023] (t=1.13)"
+   ],
+   "k": 36,
+   "LL": -2979.648366690787
+  },
+  {
+   "removed": [
+    "fixed:holiday [2023] (t=1.14)"
+   ],
+   "k": 35,
+   "LL": -2980.3418902653616
+  },
+  {
+   "removed": [
+    "fixed:raised_earth_median [2023] (t=1.35)"
+   ],
+   "k": 34,
+   "LL": -2981.265122303072
+  },
+  {
+   "removed": [
+    "fixed:car_1 [2023] (t=1.31)"
+   ],
+   "k": 33,
+   "LL": -2982.105257879295
+  },
+  {
+   "removed": [
+    "fixed:new_year [2023] (t=1.47)"
+   ],
+   "k": 32,
+   "LL": -2983.2374168260876
+  },
+  {
+   "removed": [
+    "fixed:uturn_both_lanes [2023] (t=1.59)"
+   ],
+   "k": 31,
+   "LL": -2984.4288065929613
+  }
+ ],
+ "seconds": 20
+}

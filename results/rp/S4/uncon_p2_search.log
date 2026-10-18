@@ -1,0 +1,21 @@
+== S4 uncon_p2_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=3505, parameters=45, fixed-parameter LL=-1535.489
+RP screen (11 s): 14 of 44 significant; top 14 by LL gain enter the joint model: ['truck_10_1 [2018]', 'Midnight/early morning [2018]', 'head_on [2018]', 'truck_>10_1 [2018]', 'dark_no_lighting [2018]', 'falling_asleep [2018]', 'raining [2018]', 'pickup_>1 [2018]', 'wet_road [2018]', 'normal_curve [2018]', 'songkran [2018]', 'Western [2018]', 'dark_with_lighting [2018]', 'Southern [2018]']
+  joint RP: 14 random, LL=-1501.036, min SD t=0.05
+  joint RP: 13 random, LL=-1498.568, min SD t=1.01
+  joint RP: 12 random, LL=-1500.367, min SD t=0.37
+  joint RP: 11 random, LL=-1501.872, min SD t=0.55
+  joint RP: 10 random, LL=-1501.583, min SD t=1.52
+  joint RP: 9 random, LL=-1504.931, min SD t=1.26
+  joint RP: 8 random, LL=-1504.687, min SD t=1.38
+  joint RP: 7 random, LL=-1505.580, min SD t=1.98
+  joint RP: 6 random, LL=-1511.263, min SD t=1.65
+  joint RP: 5 random, LL=-1511.912, min SD t=1.95
+  joint RP: 4 random, LL=-1522.284, min SD t=1.89
+  joint RP: 3 random, LL=-1522.830, min SD t=2.37
+  joint RP: 2 random, LL=-1524.930, min SD t=2.48
+RP model: ['truck_10_1 [2018]', 'pickup_>1 [2018]']  LL=-1524.930
+hm: added normal_curve [2018] -> truck_10_1 [2018]  (LL gain 3.71, LL=-1521.220, 42 tried, 24 s)
+hm: added truck_>10_>1 [2018] -> pickup_>1 [2018]  (LL gain 1.55, LL=-1519.673, 40 tried, 28 s)
+hv: no qualifying term (38 pairings tried, 31 s)
+FINAL (2000 draws): random=['truck_10_1 [2018]', 'pickup_>1 [2018]'], HM=[('truck_10_1 [2018]', 'normal_curve [2018]'), ('pickup_>1 [2018]', 'truck_>10_>1 [2018]')], HV=[], LL=-1519.348, k=47
+DONE uncon_p2_search: LL=-1519.348 k=47  (35 s)

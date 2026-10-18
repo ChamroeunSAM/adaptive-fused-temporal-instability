@@ -1,0 +1,18 @@
+== S1 fused_rp_c1_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=8/3/1]: N=7325, parameters=54, fixed-parameter LL=-4598.933
+RP screen (69 s): 14 of 52 significant; top 14 by LL gain enter the joint model: ['concrete_surface', 'songkran', 'barrier_median [2018-23]', 'new_year', 'cutting_in_too_close [2016-19]', 'main_carriageway [2016-17]', 'drunk_driving [2016-19]', 'frontage_road [2020-23]', 'predestrain', 'Northeastern', 'under_construction', 'raised_earth_median', 'off_left [2016-17]', 'mounts_traffic_island']
+  joint RP: 14 random, LL=-4551.949, min SD t=0.10
+  joint RP: 13 random, LL=-4553.346, min SD t=0.32
+  joint RP: 12 random, LL=-4556.249, min SD t=0.78
+  joint RP: 11 random, LL=-4553.174, min SD t=1.48
+  joint RP: 10 random, LL=-4556.282, min SD t=1.47
+  joint RP: 9 random, LL=-4557.699, min SD t=1.59
+  joint RP: 8 random, LL=-4556.603, min SD t=1.02
+  joint RP: 7 random, LL=-4558.116, min SD t=1.81
+RP model: ['concrete_surface', 'songkran', 'barrier_median [2018-23]', 'new_year', 'Northeastern', 'under_construction', 'mounts_traffic_island']  LL=-4558.116
+hm: added Midnight/early morning -> concrete_surface  (LL gain 3.99, LL=-4554.129, 151 tried, 186 s)
+hm: added Southern -> new_year  (LL gain 3.48, LL=-4550.651, 144 tried, 271 s)
+hm: added out_of_control [2016-17] -> concrete_surface  (LL gain 3.23, LL=-4547.418, 137 tried, 348 s)
+hv: added predestrain -> concrete_surface  (LL gain 2.80, LL=-4544.617, 131 tried, 436 s)
+2000-draw confirmation removed: SD ['under_construction'], HM [], HV ['predestrain']
+FINAL (2000 draws): random=['concrete_surface', 'songkran', 'barrier_median [2018-23]', 'new_year', 'Northeastern', 'mounts_traffic_island'], HM=[('concrete_surface', 'Midnight/early morning'), ('new_year', 'Southern'), ('concrete_surface', 'out_of_control [2016-17]')], HV=[], LL=-4550.552, k=60
+DONE fused_rp_c1_search: LL=-4550.552 k=60  (502 s)

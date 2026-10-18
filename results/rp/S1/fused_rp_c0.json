@@ -1,0 +1,146 @@
+{
+ "subset": "S1",
+ "tag": "fused_rp_c0",
+ "mode": "prune",
+ "structure": "results/rp/S1/fused_rp_c0_struct.json",
+ "period": null,
+ "draws_search": 100,
+ "draws_final": 2000,
+ "caps": {
+  "random_parameters": 8,
+  "het_means": 3,
+  "het_variances": 1
+ },
+ "N": 7325,
+ "P_structure": 49,
+ "LL_fixed": -4610.925577837417,
+ "LL": -4553.857038324874,
+ "k": 39,
+ "AIC": 9185.714076649749,
+ "BIC": 9454.776965571275,
+ "random": [
+  "concrete_surface",
+  "songkran",
+  "new_year",
+  "raised_earth_median",
+  "off_right_bend",
+  "Northeastern",
+  "Eastern"
+ ],
+ "HM": [
+  [
+   "concrete_surface",
+   "Midnight/early morning"
+  ],
+  [
+   "Eastern",
+   "rear_end_same_lane"
+  ],
+  [
+   "Eastern",
+   "speeding"
+  ]
+ ],
+ "HV": [
+  [
+   "songkran",
+   "Northern"
+  ]
+ ],
+ "dropped": [
+  "weekend",
+  "Western [2016-19]",
+  "Peak hours",
+  "sideswipe_parallel",
+  "off_left [2016-17]",
+  "out_of_control [2016-17]",
+  "off_left_bend",
+  "cutting_in_too_close [2016-19]",
+  "frontage_road [2020-23]",
+  "under_construction",
+  "painted_median",
+  "normal_curve",
+  "t_intersection",
+  "raining [2016-19]",
+  "mounts_traffic_island",
+  "falling_asleep",
+  "predestrain"
+ ],
+ "start": "fused_rp_c0_search",
+ "start_spec": {
+  "rnd": [
+   42,
+   4,
+   5,
+   37,
+   25,
+   7,
+   6
+  ],
+  "hm": [
+   [
+    42,
+    13
+   ],
+   [
+    6,
+    15
+   ],
+   [
+    6,
+    26
+   ]
+  ],
+  "hv": [
+   [
+    4,
+    8
+   ]
+  ],
+  "drop": []
+ },
+ "prune_history": [
+  {
+   "removed": [
+    "fixed:weekend (t=0.92)",
+    "fixed:Western [2016-19] (t=0.63)",
+    "fixed:Peak hours (t=0.67)",
+    "fixed:sideswipe_parallel (t=0.52)",
+    "fixed:off_left [2016-17] (t=0.19)",
+    "fixed:out_of_control [2016-17] (t=0.67)",
+    "fixed:off_left_bend (t=0.11)",
+    "fixed:cutting_in_too_close [2016-19] (t=0.80)",
+    "fixed:frontage_road [2020-23] (t=0.40)",
+    "fixed:under_construction (t=0.56)",
+    "fixed:painted_median (t=0.43)",
+    "fixed:normal_curve (t=0.84)",
+    "fixed:t_intersection (t=0.31)",
+    "fixed:raining [2016-19] (t=0.18)"
+   ],
+   "k": 42,
+   "LL": -4550.782415179644
+  },
+  {
+   "removed": [
+    "fixed:mounts_traffic_island (t=1.16)"
+   ],
+   "k": 41,
+   "LL": -4551.483748467528
+  },
+  {
+   "removed": [
+    "fixed:falling_asleep (t=1.42)"
+   ],
+   "k": 40,
+   "LL": -4552.51213138648
+  },
+  {
+   "removed": [
+    "fixed:predestrain (t=1.64)"
+   ],
+   "k": 39,
+   "LL": -4553.857038324874
+  }
+ ],
+ "seconds": 73
+}

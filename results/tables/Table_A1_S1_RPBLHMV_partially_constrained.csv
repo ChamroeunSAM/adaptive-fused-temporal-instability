@@ -1,0 +1,77 @@
+﻿Variable description,Estimated parameter,t-statistic,Marginal effects,
+,,,PDO / minor injury,Serious injury / fatal
+Constant [serious injury / fatal],,,,
+Constant [2016–2019],0.489,4.56,,
+Constant [2020–2023],-0.453,-2.95,,
+Variables producing the same parameter value across all periods [2016–2023],,,,
+Crash type,,,,
+"Ran off road to the left and hit an object (1 if yes, 0 otherwise) [2016–2023]",0.406,2.95,-0.0655,0.0655
+"Vehicle mounted a traffic island (1 if yes, 0 otherwise) [2016–2023]",0.728,1.69,-0.0667,0.0667
+(Standard deviation of parameter distribution; 60.9% above zero),2.627,2.56,,
+"Ran off road to the right (1 if yes, 0 otherwise) [2016–2023]",-0.353,-2.76,0.0578,-0.0578
+Roadway characteristics,,,,
+"Depressed median (1 if yes, 0 otherwise) [2016–2023]",0.436,4.64,-0.0705,0.0705
+Environmental characteristics,,,,
+"Dark, with street lighting (1 if yes, 0 otherwise) [2016–2023]",0.977,9.32,-0.1547,0.1547
+Temporal characteristics,,,,
+"Songkran festival period (1 if yes, 0 otherwise) [2016–2023]",-0.547,-3.81,0.1051,-0.1051
+(Standard deviation of parameter distribution; 41.2% above zero),2.470,4.43,,
+"Evening (1 if yes, 0 otherwise) [2016–2023]",-0.770,-8.07,0.1232,-0.1232
+Variables with temporally varying parameters,,,,
+Crash type,,,,
+"Rear-end collision in the same lane (1 if yes, 0 otherwise) [2020–2023]",0.495,1.97,-0.0824,0.0824
+"Sideswipe (parallel movement) (1 if yes, 0 otherwise) [2020–2021]",0.858,2.22,-0.1435,0.1435
+"Ran off road to the left (1 if yes, 0 otherwise) [2016–2017]",-0.058,-0.25,0.0175,-0.0175
+(Standard deviation of parameter distribution; 49.2% above zero),2.795,2.09,,
+"Ran off road to the left (1 if yes, 0 otherwise) [2018–2019]",-0.760,-4.94,0.1132,-0.1132
+"Ran off road to the left (1 if yes, 0 otherwise) [2020–2023]",-0.383,-3.40,0.0647,-0.0647
+"Loss of vehicle control (1 if yes, 0 otherwise) [2018–2023]",-1.333,-11.01,0.2185,-0.2185
+"Ran off road on a right bend (1 if yes, 0 otherwise) [2016–2017]",0.454,1.91,-0.0762,0.0762
+Crash cause,,,,
+"Speeding (1 if yes, 0 otherwise) [2016–2017]",-0.474,-3.62,0.0792,-0.0792
+"Speeding (1 if yes, 0 otherwise) [2020–2023]",0.679,4.71,-0.1149,0.1149
+"Cutting in too closely (1 if yes, 0 otherwise) [2016–2017]",-0.691,-3.03,0.1169,-0.1169
+"Driver fell asleep (1 if yes, 0 otherwise) [2022–2023]",1.964,4.08,-0.2796,0.2796
+"Drunk driving (1 if yes, 0 otherwise) [2016–2019]",-0.735,-4.16,0.1170,-0.1170
+"Drunk driving (1 if yes, 0 otherwise) [2020–2023]",0.693,2.92,-0.1132,0.1132
+Roadway characteristics,,,,
+"Crash on the main carriageway (1 if yes, 0 otherwise) [2016–2017]",-0.701,-2.76,0.1197,-0.1197
+"Crash on the main carriageway (1 if yes, 0 otherwise) [2018–2023]",0.433,2.03,-0.0682,0.0682
+"Crash on a frontage road (1 if yes, 0 otherwise) [2016–2019]",-1.432,-6.08,0.2243,-0.2243
+"Painted median (1 if yes, 0 otherwise) [2016–2019]",0.353,2.04,-0.0550,0.0550
+"Painted median (1 if yes, 0 otherwise) [2020–2023]",-0.330,-1.99,0.0558,-0.0558
+"Raised or earth median (1 if yes, 0 otherwise) [2016–2017]",-0.503,-3.16,0.0862,-0.0862
+"Barrier median (1 if yes, 0 otherwise) [2016–2017]",-0.620,-2.77,0.1069,-0.1069
+"Barrier median (1 if yes, 0 otherwise) [2020–2023]",-0.345,-2.28,0.0585,-0.0585
+"Concrete pavement surface (1 if yes, 0 otherwise) [2018–2023]",-0.446,-2.69,0.0712,-0.0712
+(Standard deviation of parameter distribution; 42.8% above zero),2.450,3.83,,
+Environmental characteristics,,,,
+"Dark, no street lighting (1 if yes, 0 otherwise) [2016–2017]",1.639,7.63,-0.2598,0.2598
+"Dark, no street lighting (1 if yes, 0 otherwise) [2018–2023]",1.128,8.23,-0.1733,0.1733
+Temporal characteristics,,,,
+"New Year festival period (1 if yes, 0 otherwise) [2016–2017]",-0.537,-4.17,0.0916,-0.0916
+"New Year festival period (1 if yes, 0 otherwise) [2018–2019]",-1.366,-4.06,0.1718,-0.1718
+(Standard deviation of parameter distribution; 31.6% above zero),2.858,2.76,,
+"New Year festival period (1 if yes, 0 otherwise) [2020–2023]",-0.640,-4.82,0.1028,-0.1028
+(Standard deviation of parameter distribution; 31.6% above zero),1.335,2.66,,
+"Peak hours (1 if yes, 0 otherwise) [2016–2017]",0.403,2.38,-0.0677,0.0677
+"Peak hours (1 if yes, 0 otherwise) [2018–2023]",-0.209,-1.88,0.0337,-0.0337
+Region,,,,
+"Eastern region (1 if yes, 0 otherwise) [2016–2021]",0.764,4.53,-0.1206,0.1206
+"Northeastern region (1 if yes, 0 otherwise) [2016–2021]",0.605,6.43,-0.0982,0.0982
+"Northeastern region (1 if yes, 0 otherwise) [2022–2023]",1.045,5.75,-0.1698,0.1698
+"Northern region (1 if yes, 0 otherwise) [2020–2023]",-0.350,-2.90,0.0596,-0.0596
+"Western region (1 if yes, 0 otherwise) [2020–2021]",1.254,4.18,-0.2037,0.2037
+Heterogeneity in the means of random parameters,,,,
+Concrete pavement surface [2018–2023]: Eastern region [2022–2023],-2.220,-2.90,,
+Songkran festival period [2016–2023]: Southern region [2016–2023],-1.037,-3.18,,
+Songkran festival period [2016–2023]: Northern region [2016–2019],-1.079,-2.75,,
+Model statistics,,,,
+Number of observations,"7,325",,,
+Number of estimated parameters,52,,,
+"Log-likelihood at zero, LL(0)",-5077.30,,,
+"Log-likelihood with constant only, LL(C)",-5074.03,,,
+"Log-likelihood at convergence, LL(β)",-4526.94,,,
+McFadden pseudo ρ^2 = 1 - LL(β)/LL(0),0.108,,,
+AIC / BIC,"9,157.9 / 9,516.6",,,
+Random parameter distribution; simulation,"Normal; 2,000 Halton draws",,,

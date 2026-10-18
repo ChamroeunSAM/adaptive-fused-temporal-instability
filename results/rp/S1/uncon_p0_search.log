@@ -1,0 +1,16 @@
+== S1 uncon_p0_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=1874, parameters=40, fixed-parameter LL=-1193.243
+RP screen (39 s): 9 of 39 significant; top 9 by LL gain enter the joint model: ['off_left_hit_object [2016-17]', 'wet_road [2016-17]', 'Eastern [2016-17]', 'Northeastern [2016-17]', 'depressed_median [2016-17]', 'off_left [2016-17]', 'normal_curve [2016-17]', 'main_carriageway [2016-17]', 'weekend [2016-17]']
+  joint RP: 9 random, LL=-1172.202, min SD t=0.58
+  joint RP: 8 random, LL=-1173.719, min SD t=0.91
+  joint RP: 7 random, LL=-1173.537, min SD t=0.95
+  joint RP: 6 random, LL=-1175.718, min SD t=0.87
+  joint RP: 5 random, LL=-1180.458, min SD t=0.83
+  joint RP: 4 random, LL=-1184.973, min SD t=1.92
+  joint RP: 3 random, LL=-1186.194, min SD t=1.87
+  joint RP: 2 random, LL=-1188.301, min SD t=2.03
+RP model: ['off_left [2016-17]', 'normal_curve [2016-17]']  LL=-1188.301
+hm: added weekend [2016-17] -> normal_curve [2016-17]  (LL gain 3.47, LL=-1184.835, 42 tried, 74 s)
+hm: no qualifying term (40 pairings tried, 85 s)
+hv: no qualifying term (40 pairings tried, 98 s)
+FINAL (2000 draws): random=['off_left [2016-17]', 'normal_curve [2016-17]'], HM=[('normal_curve [2016-17]', 'weekend [2016-17]')], HV=[], LL=-1185.192, k=42
+DONE uncon_p0_search: LL=-1185.192 k=42  (113 s)

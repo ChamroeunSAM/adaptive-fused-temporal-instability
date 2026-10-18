@@ -1,0 +1,18 @@
+== S2 fused_rp_c0_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=8/3/1]: N=21371, parameters=57, fixed-parameter LL=-12250.892
+RP screen (18 s): 28 of 55 significant; top 16 by LL gain enter the joint model: ['songkran', 'new_year [2016-2018]', 'new_year [2019-2023]', 'truck_>10_1', 'cutting_in_too_close', 'wet_road [2018-2023]', 'head_on', 'pickup_1', 'raining [2018-2023]', 'normal_curve', 'uturn_decel_only', 't_intersection', 'depressed_median', 'pickup_>1', 'Southern [2018-2023]', 'Northeastern']
+  joint RP: 16 random, LL=-12030.721, min SD t=0.64
+  joint RP: 15 random, LL=-12030.672, min SD t=2.78
+  joint RP: 14 random, LL=-12033.827, min SD t=2.57
+  joint RP: 13 random, LL=-12030.405, min SD t=3.49
+  joint RP: 12 random, LL=-12040.328, min SD t=3.58
+  joint RP: 11 random, LL=-12042.917, min SD t=4.04
+  joint RP: 10 random, LL=-12047.236, min SD t=4.04
+  joint RP: 9 random, LL=-12051.739, min SD t=4.64
+  joint RP: 8 random, LL=-12066.754, min SD t=4.89
+RP model: ['songkran', 'new_year [2016-2018]', 'new_year [2019-2023]', 'truck_>10_1', 'cutting_in_too_close', 'pickup_1', 't_intersection', 'depressed_median']  LL=-12066.754
+hm: added Evening -> pickup_1  (LL gain 5.99, LL=-12060.761, 124 tried, 92 s)
+hm: added wet_road [2018-2023] -> depressed_median  (LL gain 3.49, LL=-12057.275, 116 tried, 138 s)
+hm: added van -> cutting_in_too_close  (LL gain 2.35, LL=-12054.928, 100 tried, 178 s)
+hv: added Peak hours -> truck_>10_1  (LL gain 2.97, LL=-12051.955, 92 tried, 215 s)
+FINAL (2000 draws): random=['songkran', 'new_year [2016-2018]', 'new_year [2019-2023]', 'truck_>10_1', 'cutting_in_too_close', 'pickup_1', 't_intersection', 'depressed_median'], HM=[('pickup_1', 'Evening'), ('depressed_median', 'wet_road [2018-2023]'), ('cutting_in_too_close', 'van')], HV=[('truck_>10_1', 'Peak hours')], LL=-12049.186, k=65
+DONE fused_rp_c0_search: LL=-12049.186 k=65  (276 s)

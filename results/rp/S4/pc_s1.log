@@ -1,0 +1,13 @@
+== S4 pc_s1 [mode prune, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=8/3/1]: N=33646, parameters=99, fixed-parameter LL=-12673.081
+start from pc_s1_search: k=107, LL=-12577.630
+  removed 11: ['fixed:van [2016] (t=0.77)', 'fixed:van [2020-2023] (t=0.72)', 'fixed:large_bas [2016-2022] (t=0.79)', 'fixed:songkran (t=0.57)', 'fixed:new_year [2017-2018] (t=0.26)', 'fixed:Evening [2017-2020] (t=0.31)', 'fixed:main_carriageway [2018-2020] (t=0.61)', 'fixed:under_construction [2020-2023] (t=0.77)', 'fixed:painted_median [2020-2023] (t=0.14)', 'fixed:on_grade [2022-2023] (t=0.08)', 'fixed:raining [2020-2023] (t=0.28)'] -> k=96, LL=-12579.383  (125 s)
+  removed 1: ['fixed:speeding [2016] (t=1.06)'] -> k=95, LL=-12579.952  (157 s)
+  removed 1: ['fixed:raised_earth_median [2019-2020] (t=1.15)'] -> k=94, LL=-12580.618  (190 s)
+  removed 1: ['fixed:uturn_both_lanes [2019] (t=1.25)'] -> k=93, LL=-12581.452  (221 s)
+  removed 1: ['fixed:main_carriageway [2023] (t=1.29)'] -> k=92, LL=-12582.310  (253 s)
+  removed 1: ['fixed:uturn_both_lanes [2016-2018] (t=1.31)'] -> k=91, LL=-12583.137  (283 s)
+  removed 1: ['fixed:cutting_in_too_close [2022] (t=1.31)'] -> k=90, LL=-12583.979  (313 s)
+  removed 1: ['fixed:weekend (t=1.58)'] -> k=89, LL=-12585.217  (344 s)
+  removed 1: ['fixed:uturn_decel_only (t=1.64)'] -> k=88, LL=-12586.540  (378 s)
+FINAL (all significant at 90%): random=['normal_curve [2017-2022]', 'truck_10_1', 'sideswipe_parallel [2020-2023]', 'truck_>10_1 [2019-2023]', 'truck_>10_1 [2016-2018]', 'truck_6_1', 'pickup_>1', 'cutting_in_too_close [2016-2021]'], HM=[('cutting_in_too_close [2016-2021]', 't_intersection [2016-2017]'), ('truck_10_1', 'speeding [2017-2023]'), ('pickup_>1', 'Peak hours')], HV=[('truck_>10_1 [2019-2023]', 'Northern [2016-2020]')], dropped=19, LL=-12586.540, k=88
+DONE pc_s1: LL=-12586.540 k=88  (379 s)

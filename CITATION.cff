@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper."
+title: "Temporal instability in crash injury severity: an adaptive fused random parameters approach (code)"
+authors:
+  - family-names: Se
+    given-names: Chamroeun
+license: MIT
+preferred-citation:
+  type: article
+  title: "Temporal instability in crash injury severity: an adaptive fused random parameters approach"
+  authors:
+    - family-names: Se
+      given-names: Chamroeun
+  journal: "Analytic Methods in Accident Research"
+  status: submitted

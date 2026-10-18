@@ -1,0 +1,12 @@
+== S2 uncon_p1 [mode prune, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=2269, parameters=46, fixed-parameter LL=-1296.579
+start from uncon_p1_search: k=47, LL=-1289.553
+  removed 15: ['fixed:weekend [2017] (t=0.20)', 'fixed:holiday [2017] (t=0.89)', 'fixed:Northern [2017] (t=0.08)', 'fixed:Southern [2017] (t=0.68)', 'fixed:Evening [2017] (t=0.29)', 'fixed:cutting_in_too_close [2017] (t=0.45)', 'fixed:running_red_light [2017] (t=0.09)', 'fixed:under_construction [2017] (t=0.29)', 'fixed:painted_median [2017] (t=0.51)', 'fixed:t_intersection [2017] (t=0.87)', 'fixed:plus_intersection [2017] (t=0.22)', 'fixed:uturn_both_lanes [2017] (t=0.17)', 'fixed:access_public_commercial [2017] (t=0.43)', 'fixed:wet_road [2017] (t=0.00)', 'fixed:raining [2017] (t=0.00)'] -> k=32, LL=-1297.564  (5 s)
+  removed 1: ['fixed:rear_end_same_lane [2017] (t=1.30)'] -> k=31, LL=-1298.416  (5 s)
+  removed 1: ['fixed:pickup_1 [2017] (t=1.40)'] -> k=30, LL=-1299.389  (5 s)
+  removed 1: ['fixed:pickup_>1 [2017] (t=1.30)'] -> k=29, LL=-1300.235  (6 s)
+  removed 1: ['fixed:concrete_surface [2017] (t=1.31)'] -> k=28, LL=-1301.101  (6 s)
+  removed 1: ['fixed:new_year [2017] (t=1.30)'] -> k=27, LL=-1301.940  (7 s)
+  removed 1: ['fixed:car_1 [2017] (t=1.41)'] -> k=26, LL=-1302.931  (7 s)
+  removed 1: ['fixed:normal_curve [2017] (t=1.62)'] -> k=25, LL=-1304.258  (7 s)
+FINAL (all significant at 90%): random=['depressed_median [2017]'], HM=[('depressed_median [2017]', 'uturn_no_lane [2017]'), ('depressed_median [2017]', 'Peak hours [2017]')], HV=[], dropped=22, LL=-1304.258, k=25
+DONE uncon_p1: LL=-1304.258 k=25  (11 s)

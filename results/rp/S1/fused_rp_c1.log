@@ -1,0 +1,14 @@
+== S1 fused_rp_c1 [mode prune, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=8/3/1]: N=7325, parameters=54, fixed-parameter LL=-4598.933
+start from fused_rp_c1_search: k=60, LL=-4550.552
+  removed 12: ['fixed:weekend (t=0.48)', 'fixed:Western [2016-19] (t=0.16)', 'fixed:Peak hours (t=0.48)', 'fixed:sideswipe_parallel (t=0.40)', 'fixed:off_left [2016-17] (t=0.32)', 'fixed:off_left_bend (t=0.17)', 'fixed:speeding [2016-17] (t=0.44)', 'fixed:cutting_in_too_close [2016-19] (t=1.00)', 'fixed:under_construction (t=0.14)', 'fixed:normal_curve (t=0.52)', 'fixed:t_intersection (t=0.33)', 'fixed:raining [2016-19] (t=0.52)'] -> k=48, LL=-4552.150  (54 s)
+  removed 1: ['fixed:rear_end_same_lane (t=1.06)'] -> k=47, LL=-4552.716  (60 s)
+  removed 1: ['fixed:frontage_road [2020-23] (t=1.11)'] -> k=46, LL=-4553.363  (66 s)
+  removed 1: ['sd:barrier_median [2018-23] (t=1.27)'] -> k=45, LL=-4553.706  (72 s)
+  removed 1: ['fixed:predestrain (t=1.54)'] -> k=44, LL=-4554.896  (78 s)
+  removed 1: ['fixed:off_right_bend [2018-23] (t=1.49)'] -> k=43, LL=-4556.002  (83 s)
+  removed 1: ['fixed:drunk_driving [2020-23] (t=1.48)'] -> k=42, LL=-4557.116  (88 s)
+  removed 1: ['fixed:painted_median [2020-23] (t=1.47)'] -> k=41, LL=-4558.184  (93 s)
+  removed 1: ['fixed:raised_earth_median (t=1.38)'] -> k=40, LL=-4559.142  (97 s)
+  removed 1: ['fixed:Northern (t=1.59)'] -> k=39, LL=-4560.396  (102 s)
+FINAL (all significant at 90%): random=['concrete_surface', 'songkran', 'new_year', 'Northeastern', 'mounts_traffic_island'], HM=[('concrete_surface', 'Midnight/early morning'), ('new_year', 'Southern'), ('concrete_surface', 'out_of_control [2016-17]')], HV=[], dropped=20, LL=-4560.396, k=39
+DONE fused_rp_c1: LL=-4560.396 k=39  (107 s)

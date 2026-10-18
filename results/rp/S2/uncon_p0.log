@@ -1,0 +1,11 @@
+== S2 uncon_p0 [mode prune, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=2617, parameters=46, fixed-parameter LL=-1409.141
+start from uncon_p0_search: k=48, LL=-1390.841
+  removed 11: ['fixed:holiday [2016] (t=0.48)', 'fixed:Southern [2016] (t=0.30)', 'fixed:Evening [2016] (t=0.33)', 'fixed:speeding [2016] (t=0.61)', 'fixed:main_carriageway [2016] (t=0.90)', 'fixed:under_construction [2016] (t=0.54)', 'fixed:concrete_surface [2016] (t=0.25)', 'fixed:plus_intersection [2016] (t=0.30)', 'fixed:access_public_commercial [2016] (t=0.44)', 'fixed:wet_road [2016] (t=0.35)', 'fixed:dark_with_lighting [2016] (t=0.21)'] -> k=37, LL=-1392.786  (6 s)
+  removed 1: ['fixed:songkran [2016] (t=0.95)'] -> k=36, LL=-1393.238  (6 s)
+  removed 1: ['fixed:weekend [2016] (t=0.95)'] -> k=35, LL=-1393.696  (7 s)
+  removed 1: ['fixed:pickup_1 [2016] (t=1.02)'] -> k=34, LL=-1394.215  (8 s)
+  removed 1: ['fixed:van [2016] (t=0.71)'] -> k=33, LL=-1394.469  (8 s)
+  removed 1: ['fixed:painted_median [2016] (t=1.33)'] -> k=32, LL=-1395.368  (9 s)
+  removed 1: ['fixed:uturn_no_lane [2016] (t=1.40)'] -> k=31, LL=-1396.364  (9 s)
+FINAL (all significant at 90%): random=['cutting_in_too_close [2016]', 'Peak hours [2016]'], HM=[('cutting_in_too_close [2016]', 'depressed_median [2016]'), ('cutting_in_too_close [2016]', 'pickup_>1 [2016]')], HV=[], dropped=17, LL=-1396.364, k=31
+DONE uncon_p0: LL=-1396.364 k=31  (11 s)

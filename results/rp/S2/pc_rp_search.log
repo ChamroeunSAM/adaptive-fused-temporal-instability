@@ -1,0 +1,18 @@
+== S2 pc_rp_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=8/3/1]: N=21371, parameters=105, fixed-parameter LL=-12162.153
+RP screen (66 s): 37 of 101 significant; top 16 by LL gain enter the joint model: ['new_year', 'songkran [2017-2023]', 'truck_>10_1 [2020-2023]', 'raining', 'cutting_in_too_close [2016-2021]', 'Southern [2020-2023]', 'normal_curve', 'wet_road [2021-2023]', 't_intersection [2016-2017]', 'head_on', 'wet_road [2016-2020]', 'pickup_>1', 'songkran [2016]', 'concrete_surface [2022-2023]', 'depressed_median [2018-2023]', 'Northeastern [2018-2023]']
+  joint RP: 16 random, LL=-11953.766, min SD t=0.55
+  joint RP: 15 random, LL=-11950.782, min SD t=1.97
+  joint RP: 14 random, LL=-11960.621, min SD t=2.40
+  joint RP: 13 random, LL=-11967.546, min SD t=2.64
+  joint RP: 12 random, LL=-11970.347, min SD t=2.70
+  joint RP: 11 random, LL=-11972.371, min SD t=3.26
+  joint RP: 10 random, LL=-11977.857, min SD t=3.83
+  joint RP: 9 random, LL=-11993.633, min SD t=3.80
+  joint RP: 8 random, LL=-11996.558, min SD t=4.94
+RP model: ['new_year', 'songkran [2017-2023]', 'raining', 'cutting_in_too_close [2016-2021]', 'Southern [2020-2023]', 'normal_curve', 'depressed_median [2018-2023]', 'Northeastern [2018-2023]']  LL=-11996.558
+hm: added t_intersection [2019-2023] -> Northeastern [2018-2023]  (LL gain 4.90, LL=-11991.655, 228 tried, 223 s)
+hm: added Evening [2018-2023] -> Southern [2020-2023]  (LL gain 4.91, LL=-11986.744, 213 tried, 337 s)
+hm: added Midnight/early morning [2016-2017] -> songkran [2017-2023]  (LL gain 4.01, LL=-11982.739, 199 tried, 444 s)
+hv: added speeding [2019-2021] -> new_year  (LL gain 2.32, LL=-11980.416, 194 tried, 561 s)
+FINAL (2000 draws): random=['new_year', 'songkran [2017-2023]', 'raining', 'cutting_in_too_close [2016-2021]', 'Southern [2020-2023]', 'normal_curve', 'depressed_median [2018-2023]', 'Northeastern [2018-2023]'], HM=[('Northeastern [2018-2023]', 't_intersection [2019-2023]'), ('Southern [2020-2023]', 'Evening [2018-2023]'), ('songkran [2017-2023]', 'Midnight/early morning [2016-2017]')], HV=[('new_year', 'speeding [2019-2021]')], LL=-11982.463, k=113
+DONE pc_rp_search: LL=-11982.463 k=113  (629 s)

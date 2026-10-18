@@ -1,0 +1,19 @@
+== S2 pc_s1_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=8/3/1]: N=21371, parameters=109, fixed-parameter LL=-12140.477
+RP screen (81 s): 34 of 105 significant; top 16 by LL gain enter the joint model: ['new_year [2016-2018]', 'songkran [2017-2023]', 'truck_>10_1', 'new_year [2019-2023]', 'cutting_in_too_close [2016-2022]', 'raining', 'wet_road [2019-2023]', 'normal_curve [2017-2023]', 't_intersection [2016-2017]', 'head_on', 'songkran [2016]', 'concrete_surface [2022-2023]', 'Southern [2018-2023]', 'uturn_decel_only [2017-2023]', 'concrete_surface [2019]', 'pickup_>1 [2019-2023]']
+  joint RP: 16 random, LL=-11944.863, min SD t=1.57
+  joint RP: 15 random, LL=-11944.242, min SD t=2.01
+  joint RP: 14 random, LL=-11946.118, min SD t=2.20
+  joint RP: 13 random, LL=-11948.463, min SD t=2.61
+  joint RP: 12 random, LL=-11953.580, min SD t=2.48
+  joint RP: 11 random, LL=-11968.433, min SD t=2.92
+  joint RP: 10 random, LL=-11972.775, min SD t=3.98
+  joint RP: 9 random, LL=-11976.393, min SD t=3.88
+  joint RP: 8 random, LL=-11982.552, min SD t=4.38
+RP model: ['new_year [2016-2018]', 'songkran [2017-2023]', 'truck_>10_1', 'new_year [2019-2023]', 'cutting_in_too_close [2016-2022]', 'wet_road [2019-2023]', 'normal_curve [2017-2023]', 'Southern [2018-2023]']  LL=-11982.552
+hm: added rear_end_same_lane [2019-2023] -> Southern [2018-2023]  (LL gain 5.34, LL=-11977.208, 266 tried, 227 s)
+hm: added van [2016-2022] -> cutting_in_too_close [2016-2022]  (LL gain 4.33, LL=-11972.878, 252 tried, 333 s)
+hm: added main_carriageway [2022-2023] -> cutting_in_too_close [2016-2022]  (LL gain 3.62, LL=-11969.260, 244 tried, 439 s)
+hv: added songkran [2016] -> cutting_in_too_close [2016-2022]  (LL gain 5.88, LL=-11963.377, 237 tried, 551 s)
+2000-draw confirmation removed: SD [], HM [], HV ['songkran [2016]']
+FINAL (2000 draws): random=['new_year [2016-2018]', 'songkran [2017-2023]', 'truck_>10_1', 'new_year [2019-2023]', 'cutting_in_too_close [2016-2022]', 'wet_road [2019-2023]', 'normal_curve [2017-2023]', 'Southern [2018-2023]'], HM=[('Southern [2018-2023]', 'rear_end_same_lane [2019-2023]'), ('cutting_in_too_close [2016-2022]', 'van [2016-2022]'), ('cutting_in_too_close [2016-2022]', 'main_carriageway [2022-2023]')], HV=[], LL=-11966.696, k=117
+DONE pc_s1_search: LL=-11966.696 k=117  (639 s)

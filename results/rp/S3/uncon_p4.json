@@ -1,0 +1,160 @@
+{
+ "subset": "S3",
+ "tag": "uncon_p4",
+ "mode": "prune",
+ "structure": null,
+ "period": 4,
+ "draws_search": 100,
+ "draws_final": 2000,
+ "caps": {
+  "random_parameters": 2,
+  "het_means": 2,
+  "het_variances": 1
+ },
+ "N": 9667,
+ "P_structure": 51,
+ "LL_fixed": -3207.95497569956,
+ "LL": -3203.586371958577,
+ "k": 29,
+ "AIC": 6465.172743917154,
+ "BIC": 6673.290469688627,
+ "random": [
+  "normal_curve [2020]",
+  "wet_road [2020]"
+ ],
+ "HM": [
+  [
+   "normal_curve [2020]",
+   "Eastern [2020]"
+  ],
+  [
+   "wet_road [2020]",
+   "under_construction [2020]"
+  ]
+ ],
+ "HV": [
+  [
+   "wet_road [2020]",
+   "Northern [2020]"
+  ]
+ ],
+ "dropped": [
+  "van [2020]",
+  "songkran [2020]",
+  "holiday [2020]",
+  "Southern [2020]",
+  "Evening [2020]",
+  "Midnight/early morning [2020]",
+  "Peak hours [2020]",
+  "off_left_hit_object [2020]",
+  "off_right_hit_object [2020]",
+  "off_hit_object_right_bend [2020]",
+  "off_right_bend [2020]",
+  "concrete_surface [2020]",
+  "crest [2020]",
+  "on_grade [2020]",
+  "uturn_both_lanes [2020]",
+  "bridge [2020]",
+  "raining [2020]",
+  "dark_with_lighting [2020]",
+  "weekend [2020]",
+  "cutting_in_too_close [2020]",
+  "off_left_bend [2020]",
+  "truck_6_1 [2020]",
+  "sag [2020]",
+  "raised_earth_median [2020]"
+ ],
+ "start": "uncon_p4_search",
+ "start_spec": {
+  "rnd": [
+   38,
+   47
+  ],
+  "hm": [
+   [
+    38,
+    11
+   ],
+   [
+    47,
+    33
+   ]
+  ],
+  "hv": [
+   [
+    47,
+    13
+   ]
+  ],
+  "drop": []
+ },
+ "prune_history": [
+  {
+   "removed": [
+    "fixed:van [2020] (t=0.85)",
+    "fixed:songkran [2020] (t=0.70)",
+    "fixed:holiday [2020] (t=0.45)",
+    "fixed:Southern [2020] (t=0.78)",
+    "fixed:Evening [2020] (t=0.36)",
+    "fixed:Midnight/early morning [2020] (t=0.35)",
+    "fixed:Peak hours [2020] (t=0.18)",
+    "fixed:off_left_hit_object [2020] (t=0.18)",
+    "fixed:off_right_hit_object [2020] (t=0.14)",
+    "fixed:off_hit_object_right_bend [2020] (t=0.18)",
+    "fixed:off_right_bend [2020] (t=0.87)",
+    "fixed:concrete_surface [2020] (t=0.01)",
+    "fixed:crest [2020] (t=0.60)",
+    "fixed:on_grade [2020] (t=0.78)",
+    "fixed:uturn_both_lanes [2020] (t=0.82)",
+    "fixed:bridge [2020] (t=0.49)",
+    "fixed:raining [2020] (t=0.95)",
+    "fixed:dark_with_lighting [2020] (t=0.27)"
+   ],
+   "k": 35,
+   "LL": -3198.4442344488134
+  },
+  {
+   "removed": [
+    "fixed:weekend [2020] (t=1.15)"
+   ],
+   "k": 34,
+   "LL": -3199.0989590808413
+  },
+  {
+   "removed": [
+    "fixed:cutting_in_too_close [2020] (t=1.13)"
+   ],
+   "k": 33,
+   "LL": -3199.7219970431015
+  },
+  {
+   "removed": [
+    "fixed:off_left_bend [2020] (t=1.15)"
+   ],
+   "k": 32,
+   "LL": -3200.385379894328
+  },
+  {
+   "removed": [
+    "fixed:truck_6_1 [2020] (t=1.35)"
+   ],
+   "k": 31,
+   "LL": -3201.3366425776876
+  },
+  {
+   "removed": [
+    "fixed:sag [2020] (t=1.36)"
+   ],
+   "k": 30,
+   "LL": -3202.335875385563
+  },
+  {
+   "removed": [
+    "fixed:raised_earth_median [2020] (t=1.57)"
+   ],
+   "k": 29,
+   "LL": -3203.586371958577
+  }
+ ],
+ "seconds": 15
+}

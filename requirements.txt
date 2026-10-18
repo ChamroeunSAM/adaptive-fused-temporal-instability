@@ -1,0 +1,10 @@
+# core (steps 1-4)
+numpy>=1.26
+scipy>=1.11
+pandas>=2.0
+reportlab>=4.0
+matplotlib>=3.8
+# GPU backend for step 3: install a CUDA build of PyTorch from https://pytorch.org (RTX 50-series: CUDA 12.8 or newer)
+torch>=2.6
+# validation against Biogeme (Appendix E only)
+# biogeme==3.3.5

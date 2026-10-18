@@ -1,0 +1,11 @@
+== S2 uncon_p5 [mode prune, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=2681, parameters=46, fixed-parameter LL=-1533.001
+start from uncon_p5_search: k=48, LL=-1522.281
+  removed 12: ['fixed:motor_1 [2021] (t=0.15)', 'fixed:pickup_>1 [2021] (t=0.22)', 'fixed:weekend [2021] (t=0.71)', 'fixed:Evening [2021] (t=0.08)', 'fixed:Peak hours [2021] (t=0.58)', 'fixed:speeding [2021] (t=0.51)', 'fixed:under_construction [2021] (t=0.08)', 'fixed:painted_median [2021] (t=0.19)', 'fixed:plus_intersection [2021] (t=0.32)', 'fixed:uturn_no_lane [2021] (t=0.70)', 'fixed:access_public_commercial [2021] (t=0.26)', 'fixed:dark_with_lighting [2021] (t=0.50)'] -> k=36, LL=-1527.009  (3 s)
+  removed 1: ['fixed:t_intersection [2021] (t=1.01)'] -> k=35, LL=-1527.529  (3 s)
+  removed 1: ['fixed:uturn_decel_only [2021] (t=1.25)'] -> k=34, LL=-1528.312  (3 s)
+  removed 1: ['fixed:frontage_road [2021] (t=1.31)'] -> k=33, LL=-1529.227  (4 s)
+  removed 1: ['fixed:van [2021] (t=1.52)'] -> k=32, LL=-1530.382  (4 s)
+  removed 1: ['fixed:pickup_1 [2021] (t=1.26)'] -> k=31, LL=-1531.187  (4 s)
+  removed 1: ['fixed:holiday [2021] (t=1.60)'] -> k=30, LL=-1532.500  (4 s)
+FINAL (all significant at 90%): random=['depressed_median [2021]', 'cutting_in_too_close [2021]'], HM=[('depressed_median [2021]', 'wet_road [2021]'), ('cutting_in_too_close [2021]', 'raining [2021]')], HV=[], dropped=18, LL=-1532.500, k=30
+DONE uncon_p5: LL=-1532.500 k=30  (5 s)

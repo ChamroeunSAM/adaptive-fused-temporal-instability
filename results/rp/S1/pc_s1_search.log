@@ -1,0 +1,17 @@
+== S1 pc_s1_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=8/3/1]: N=7325, parameters=73, fixed-parameter LL=-4552.262
+RP screen (121 s): 14 of 71 significant; top 14 by LL gain enter the joint model: ['off_left_hit_object', 'songkran', 'concrete_surface [2018-23]', 'Eastern [2016-21]', 'barrier_median [2020-23]', 'drunk_driving [2016-19]', 'new_year [2018-19]', 'predestrain', 'frontage_road [2020-23]', 'off_left [2016-17]', 'mounts_traffic_island', 'new_year [2020-23]', 'Northeastern [2016-21]', 'raised_earth_median [2018-23]']
+  joint RP: 14 random, LL=-4503.710, min SD t=0.09
+  joint RP: 13 random, LL=-4504.353, min SD t=0.60
+  joint RP: 12 random, LL=-4506.796, min SD t=0.55
+  joint RP: 11 random, LL=-4506.858, min SD t=1.44
+  joint RP: 10 random, LL=-4506.999, min SD t=1.62
+  joint RP: 9 random, LL=-4511.268, min SD t=1.08
+  joint RP: 8 random, LL=-4511.617, min SD t=2.14
+RP model: ['off_left_hit_object', 'songkran', 'concrete_surface [2018-23]', 'new_year [2018-19]', 'predestrain', 'off_left [2016-17]', 'mounts_traffic_island', 'new_year [2020-23]']  LL=-4511.617
+hm: added Eastern [2022-23] -> concrete_surface [2018-23]  (LL gain 5.73, LL=-4505.883, 209 tried, 798 s)
+hm: added Southern -> songkran  (LL gain 4.69, LL=-4501.197, 203 tried, 1412 s)
+hm: added Northern [2016-19] -> songkran  (LL gain 4.79, LL=-4496.404, 195 tried, 2020 s)
+hv: added Midnight/early morning -> off_left_hit_object  (LL gain 2.69, LL=-4493.710, 182 tried, 2610 s)
+2000-draw confirmation removed: SD ['off_left_hit_object'], HM [], HV []
+FINAL (2000 draws): random=['songkran', 'concrete_surface [2018-23]', 'new_year [2018-19]', 'predestrain', 'off_left [2016-17]', 'mounts_traffic_island', 'new_year [2020-23]'], HM=[('concrete_surface [2018-23]', 'Eastern [2022-23]'), ('songkran', 'Southern'), ('songkran', 'Northern [2016-19]')], HV=[], LL=-4513.839, k=80
+DONE pc_s1_search: LL=-4513.839 k=80  (2685 s)

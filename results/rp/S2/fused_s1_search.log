@@ -1,0 +1,19 @@
+== S2 fused_s1_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=8/3/1]: N=21371, parameters=66, fixed-parameter LL=-12218.167
+RP screen (24 s): 31 of 63 significant; top 16 by LL gain enter the joint model: ['new_year [2016-2018]', 'songkran [2017-2023]', 'truck_>10_1', 'new_year [2019-2023]', 'cutting_in_too_close', 'wet_road [2019-2023]', 'pickup_1 [2016-2019]', 'raining [2018-2023]', 'normal_curve', 'uturn_decel_only', 'head_on', 'songkran [2016]', 't_intersection', 'pickup_>1', 'depressed_median', 'Southern [2018-2023]']
+  joint RP: 16 random, LL=-12004.281, min SD t=1.53
+  joint RP: 15 random, LL=-12008.738, min SD t=2.75
+  joint RP: 14 random, LL=-12017.283, min SD t=2.91
+  joint RP: 13 random, LL=-12024.030, min SD t=3.41
+  joint RP: 12 random, LL=-12027.416, min SD t=3.40
+  joint RP: 11 random, LL=-12034.774, min SD t=4.34
+  joint RP: 10 random, LL=-12045.813, min SD t=3.90
+  joint RP: 9 random, LL=-12049.570, min SD t=4.96
+  joint RP: 8 random, LL=-12091.555, min SD t=5.01
+RP model: ['songkran [2017-2023]', 'truck_>10_1', 'new_year [2019-2023]', 'cutting_in_too_close', 'pickup_1 [2016-2019]', 'normal_curve', 't_intersection', 'depressed_median']  LL=-12091.555
+hm: added dark_with_lighting [2016-2019] -> pickup_1 [2016-2019]  (LL gain 4.58, LL=-12086.979, 160 tried, 115 s)
+hm: added wet_road [2019-2023] -> depressed_median  (LL gain 3.86, LL=-12083.119, 152 tried, 175 s)
+hm: added van -> cutting_in_too_close  (LL gain 3.03, LL=-12080.085, 137 tried, 229 s)
+hv: added songkran [2016] -> depressed_median  (LL gain 4.10, LL=-12075.989, 129 tried, 283 s)
+2000-draw confirmation removed: SD [], HM [], HV ['songkran [2016]']
+FINAL (2000 draws): random=['songkran [2017-2023]', 'truck_>10_1', 'new_year [2019-2023]', 'cutting_in_too_close', 'pickup_1 [2016-2019]', 'normal_curve', 't_intersection', 'depressed_median'], HM=[('pickup_1 [2016-2019]', 'dark_with_lighting [2016-2019]'), ('depressed_median', 'wet_road [2019-2023]'), ('cutting_in_too_close', 'van')], HV=[], LL=-12080.145, k=74
+DONE fused_s1_search: LL=-12080.145 k=74  (364 s)

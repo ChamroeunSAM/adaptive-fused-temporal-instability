@@ -1,0 +1,128 @@
+{
+ "subset": "S1",
+ "tag": "uncon_p2",
+ "mode": "prune",
+ "structure": null,
+ "period": 2,
+ "draws_search": 100,
+ "draws_final": 2000,
+ "caps": {
+  "random_parameters": 2,
+  "het_means": 2,
+  "het_variances": 1
+ },
+ "N": 1791,
+ "P_structure": 40,
+ "LL_fixed": -1098.5182626680548,
+ "LL": -1096.2404476821523,
+ "k": 26,
+ "AIC": 2244.4808953643046,
+ "BIC": 2387.2346598178833,
+ "random": [
+  "normal_curve [2020-21]",
+  "weekend [2020-21]"
+ ],
+ "HM": [
+  [
+   "weekend [2020-21]",
+   "speeding [2020-21]"
+  ],
+  [
+   "weekend [2020-21]",
+   "raining [2020-21]"
+  ]
+ ],
+ "HV": [],
+ "dropped": [
+  "predestrain [2020-21]",
+  "Southern [2020-21]",
+  "Evening [2020-21]",
+  "rear_end_same_lane [2020-21]",
+  "mounts_traffic_island [2020-21]",
+  "off_right_bend [2020-21]",
+  "falling_asleep [2020-21]",
+  "frontage_road [2020-21]",
+  "under_construction [2020-21]",
+  "depressed_median [2020-21]",
+  "wet_road [2020-21]",
+  "concrete_surface [2020-21]",
+  "main_carriageway [2020-21]",
+  "off_left_bend [2020-21]",
+  "Peak hours [2020-21]",
+  "t_intersection [2020-21]"
+ ],
+ "start": "uncon_p2_search",
+ "start_spec": {
+  "rnd": [
+   33,
+   2
+  ],
+  "hm": [
+   [
+    2,
+    22
+   ],
+   [
+    2,
+    37
+   ]
+  ],
+  "hv": [],
+  "drop": []
+ },
+ "prune_history": [
+  {
+   "removed": [
+    "fixed:predestrain [2020-21] (t=0.14)",
+    "fixed:Southern [2020-21] (t=0.54)",
+    "fixed:Evening [2020-21] (t=0.49)",
+    "fixed:rear_end_same_lane [2020-21] (t=0.63)",
+    "fixed:mounts_traffic_island [2020-21] (t=0.95)",
+    "fixed:off_right_bend [2020-21] (t=0.66)",
+    "fixed:falling_asleep [2020-21] (t=0.39)",
+    "fixed:frontage_road [2020-21] (t=0.56)",
+    "fixed:under_construction [2020-21] (t=0.93)",
+    "fixed:depressed_median [2020-21] (t=0.29)",
+    "fixed:wet_road [2020-21] (t=0.52)"
+   ],
+   "k": 31,
+   "LL": -1091.5544110113885
+  },
+  {
+   "removed": [
+    "fixed:concrete_surface [2020-21] (t=1.20)"
+   ],
+   "k": 30,
+   "LL": -1092.2813946977953
+  },
+  {
+   "removed": [
+    "fixed:main_carriageway [2020-21] (t=1.19)"
+   ],
+   "k": 29,
+   "LL": -1092.9900463115218
+  },
+  {
+   "removed": [
+    "fixed:off_left_bend [2020-21] (t=1.25)"
+   ],
+   "k": 28,
+   "LL": -1094.0151203260573
+  },
+  {
+   "removed": [
+    "fixed:Peak hours [2020-21] (t=1.34)"
+   ],
+   "k": 27,
+   "LL": -1094.9099361975009
+  },
+  {
+   "removed": [
+    "fixed:t_intersection [2020-21] (t=1.61)"
+   ],
+   "k": 26,
+   "LL": -1096.2404476821523
+  }
+ ],
+ "seconds": 10
+}

@@ -1,0 +1,15 @@
+== S4 uncon_p1_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=3217, parameters=45, fixed-parameter LL=-1364.043
+RP screen (12 s): 8 of 44 significant; top 8 by LL gain enter the joint model: ['Northeastern [2017]', 'normal_curve [2017]', 'pickup_>1 [2017]', 'cutting_in_too_close [2017]', 'truck_>10_1 [2017]', 'truck_10_1 [2017]', 'Eastern [2017]', 'raised_earth_median [2017]']
+  joint RP: 8 random, LL=-1348.807, min SD t=1.51
+  joint RP: 7 random, LL=-1349.374, min SD t=1.92
+  joint RP: 6 random, LL=-1350.392, min SD t=1.86
+  joint RP: 5 random, LL=-1351.197, min SD t=2.21
+  joint RP: 4 random, LL=-1354.730, min SD t=2.19
+  joint RP: 3 random, LL=-1356.290, min SD t=2.64
+  joint RP: 2 random, LL=-1357.967, min SD t=2.99
+RP model: ['Northeastern [2017]', 'pickup_>1 [2017]']  LL=-1357.967
+hm: added rear_end_same_lane [2017] -> pickup_>1 [2017]  (LL gain 3.73, LL=-1354.242, 56 tried, 20 s)
+hm: no qualifying term (54 pairings tried, 25 s)
+hv: added plus_intersection [2017] -> Northeastern [2017]  (LL gain 2.37, LL=-1351.874, 54 tried, 30 s)
+FINAL (2000 draws): random=['Northeastern [2017]', 'pickup_>1 [2017]'], HM=[('pickup_>1 [2017]', 'rear_end_same_lane [2017]')], HV=[('Northeastern [2017]', 'plus_intersection [2017]')], LL=-1351.826, k=47
+DONE uncon_p1_search: LL=-1351.826 k=47  (33 s)

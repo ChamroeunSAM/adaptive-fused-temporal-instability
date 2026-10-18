@@ -1,0 +1,108 @@
+{
+ "subset": "S2",
+ "tag": "uncon_p2",
+ "mode": "prune",
+ "structure": null,
+ "period": 2,
+ "draws_search": 100,
+ "draws_final": 2000,
+ "caps": {
+  "random_parameters": 2,
+  "het_means": 2,
+  "het_variances": 1
+ },
+ "N": 2759,
+ "P_structure": 46,
+ "LL_fixed": -1525.1630785025868,
+ "LL": -1519.027022301802,
+ "k": 32,
+ "AIC": 3102.054044603604,
+ "BIC": 3291.577998978557,
+ "random": [
+  "cutting_in_too_close [2018]",
+  "sideswipe_parallel [2018]"
+ ],
+ "HM": [
+  [
+   "cutting_in_too_close [2018]",
+   "van [2018]"
+  ]
+ ],
+ "HV": [],
+ "dropped": [
+  "pickup_1 [2018]",
+  "pickup_>1 [2018]",
+  "weekend [2018]",
+  "Evening [2018]",
+  "main_carriageway [2018]",
+  "under_construction [2018]",
+  "normal_curve [2018]",
+  "uturn_no_lane [2018]",
+  "uturn_decel_only [2018]",
+  "uturn_both_lanes [2018]",
+  "access_public_commercial [2018]",
+  "wet_road [2018]",
+  "raining [2018]",
+  "painted_median [2018]",
+  "speeding [2018]",
+  "Peak hours [2018]"
+ ],
+ "start": "uncon_p2_search",
+ "start_spec": {
+  "rnd": [
+   25,
+   22
+  ],
+  "hm": [
+   [
+    25,
+    8
+   ]
+  ],
+  "hv": [],
+  "drop": []
+ },
+ "prune_history": [
+  {
+   "removed": [
+    "fixed:pickup_1 [2018] (t=0.26)",
+    "fixed:pickup_>1 [2018] (t=0.22)",
+    "fixed:weekend [2018] (t=0.95)",
+    "fixed:Evening [2018] (t=0.07)",
+    "fixed:main_carriageway [2018] (t=0.22)",
+    "fixed:under_construction [2018] (t=0.30)",
+    "fixed:normal_curve [2018] (t=0.59)",
+    "fixed:uturn_no_lane [2018] (t=0.46)",
+    "fixed:uturn_decel_only [2018] (t=0.44)",
+    "fixed:uturn_both_lanes [2018] (t=0.87)",
+    "fixed:access_public_commercial [2018] (t=0.24)",
+    "fixed:wet_road [2018] (t=0.46)",
+    "fixed:raining [2018] (t=0.02)"
+   ],
+   "k": 35,
+   "LL": -1515.9352183271276
+  },
+  {
+   "removed": [
+    "fixed:painted_median [2018] (t=1.08)"
+   ],
+   "k": 34,
+   "LL": -1516.5274663512942
+  },
+  {
+   "removed": [
+    "fixed:speeding [2018] (t=1.55)"
+   ],
+   "k": 33,
+   "LL": -1517.7390690570026
+  },
+  {
+   "removed": [
+    "fixed:Peak hours [2018] (t=1.60)"
+   ],
+   "k": 32,
+   "LL": -1519.027022301802
+  }
+ ],
+ "seconds": 7
+}

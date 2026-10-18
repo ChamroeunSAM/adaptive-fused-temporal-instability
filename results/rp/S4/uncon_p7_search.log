@@ -1,0 +1,22 @@
+== S4 uncon_p7_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=5365, parameters=45, fixed-parameter LL=-1740.910
+RP screen (12 s): 14 of 44 significant; top 14 by LL gain enter the joint model: ['sideswipe_parallel [2023]', 'depressed_median [2023]', 'truck_6_1 [2023]', 'pickup_>1 [2023]', 'Western [2023]', 'truck_>10_1 [2023]', 'falling_asleep [2023]', 'Midnight/early morning [2023]', 'concrete_surface [2023]', 'normal_curve [2023]', 'dark_with_lighting [2023]', 'songkran [2023]', 'head_on [2023]', 'Eastern [2023]']
+  joint RP: 14 random, LL=-1711.934, min SD t=0.02
+  joint RP: 13 random, LL=-1712.462, min SD t=0.10
+  joint RP: 12 random, LL=-1710.627, min SD t=0.05
+  joint RP: 11 random, LL=-1712.955, min SD t=0.28
+  joint RP: 10 random, LL=-1711.573, min SD t=0.70
+  joint RP: 9 random, LL=-1711.782, min SD t=1.37
+  joint RP: 8 random, LL=-1714.852, min SD t=1.98
+  joint RP: 7 random, LL=-1716.347, min SD t=1.98
+  joint RP: 6 random, LL=-1714.323, min SD t=2.70
+  joint RP: 5 random, LL=-1719.945, min SD t=2.48
+  joint RP: 4 random, LL=-1720.823, min SD t=2.30
+  joint RP: 3 random, LL=-1728.661, min SD t=2.38
+  joint RP: 2 random, LL=-1730.968, min SD t=3.47
+RP model: ['depressed_median [2023]', 'pickup_>1 [2023]']  LL=-1730.968
+hm: added truck_6_1 [2023] -> pickup_>1 [2023]  (LL gain 4.25, LL=-1726.720, 46 tried, 24 s)
+hm: added van [2023] -> depressed_median [2023]  (LL gain 2.81, LL=-1723.910, 44 tried, 28 s)
+hv: added speeding [2023] -> depressed_median [2023]  (LL gain 2.12, LL=-1721.794, 42 tried, 33 s)
+2000-draw confirmation removed: SD [], HM [], HV ['speeding [2023]']
+FINAL (2000 draws): random=['depressed_median [2023]', 'pickup_>1 [2023]'], HM=[('pickup_>1 [2023]', 'truck_6_1 [2023]'), ('depressed_median [2023]', 'van [2023]')], HV=[], LL=-1723.822, k=47
+DONE uncon_p7_search: LL=-1723.822 k=47  (38 s)

@@ -1,0 +1,176 @@
+{
+ "subset": "S3",
+ "tag": "uncon_p6",
+ "mode": "prune",
+ "structure": null,
+ "period": 6,
+ "draws_search": 100,
+ "draws_final": 2000,
+ "caps": {
+  "random_parameters": 2,
+  "het_means": 2,
+  "het_variances": 1
+ },
+ "N": 10320,
+ "P_structure": 51,
+ "LL_fixed": -2849.4022570246716,
+ "LL": -2857.5558568330866,
+ "k": 25,
+ "AIC": 5765.111713666173,
+ "BIC": 5946.157689642062,
+ "random": [
+  "Northern [2022]",
+  "car_1 [2022]"
+ ],
+ "HM": [
+  [
+   "Northern [2022]",
+   "off_right_hit_object [2022]"
+  ],
+  [
+   "Northern [2022]",
+   "Evening [2022]"
+  ]
+ ],
+ "HV": [],
+ "dropped": [
+  "weekend [2022]",
+  "Eastern [2022]",
+  "Northeastern [2022]",
+  "Midnight/early morning [2022]",
+  "Peak hours [2022]",
+  "off_left_hit_object [2022]",
+  "off_hit_object_right_bend [2022]",
+  "off_hit_object_left_bend [2022]",
+  "off_left_bend [2022]",
+  "under_construction [2022]",
+  "normal_curve [2022]",
+  "concrete_surface [2022]",
+  "crest [2022]",
+  "sag [2022]",
+  "on_grade [2022]",
+  "t_intersection [2022]",
+  "uturn_decel_only [2022]",
+  "wet_road [2022]",
+  "raining [2022]",
+  "holiday [2022]",
+  "uturn_both_lanes [2022]",
+  "Southern [2022]",
+  "raised_earth_median [2022]",
+  "depressed_median [2022]",
+  "painted_median [2022]",
+  "Western [2022]",
+  "songkran [2022]",
+  "dark_with_lighting [2022]"
+ ],
+ "start": "uncon_p6_search",
+ "start_spec": {
+  "rnd": [
+   13,
+   1
+  ],
+  "hm": [
+   [
+    13,
+    22
+   ],
+   [
+    13,
+    16
+   ]
+  ],
+  "hv": [],
+  "drop": []
+ },
+ "prune_history": [
+  {
+   "removed": [
+    "fixed:weekend [2022] (t=0.43)",
+    "fixed:Eastern [2022] (t=0.84)",
+    "fixed:Northeastern [2022] (t=0.89)",
+    "fixed:Midnight/early morning [2022] (t=0.24)",
+    "fixed:Peak hours [2022] (t=0.93)",
+    "fixed:off_left_hit_object [2022] (t=0.08)",
+    "fixed:off_hit_object_right_bend [2022] (t=0.07)",
+    "fixed:off_hit_object_left_bend [2022] (t=0.31)",
+    "fixed:off_left_bend [2022] (t=0.44)",
+    "fixed:under_construction [2022] (t=0.86)",
+    "fixed:normal_curve [2022] (t=0.53)",
+    "fixed:concrete_surface [2022] (t=0.13)",
+    "fixed:crest [2022] (t=0.18)",
+    "fixed:sag [2022] (t=0.42)",
+    "fixed:on_grade [2022] (t=0.52)",
+    "fixed:t_intersection [2022] (t=0.26)",
+    "fixed:uturn_decel_only [2022] (t=0.39)",
+    "fixed:wet_road [2022] (t=0.83)",
+    "fixed:raining [2022] (t=0.39)"
+   ],
+   "k": 34,
+   "LL": -2849.040412497403
+  },
+  {
+   "removed": [
+    "fixed:holiday [2022] (t=1.03)"
+   ],
+   "k": 33,
+   "LL": -2849.6143307357015
+  },
+  {
+   "removed": [
+    "fixed:uturn_both_lanes [2022] (t=1.14)"
+   ],
+   "k": 32,
+   "LL": -2850.326833853203
+  },
+  {
+   "removed": [
+    "fixed:Southern [2022] (t=1.32)"
+   ],
+   "k": 31,
+   "LL": -2851.1850102641984
+  },
+  {
+   "removed": [
+    "fixed:raised_earth_median [2022] (t=1.49)"
+   ],
+   "k": 30,
+   "LL": -2852.308262406024
+  },
+  {
+   "removed": [
+    "fixed:depressed_median [2022] (t=0.99)"
+   ],
+   "k": 29,
+   "LL": -2852.795373819906
+  },
+  {
+   "removed": [
+    "fixed:painted_median [2022] (t=1.46)"
+   ],
+   "k": 28,
+   "LL": -2853.9186708016923
+  },
+  {
+   "removed": [
+    "fixed:Western [2022] (t=1.58)"
+   ],
+   "k": 27,
+   "LL": -2855.1249654827593
+  },
+  {
+   "removed": [
+    "fixed:songkran [2022] (t=1.55)"
+   ],
+   "k": 26,
+   "LL": -2856.2928626298994
+  },
+  {
+   "removed": [
+    "fixed:dark_with_lighting [2022] (t=1.59)"
+   ],
+   "k": 25,
+   "LL": -2857.5558568330866
+  }
+ ],
+ "seconds": 17
+}

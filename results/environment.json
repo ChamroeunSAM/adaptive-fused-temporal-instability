@@ -1,0 +1,13 @@
+{
+ "python": "3.12.10",
+ "platform": "Windows-11-10.0.26300-SP0",
+ "backend": "torch",
+ "draws_search": 100,
+ "draws_final": 2000,
+ "numpy": "2.5.2",
+ "scipy": "1.18.1",
+ "pandas": "3.0.6",
+ "torch": "2.14.1+cu130",
+ "cuda": "13.0",
+ "gpu": "NVIDIA GeForce RTX 5060 Ti"
+}

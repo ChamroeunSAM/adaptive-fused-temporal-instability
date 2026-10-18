@@ -1,0 +1,8 @@
+== S2 fused_rp_c0 [mode prune, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=8/3/1]: N=21371, parameters=57, fixed-parameter LL=-12250.892
+start from fused_rp_c0_search: k=65, LL=-12049.186
+  removed 6: ['fixed:holiday (t=0.30)', 'fixed:under_construction (t=0.81)', 'fixed:painted_median (t=0.37)', 'fixed:plus_intersection (t=0.15)', 'fixed:access_public_commercial (t=0.19)', 'fixed:wet_road [2016-2017] (t=0.19)'] -> k=59, LL=-12049.667  (70 s)
+  removed 1: ['fixed:main_carriageway (t=1.08)'] -> k=58, LL=-12050.255  (86 s)
+  removed 1: ['fixed:speeding [2019-2023] (t=1.08)'] -> k=57, LL=-12050.833  (102 s)
+  removed 1: ['fixed:weekend (t=1.55)'] -> k=56, LL=-12052.027  (118 s)
+FINAL (all significant at 90%): random=['songkran', 'new_year [2016-2018]', 'new_year [2019-2023]', 'truck_>10_1', 'cutting_in_too_close', 'pickup_1', 't_intersection', 'depressed_median'], HM=[('pickup_1', 'Evening'), ('depressed_median', 'wet_road [2018-2023]'), ('cutting_in_too_close', 'van')], HV=[('truck_>10_1', 'Peak hours')], dropped=9, LL=-12052.027, k=56
+DONE fused_rp_c0: LL=-12052.027 k=56  (118 s)

@@ -1,0 +1,13 @@
+== fused structure in the RP model S1 [refit 2000 draws, penalised fits 100 draws] [torch, cuda]: N=7325, K=40, T=4; random=['concrete_surface', 'songkran', 'new_year', 'raised_earth_median', 'Eastern [2016-21]', 'Northeastern [2016-21]', 'mounts_traffic_island'], HM=[('concrete_surface', 'Eastern [2022-23]'), ('concrete_surface', 'Midnight/early morning')], HV=[('songkran', 'Northern')]
+separate period models before pruning: LL=-4484.155, k=167
+start (no steps): LL=-4597.860; lambda_max=2.0790e-03  (14 s)
+  lambda=1.5593e-03: k=54, LL=-4576.831, LR=185.4, df=113, conf=1.000, passes: False  (66 s)
+  lambda=1.1695e-03: k=58, LL=-4548.980, LR=129.7, df=109, conf=0.914, passes: False  (73 s)
+  lambda=8.7710e-04: k=62, LL=-4540.163, LR=112.0, df=105, conf=0.698, passes: True  (80 s)
+  lambda=1.0128e-03: k=59, LL=-4547.425, LR=126.5, df=108, conf=0.893, passes: True  (86 s)
+  lambda=7.5959e-04: k=64, LL=-4533.795, LR=99.3, df=103, conf=0.415, passes: True  (100 s)
+  lambda=5.6969e-04: k=67, LL=-4526.798, LR=85.3, df=100, conf=0.147, passes: True  (107 s)
+  lambda=4.2727e-04: k=73, LL=-4513.321, LR=58.3, df=94, conf=0.001, passes: True  (113 s)
+  lambda=3.2045e-04: k=79, LL=-4500.973, LR=33.6, df=88, conf=0.000, passes: True  (121 s)
+  lambda=2.4034e-04: k=81, LL=-4498.612, LR=28.9, df=86, conf=0.000, passes: True  (129 s)
+CHOSEN lambda=1.0128e-03: k=59, LR=126.5, df=108, conf=0.893; 5 step-down candidates  (130 s)

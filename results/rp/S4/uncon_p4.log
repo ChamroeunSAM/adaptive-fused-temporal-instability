@@ -1,0 +1,12 @@
+== S4 uncon_p4 [mode prune, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=4933, parameters=45, fixed-parameter LL=-1774.605
+start from uncon_p4_search: k=47, LL=-1759.048
+  removed 14: ['fixed:truck_10_1 [2020] (t=0.30)', 'fixed:van [2020] (t=0.46)', 'fixed:large_bas [2020] (t=0.26)', 'fixed:weekend [2020] (t=0.57)', 'fixed:songkran [2020] (t=0.75)', 'fixed:Northern [2020] (t=0.22)', 'fixed:speeding [2020] (t=0.83)', 'fixed:cutting_in_too_close [2020] (t=0.81)', 'fixed:main_carriageway [2020] (t=0.55)', 'fixed:under_construction [2020] (t=0.91)', 'fixed:raised_earth_median [2020] (t=0.16)', 'fixed:normal_curve [2020] (t=0.68)', 'fixed:uturn_decel_only [2020] (t=0.97)', 'fixed:uturn_both_lanes [2020] (t=0.47)'] -> k=33, LL=-1761.525  (5 s)
+  removed 2: ['fixed:concrete_surface [2020] (t=0.95)', 'fixed:plus_intersection [2020] (t=0.99)'] -> k=31, LL=-1762.534  (5 s)
+  removed 1: ['fixed:truck_6_1 [2020] (t=1.05)'] -> k=30, LL=-1763.093  (6 s)
+  removed 1: ['fixed:wet_road [2020] (t=1.07)'] -> k=29, LL=-1763.649  (7 s)
+  removed 1: ['fixed:sideswipe_parallel [2020] (t=1.10)'] -> k=28, LL=-1764.261  (7 s)
+  removed 1: ['fixed:Midnight/early morning [2020] (t=1.24)'] -> k=27, LL=-1764.998  (7 s)
+  removed 1: ['fixed:on_grade [2020] (t=1.59)'] -> k=26, LL=-1766.369  (8 s)
+  removed 1: ['fixed:t_intersection [2020] (t=1.59)'] -> k=25, LL=-1767.711  (8 s)
+FINAL (all significant at 90%): random=['Peak hours [2020]', 'Evening [2020]'], HM=[('Evening [2020]', 'truck_>10_1 [2020]'), ('Evening [2020]', 'new_year [2020]')], HV=[('Evening [2020]', 'depressed_median [2020]')], dropped=22, LL=-1767.711, k=25
+DONE uncon_p4: LL=-1767.711 k=25  (9 s)

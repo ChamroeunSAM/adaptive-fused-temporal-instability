@@ -1,0 +1,132 @@
+{
+ "subset": "S2",
+ "tag": "fused_rp_c0",
+ "mode": "prune",
+ "structure": "results/rp/S2/fused_rp_c0_struct.json",
+ "period": null,
+ "draws_search": 100,
+ "draws_final": 2000,
+ "caps": {
+  "random_parameters": 8,
+  "het_means": 3,
+  "het_variances": 1
+ },
+ "N": 21371,
+ "P_structure": 57,
+ "LL_fixed": -12250.891877361133,
+ "LL": -12052.027391084608,
+ "k": 56,
+ "AIC": 24216.054782169216,
+ "BIC": 24662.363030109467,
+ "random": [
+  "songkran",
+  "new_year [2016-2018]",
+  "new_year [2019-2023]",
+  "truck_>10_1",
+  "cutting_in_too_close",
+  "pickup_1",
+  "t_intersection",
+  "depressed_median"
+ ],
+ "HM": [
+  [
+   "pickup_1",
+   "Evening"
+  ],
+  [
+   "depressed_median",
+   "wet_road [2018-2023]"
+  ],
+  [
+   "cutting_in_too_close",
+   "van"
+  ]
+ ],
+ "HV": [
+  [
+   "truck_>10_1",
+   "Peak hours"
+  ]
+ ],
+ "dropped": [
+  "holiday",
+  "under_construction",
+  "painted_median",
+  "plus_intersection",
+  "access_public_commercial",
+  "wet_road [2016-2017]",
+  "main_carriageway",
+  "speeding [2019-2023]",
+  "weekend"
+ ],
+ "start": "fused_rp_c0_search",
+ "start_spec": {
+  "rnd": [
+   12,
+   13,
+   14,
+   9,
+   32,
+   5,
+   44,
+   40
+  ],
+  "hm": [
+   [
+    5,
+    23
+   ],
+   [
+    40,
+    51
+   ],
+   [
+    32,
+    10
+   ]
+  ],
+  "hv": [
+   [
+    9,
+    25
+   ]
+  ],
+  "drop": []
+ },
+ "prune_history": [
+  {
+   "removed": [
+    "fixed:holiday (t=0.30)",
+    "fixed:under_construction (t=0.81)",
+    "fixed:painted_median (t=0.37)",
+    "fixed:plus_intersection (t=0.15)",
+    "fixed:access_public_commercial (t=0.19)",
+    "fixed:wet_road [2016-2017] (t=0.19)"
+   ],
+   "k": 59,
+   "LL": -12049.667440268153
+  },
+  {
+   "removed": [
+    "fixed:main_carriageway (t=1.08)"
+   ],
+   "k": 58,
+   "LL": -12050.255104963642
+  },
+  {
+   "removed": [
+    "fixed:speeding [2019-2023] (t=1.08)"
+   ],
+   "k": 57,
+   "LL": -12050.83333966112
+  },
+  {
+   "removed": [
+    "fixed:weekend (t=1.55)"
+   ],
+   "k": 56,
+   "LL": -12052.027391084608
+  }
+ ],
+ "seconds": 118
+}

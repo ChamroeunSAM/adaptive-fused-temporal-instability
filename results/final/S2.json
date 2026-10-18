@@ -1,0 +1,21 @@
+{
+ "subset": "S2",
+ "choice": {
+  "pc": "pc_s1",
+  "fused": "fused_rp_c0"
+ },
+ "flagged": {
+  "pc": false,
+  "fused": false
+ },
+ "period_models": [
+  "uncon_p0",
+  "uncon_p1",
+  "uncon_p2",
+  "uncon_p3",
+  "uncon_p4",
+  "uncon_p5",
+  "uncon_p6",
+  "uncon_p7"
+ ]
+}

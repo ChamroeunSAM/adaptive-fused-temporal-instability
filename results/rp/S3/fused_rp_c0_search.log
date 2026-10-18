@@ -1,0 +1,18 @@
+== S3 fused_rp_c0_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=8/3/1]: N=73731, parameters=66, fixed-parameter LL=-23767.229
+RP screen (36 s): 18 of 61 significant; top 16 by LL gain enter the joint model: ['on_grade', 'off_hit_object_left_bend', 'new_year', 'Western', 'songkran', 'Northern', 'off_hit_object_right_bend [2019-2023]', 'predestrain', 'concrete_surface', 'under_construction', 'normal_curve [2016-2020]', 'barrier_median [2019-2023]', 'van', 'off_hit_object_right_bend [2016-2018]', 'sag', 'normal_curve [2021-2023]']
+  joint RP: 16 random, LL=-23660.563, min SD t=0.77
+  joint RP: 15 random, LL=-23663.353, min SD t=0.32
+  joint RP: 14 random, LL=-23663.311, min SD t=0.88
+  joint RP: 13 random, LL=-23663.196, min SD t=0.40
+  joint RP: 12 random, LL=-23671.474, min SD t=0.06
+  joint RP: 11 random, LL=-23671.476, min SD t=1.60
+  joint RP: 10 random, LL=-23660.386, min SD t=1.02
+  joint RP: 9 random, LL=-23650.600, min SD t=0.74
+  joint RP: 8 random, LL=-23695.845, min SD t=2.58
+RP model: ['on_grade', 'off_hit_object_left_bend', 'new_year', 'songkran', 'Northern', 'concrete_surface', 'under_construction', 'barrier_median [2019-2023]']  LL=-23695.845
+hm: added raining [2020-2023] -> on_grade  (LL gain 14.34, LL=-23681.505, 111 tried, 241 s)
+hm: added raining [2016-2019] -> on_grade  (LL gain 18.03, LL=-23663.477, 111 tried, 348 s)
+hm: added normal_curve [2021-2023] -> Northern  (LL gain 6.02, LL=-23657.453, 103 tried, 441 s)
+hv: added sag -> concrete_surface  (LL gain 3.08, LL=-23654.374, 87 tried, 523 s)
+FINAL (2000 draws): random=['on_grade', 'off_hit_object_left_bend', 'new_year', 'songkran', 'Northern', 'concrete_surface', 'under_construction', 'barrier_median [2019-2023]'], HM=[('on_grade', 'raining [2020-2023]'), ('on_grade', 'raining [2016-2019]'), ('Northern', 'normal_curve [2021-2023]')], HV=[('concrete_surface', 'sag')], LL=-23654.731, k=74
+DONE fused_rp_c0_search: LL=-23654.731 k=74  (717 s)

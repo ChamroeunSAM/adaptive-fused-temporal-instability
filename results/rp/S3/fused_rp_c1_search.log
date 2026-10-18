@@ -1,0 +1,20 @@
+== S3 fused_rp_c1_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=8/3/1]: N=73731, parameters=78, fixed-parameter LL=-23730.088
+RP screen (46 s): 24 of 73 significant; top 16 by LL gain enter the joint model: ['off_hit_object_left_bend', 'on_grade', 'new_year', 'songkran', 'predestrain', 'off_hit_object_right_bend [2021-2023]', 'Northern [2019-2023]', 'concrete_surface', 'Western [2017]', 'Northern [2016-2018]', 'Western [2018-2020]', 'sag [2019-2023]', 'barrier_median [2019-2023]', 'off_hit_object_right_bend [2016-2018]', 'normal_curve [2016-2020]', 'van']
+  joint RP: 16 random, LL=-23624.710, min SD t=1.37
+  joint RP: 15 random, LL=-23625.821, min SD t=0.59
+  joint RP: 14 random, LL=-23625.978, min SD t=0.98
+  joint RP: 13 random, LL=-23626.267, min SD t=1.88
+  joint RP: 12 random, LL=-23626.698, min SD t=1.40
+  joint RP: 11 random, LL=-23634.491, min SD t=2.29
+  joint RP: 10 random, LL=-23623.324, min SD t=2.45
+  joint RP: 9 random, LL=-23626.525, min SD t=2.04
+  joint RP: 8 random, LL=-23652.337, min SD t=0.93
+  joint RP: 7 random, LL=-23642.483, min SD t=1.91
+RP model: ['off_hit_object_left_bend', 'new_year', 'songkran', 'predestrain', 'concrete_surface', 'Northern [2016-2018]', 'barrier_median [2019-2023]']  LL=-23642.483
+hm: added Northeastern -> predestrain  (LL gain 14.96, LL=-23627.519, 118 tried, 265 s)
+hm: added raining [2016-2019] -> Northern [2016-2018]  (LL gain 6.94, LL=-23620.579, 111 tried, 378 s)
+hm: added normal_curve [2016-2020] -> barrier_median [2019-2023]  (LL gain 5.98, LL=-23614.602, 104 tried, 481 s)
+hv: added raining [2020-2023] -> off_hit_object_left_bend  (LL gain 2.91, LL=-23611.696, 97 tried, 584 s)
+2000-draw confirmation removed: SD ['off_hit_object_left_bend', 'predestrain', 'barrier_median [2019-2023]'], HM ['Northeastern', 'normal_curve [2016-2020]'], HV []
+FINAL (2000 draws): random=['new_year', 'songkran', 'concrete_surface', 'Northern [2016-2018]'], HM=[('Northern [2016-2018]', 'raining [2016-2019]')], HV=[], LL=-23690.381, k=82
+DONE fused_rp_c1_search: LL=-23690.381 k=82  (791 s)

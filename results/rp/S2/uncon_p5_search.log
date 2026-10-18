@@ -1,0 +1,16 @@
+== S2 uncon_p5_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=2681, parameters=46, fixed-parameter LL=-1533.001
+RP screen (15 s): 9 of 45 significant; top 9 by LL gain enter the joint model: ['songkran [2021]', 'wet_road [2021]', 'new_year [2021]', 'Southern [2021]', 'depressed_median [2021]', 'cutting_in_too_close [2021]', 'normal_curve [2021]', 'uturn_decel_only [2021]', 'Northeastern [2021]']
+  joint RP: 9 random, LL=-1487.930, min SD t=1.51
+  joint RP: 8 random, LL=-1488.036, min SD t=1.06
+  joint RP: 7 random, LL=-1509.666, min SD t=1.53
+  joint RP: 6 random, LL=-1510.229, min SD t=1.85
+  joint RP: 5 random, LL=-1515.593, min SD t=2.23
+  joint RP: 4 random, LL=-1520.365, min SD t=2.69
+  joint RP: 3 random, LL=-1526.892, min SD t=2.50
+  joint RP: 2 random, LL=-1528.495, min SD t=2.82
+RP model: ['depressed_median [2021]', 'cutting_in_too_close [2021]']  LL=-1528.495
+hm: added wet_road [2021] -> depressed_median [2021]  (LL gain 4.67, LL=-1523.826, 40 tried, 24 s)
+hm: added raining [2021] -> cutting_in_too_close [2021]  (LL gain 1.80, LL=-1522.023, 38 tried, 28 s)
+hv: no qualifying term (38 pairings tried, 33 s)
+FINAL (2000 draws): random=['depressed_median [2021]', 'cutting_in_too_close [2021]'], HM=[('depressed_median [2021]', 'wet_road [2021]'), ('cutting_in_too_close [2021]', 'raining [2021]')], HV=[], LL=-1522.281, k=48
+DONE uncon_p5_search: LL=-1522.281 k=48  (36 s)

@@ -1,0 +1,84 @@
+﻿Variable,S1: Single motorcycle,S2: Motorcycle and another vehicle,"S3: Single vehicle, no motorcycle","S4: Multi-vehicle, no motorcycle"
+Number of crashes (percentage serious injury/fatal),,,,
+2016,"1,874 (51.9%)","2,617 (42.5%)","7,482 (15.8%)","3,509 (19.8%)"
+2017,,"2,269 (47.6%)","7,911 (13.6%)","3,217 (20.2%)"
+2018,"1,932 (51.2%)","2,759 (47.1%)","8,693 (13.0%)","3,505 (20.7%)"
+2019,,"2,583 (52.0%)","8,808 (13.1%)","4,281 (17.8%)"
+2020,"1,791 (52.9%)","3,327 (44.4%)","9,667 (12.3%)","4,933 (15.7%)"
+2021,,"2,681 (45.5%)","9,882 (10.2%)","4,189 (15.4%)"
+2022,"1,728 (49.9%)","2,511 (44.1%)","10,320 (9.3%)","4,647 (14.1%)"
+2023,,"2,624 (45.7%)","10,968 (9.3%)","5,365 (13.3%)"
+"All years, 2016–2023","7,325 (51.5%)","21,371 (46.0%)","73,731 (11.8%)","33,646 (16.7%)"
+"Explanatory variables, mean (standard deviation)",,,,
+Vehicle involvement,,,,
+One motorcycle involved,–,0.973 (0.163),–,–
+One passenger car involved,–,0.420 (0.494),0.294 (0.455),0.361 (0.480)
+Two or more passenger cars involved,–,–,–,0.235 (0.424)
+One pickup truck involved,–,0.395 (0.489),–,0.402 (0.490)
+Two or more pickup trucks involved,–,0.019 (0.136),–,0.229 (0.420)
+One 6-wheel truck involved,–,0.039 (0.194),0.049 (0.217),0.091 (0.288)
+One 10-wheel truck involved,–,0.032 (0.177),0.040 (0.196),0.083 (0.276)
+One truck with more than 10 wheels involved,–,0.074 (0.262),0.104 (0.305),0.168 (0.374)
+Two or more trucks with more than 10 wheels involved,–,–,–,0.030 (0.171)
+Van involved,–,0.023 (0.150),0.016 (0.126),0.059 (0.235)
+Bus involved,–,–,–,0.025 (0.155)
+Pedestrian involved,0.038 (0.192),–,0.014 (0.119),–
+Crash type,,,,
+Rear-end collision in the same lane,0.048 (0.213),0.323 (0.468),0.008 (0.091),0.521 (0.500)
+Ran off road to the left and hit an object,0.063 (0.244),–,0.195 (0.396),–
+Vehicle mounted a traffic island,0.048 (0.214),–,0.174 (0.379),–
+Ran off road to the right and hit an object,–,–,0.174 (0.379),–
+Sideswipe (parallel movement),0.033 (0.178),0.169 (0.375),–,0.113 (0.316)
+Ran off road to the left,0.248 (0.432),–,0.073 (0.260),–
+Ran off road on a right bend and hit an object,–,–,0.090 (0.286),–
+Ran off road on a left bend and hit an object,–,–,0.073 (0.261),–
+Ran off road to the right,0.067 (0.251),–,0.047 (0.211),–
+Head-on collision,–,0.054 (0.225),–,0.073 (0.261)
+Loss of vehicle control,0.143 (0.350),–,–,–
+Ran off road on a left bend,0.057 (0.232),–,0.033 (0.180),–
+Ran off road on a right bend,0.064 (0.246),–,0.031 (0.174),–
+Crash cause,,,,
+Speeding,0.762 (0.426),0.626 (0.484),0.774 (0.418),0.771 (0.420)
+Cutting in too closely,0.056 (0.229),0.276 (0.447),0.017 (0.128),0.114 (0.318)
+Driver fell asleep,0.021 (0.145),–,0.104 (0.305),0.032 (0.177)
+Drunk driving,0.103 (0.303),–,–,–
+Running a red light,–,0.029 (0.168),–,–
+Roadway characteristics,,,,
+Crash on the main carriageway,0.045 (0.207),0.052 (0.222),0.058 (0.234),0.115 (0.319)
+Crash on a frontage road,0.045 (0.208),0.078 (0.269),–,–
+Road under construction,0.035 (0.184),0.025 (0.156),0.018 (0.133),0.031 (0.173)
+Painted median,0.076 (0.266),0.101 (0.302),0.051 (0.221),0.050 (0.219)
+Raised or earth median,0.244 (0.430),0.283 (0.450),0.255 (0.436),0.205 (0.404)
+Depressed median,0.177 (0.382),0.179 (0.384),0.320 (0.467),0.229 (0.420)
+Barrier median,0.101 (0.301),0.139 (0.346),0.143 (0.350),0.341 (0.474)
+Horizontal curve,0.176 (0.381),0.072 (0.258),0.238 (0.426),0.082 (0.274)
+Concrete pavement surface,0.134 (0.340),0.155 (0.362),0.115 (0.319),0.168 (0.374)
+Crest vertical curve,–,–,0.022 (0.147),–
+Sag vertical curve,–,–,0.017 (0.130),–
+On grade,–,–,0.046 (0.210),0.022 (0.146)
+T-intersection,0.028 (0.166),0.068 (0.251),0.028 (0.165),0.046 (0.210)
+Four-leg intersection,–,0.054 (0.225),–,0.050 (0.218)
+U-turn without auxiliary lane,–,0.025 (0.155),–,–
+U-turn with deceleration lane only,–,0.027 (0.162),0.025 (0.155),0.020 (0.138)
+U-turn with deceleration and acceleration lanes,–,0.019 (0.137),0.020 (0.142),0.015 (0.122)
+Public or commercial access point,–,0.038 (0.192),–,–
+Bridge section,–,–,0.016 (0.125),–
+Environmental characteristics,,,,
+Wet road surface,0.057 (0.231),0.050 (0.218),0.208 (0.406),0.109 (0.311)
+Raining,0.048 (0.213),0.043 (0.203),0.195 (0.396),0.099 (0.299)
+"Dark, no street lighting",0.156 (0.363),0.079 (0.270),0.082 (0.275),0.063 (0.242)
+"Dark, with street lighting",0.401 (0.490),0.274 (0.446),0.387 (0.487),0.298 (0.457)
+Temporal characteristics,,,,
+Weekend,0.327 (0.469),0.280 (0.449),0.295 (0.456),0.295 (0.456)
+Songkran festival period,0.199 (0.400),0.103 (0.304),0.045 (0.207),0.052 (0.221)
+New Year festival period,0.242 (0.428),0.134 (0.341),0.049 (0.216),0.072 (0.259)
+Public holiday,–,0.018 (0.133),0.023 (0.149),–
+Evening,0.347 (0.476),0.284 (0.451),0.224 (0.417),0.236 (0.424)
+Midnight / early morning,0.240 (0.427),0.094 (0.291),0.288 (0.453),0.157 (0.363)
+Peak hours,0.173 (0.378),0.255 (0.436),0.175 (0.380),0.199 (0.399)
+Region,,,,
+Eastern region,0.068 (0.251),0.065 (0.247),0.123 (0.328),0.154 (0.361)
+Northeastern region,0.197 (0.398),0.188 (0.391),0.223 (0.416),0.147 (0.354)
+Northern region,0.168 (0.373),0.127 (0.333),0.128 (0.334),0.072 (0.258)
+Southern region,0.134 (0.341),0.137 (0.344),0.166 (0.373),0.102 (0.303)
+Western region,0.070 (0.256),0.064 (0.245),0.085 (0.278),0.060 (0.237)

@@ -1,0 +1,128 @@
+=== S1 started 2026-10-18 00:30:56
+  S1 uncon_p0_search (search) started 00:30:56  (elapsed 0.00 h)
+  S1 uncon_p0 (prune) started 00:33:10  (elapsed 0.04 h)
+  S1 uncon_p1_search (search) started 00:34:07  (elapsed 0.06 h)
+  S1 uncon_p1 (prune) started 00:36:27  (elapsed 0.09 h)
+  S1 uncon_p2_search (search) started 00:37:24  (elapsed 0.11 h)
+  S1 uncon_p2 (prune) started 00:39:41  (elapsed 0.15 h)
+  S1 uncon_p3_search (search) started 00:40:32  (elapsed 0.16 h)
+  S1 uncon_p3 (prune) started 00:42:45  (elapsed 0.20 h)
+  pruned period models: LL=-4510.101, k=92
+  S1 pc_s1_search (search) started 00:43:44  (elapsed 0.22 h)
+  S1 pc_s1 (prune) started 01:29:11  (elapsed 0.97 h)
+  S1 fused_s1_search (search) started 01:32:06  (elapsed 1.02 h)
+  S1 fused_s1 (prune) started 01:43:29  (elapsed 1.21 h)
+  S1 fused structure in the RP model started 01:46:03
+  S1 fused_rp_c0_search (search) started 01:48:50  (elapsed 1.30 h)
+  S1 fused_rp_c0 (prune) started 01:56:54  (elapsed 1.44 h)
+  fused candidate 0: k=39, LL=-4553.857, LR=87.5, df=53, conf=0.998 -> rejected, next candidate
+  S1 fused_rp_c1_search (search) started 01:59:04  (elapsed 1.47 h)
+  S1 fused_rp_c1 (prune) started 02:08:09  (elapsed 1.62 h)
+  fused candidate 1: k=39, LL=-4560.396, LR=100.6, df=53, conf=1.000 -> rejected, next candidate
+  S1 fused_rp_c2_search (search) started 02:10:40  (elapsed 1.66 h)
+  S1 fused_rp_c2 (prune) started 02:20:19  (elapsed 1.83 h)
+  fused candidate 2: k=43, LL=-4552.457, LR=84.7, df=49, conf=0.999 -> rejected, next candidate
+  S1 fused_rp_c3_search (search) started 02:22:34  (elapsed 1.86 h)
+  S1 fused_rp_c3 (prune) started 02:34:00  (elapsed 2.05 h)
+  fused candidate 3: k=49, LL=-4527.259, LR=34.3, df=43, conf=0.175 -> not rejected
+  S1 PC structure in the RP model started 02:36:26
+  S1 pc_rp_search (search) started 02:47:49  (elapsed 2.28 h)
+  S1 pc_rp (prune) started 02:59:14  (elapsed 2.47 h)
+=== S1 DONE: adaptive fused -> fused_s1, partially constrained -> pc_s1; elapsed 2.51 h
+=== S2 started 2026-10-18 03:01:30
+  S2 uncon_p0_search (search) started 03:01:30  (elapsed 2.51 h)
+  S2 uncon_p0 (prune) started 03:03:59  (elapsed 2.55 h)
+  S2 uncon_p1_search (search) started 03:04:32  (elapsed 2.56 h)
+  S2 uncon_p1 (prune) started 03:06:40  (elapsed 2.60 h)
+  S2 uncon_p2_search (search) started 03:07:24  (elapsed 2.61 h)
+  S2 uncon_p2 (prune) started 03:08:57  (elapsed 2.64 h)
+  S2 uncon_p3_search (search) started 03:09:17  (elapsed 2.64 h)
+  S2 uncon_p3 (prune) started 03:10:30  (elapsed 2.66 h)
+  S2 uncon_p4_search (search) started 03:10:39  (elapsed 2.66 h)
+  S2 uncon_p4 (prune) started 03:11:28  (elapsed 2.68 h)
+  S2 uncon_p5_search (search) started 03:11:37  (elapsed 2.68 h)
+  S2 uncon_p5 (prune) started 03:12:16  (elapsed 2.69 h)
+  S2 uncon_p6_search (search) started 03:12:24  (elapsed 2.69 h)
+  S2 uncon_p6 (prune) started 03:13:05  (elapsed 2.71 h)
+  S2 uncon_p7_search (search) started 03:13:11  (elapsed 2.71 h)
+  S2 uncon_p7 (prune) started 03:13:47  (elapsed 2.72 h)
+  pruned period models: LL=-12010.214, k=239
+  S2 pc_s1_search (search) started 03:13:54  (elapsed 2.72 h)
+  S2 pc_s1 (prune) started 03:24:35  (elapsed 2.90 h)
+  S2 fused_s1_search (search) started 03:28:33  (elapsed 2.96 h)
+  S2 fused_s1 (prune) started 03:34:40  (elapsed 3.06 h)
+  S2 fused structure in the RP model started 03:38:03
+  S2 fused_rp_c0_search (search) started 03:41:14  (elapsed 3.17 h)
+  S2 fused_rp_c0 (prune) started 03:45:52  (elapsed 3.25 h)
+  fused candidate 0: k=56, LL=-12052.027, LR=83.6, df=183, conf=0.000 -> not rejected
+  S2 PC structure in the RP model started 03:47:53
+  S2 pc_rp_search (search) started 04:00:17  (elapsed 3.49 h)
+  S2 pc_rp (prune) started 04:10:49  (elapsed 3.67 h)
+=== S2 DONE: adaptive fused -> fused_rp_c0, partially constrained -> pc_s1; elapsed 3.74 h
+=== S4 started 2026-10-18 04:15:10
+  S4 uncon_p0_search (search) started 04:15:10  (elapsed 3.74 h)
+  S4 uncon_p0 (prune) started 04:15:44  (elapsed 3.75 h)
+  S4 uncon_p1_search (search) started 04:15:52  (elapsed 3.75 h)
+  S4 uncon_p1 (prune) started 04:16:28  (elapsed 3.76 h)
+  S4 uncon_p2_search (search) started 04:16:35  (elapsed 3.76 h)
+  S4 uncon_p2 (prune) started 04:17:12  (elapsed 3.77 h)
+  S4 uncon_p3_search (search) started 04:17:19  (elapsed 3.78 h)
+  S4 uncon_p3 (prune) started 04:17:53  (elapsed 3.78 h)
+  S4 uncon_p4_search (search) started 04:18:03  (elapsed 3.79 h)
+  S4 uncon_p4 (prune) started 04:18:43  (elapsed 3.80 h)
+  S4 uncon_p5_search (search) started 04:18:54  (elapsed 3.80 h)
+  S4 uncon_p5 (prune) started 04:19:32  (elapsed 3.81 h)
+  S4 uncon_p6_search (search) started 04:19:41  (elapsed 3.82 h)
+  S4 uncon_p6 (prune) started 04:20:18  (elapsed 3.83 h)
+  S4 uncon_p7_search (search) started 04:20:28  (elapsed 3.83 h)
+  S4 uncon_p7 (prune) started 04:21:09  (elapsed 3.84 h)
+  pruned period models: LL=-12541.726, k=215
+  S4 pc_s1_search (search) started 04:21:20  (elapsed 3.84 h)
+  S4 pc_s1 (prune) started 04:33:27  (elapsed 4.04 h)
+  S4 fused_s1_search (search) started 04:39:48  (elapsed 4.15 h)
+  S4 fused_s1 (prune) started 04:46:26  (elapsed 4.26 h)
+  S4 fused structure in the RP model started 04:50:17
+  S4 fused_rp_c0_search (search) started 04:56:29  (elapsed 4.43 h)
+  S4 fused_rp_c0 (prune) started 05:06:56  (elapsed 4.60 h)
+  fused candidate 0: k=72, LL=-12617.432, LR=151.4, df=143, conf=0.701 -> not rejected
+  S4 PC structure in the RP model started 05:13:33
+  S4 pc_rp_search (search) started 05:51:41  (elapsed 5.35 h)
+  S4 pc_rp (prune) started 06:02:40  (elapsed 5.53 h)
+=== S4 DONE: adaptive fused -> fused_rp_c0, partially constrained -> pc_rp; elapsed 5.64 h
+=== S3 started 2026-10-18 06:09:03
+  S3 uncon_p0_search (search) started 06:09:03  (elapsed 5.64 h)
+  S3 uncon_p0 (prune) started 06:09:44  (elapsed 5.65 h)
+  S3 uncon_p1_search (search) started 06:09:55  (elapsed 5.65 h)
+  S3 uncon_p1 (prune) started 06:10:40  (elapsed 5.66 h)
+  S3 uncon_p2_search (search) started 06:10:56  (elapsed 5.67 h)
+  S3 uncon_p2 (prune) started 06:11:44  (elapsed 5.68 h)
+  S3 uncon_p3_search (search) started 06:11:58  (elapsed 5.69 h)
+  S3 uncon_p3 (prune) started 06:12:48  (elapsed 5.70 h)
+  S3 uncon_p4_search (search) started 06:13:10  (elapsed 5.71 h)
+  S3 uncon_p4 (prune) started 06:14:04  (elapsed 5.72 h)
+  S3 uncon_p5_search (search) started 06:14:22  (elapsed 5.73 h)
+  S3 uncon_p5 (prune) started 06:15:18  (elapsed 5.74 h)
+  S3 uncon_p6_search (search) started 06:15:33  (elapsed 5.75 h)
+  S3 uncon_p6 (prune) started 06:16:25  (elapsed 5.76 h)
+  S3 uncon_p7_search (search) started 06:16:45  (elapsed 5.77 h)
+  S3 uncon_p7 (prune) started 06:17:35  (elapsed 5.78 h)
+  pruned period models: LL=-23555.966, k=238
+  S3 pc_s1_search (search) started 06:17:57  (elapsed 5.79 h)
+  S3 pc_s1 (prune) started 06:35:53  (elapsed 6.08 h)
+  S3 fused_s1_search (search) started 06:49:40  (elapsed 6.31 h)
+  S3 fused_s1 (prune) started 07:02:23  (elapsed 6.53 h)
+  S3 fused structure in the RP model started 07:11:43
+  S3 fused_rp_c0_search (search) started 07:21:26  (elapsed 6.84 h)
+  S3 fused_rp_c0 (prune) started 07:33:26  (elapsed 7.04 h)
+  fused candidate 0: k=63, LL=-23662.898, LR=213.9, df=175, conf=0.976 -> rejected, next candidate
+  S3 fused_rp_c1_search (search) started 07:40:54  (elapsed 7.17 h)
+  S3 fused_rp_c1 (prune) started 07:54:07  (elapsed 7.39 h)
+  fused candidate 1: k=64, LL=-23698.906, LR=285.9, df=174, conf=1.000 -> rejected, next candidate
+  S3 fused_rp_c2_search (search) started 07:57:47  (elapsed 7.45 h)
+  S3 fused_rp_c2 (prune) started 08:12:08  (elapsed 7.69 h)
+  fused candidate 2: k=82, LL=-23618.518, LR=125.1, df=156, conf=0.033 -> not rejected
+  S3 PC structure in the RP model started 08:22:21
+  S3 pc_rp_search (search) started 09:11:02  (elapsed 8.67 h)
+  S3 pc_rp (prune) started 09:34:20  (elapsed 9.06 h)
+=== S3 DONE: adaptive fused -> fused_s1, partially constrained -> pc_s1; elapsed 9.25 h
+ALL DONE

@@ -1,0 +1,162 @@
+{
+ "subset": "S3",
+ "tag": "fused_s1",
+ "mode": "prune",
+ "structure": "results/stage1/struct_S3_fused.json",
+ "period": null,
+ "draws_search": 100,
+ "draws_final": 2000,
+ "caps": {
+  "random_parameters": 8,
+  "het_means": 3,
+  "het_variances": 1
+ },
+ "N": 73731,
+ "P_structure": 69,
+ "LL_fixed": -23748.79210485781,
+ "LL": -23646.866383180077,
+ "k": 65,
+ "AIC": 47423.73276636015,
+ "BIC": 48022.26437626313,
+ "random": [
+  "off_hit_object_left_bend",
+  "new_year",
+  "songkran",
+  "normal_curve",
+  "Northern [2019-2023]",
+  "concrete_surface",
+  "barrier_median [2019-2023]",
+  "predestrain [2016-2022]"
+ ],
+ "HM": [
+  [
+   "predestrain [2016-2022]",
+   "Northeastern"
+  ],
+  [
+   "normal_curve",
+   "dark_with_lighting"
+  ],
+  [
+   "normal_curve",
+   "raining [2020-2023]"
+  ]
+ ],
+ "HV": [
+  [
+   "normal_curve",
+   "raining [2016-2019]"
+  ]
+ ],
+ "dropped": [
+  "Northern [2016-2018]",
+  "Western [2016]",
+  "Peak hours",
+  "crest",
+  "sag",
+  "on_grade",
+  "Evening",
+  "uturn_decel_only",
+  "uturn_both_lanes",
+  "Eastern",
+  "Western [2017]",
+  "depressed_median"
+ ],
+ "start": "fused_s1_search",
+ "start_spec": {
+  "rnd": [
+   38,
+   14,
+   13,
+   54,
+   19,
+   55,
+   53,
+   10
+  ],
+  "hm": [
+   [
+    10,
+    17
+   ],
+   [
+    54,
+    68
+   ],
+   [
+    54,
+    65
+   ]
+  ],
+  "hv": [
+   [
+    54,
+    64
+   ]
+  ],
+  "drop": []
+ },
+ "prune_history": [
+  {
+   "removed": [
+    "fixed:Northern [2016-2018] (t=0.58)",
+    "fixed:Western [2016] (t=0.04)",
+    "fixed:Peak hours (t=0.40)",
+    "fixed:crest (t=0.68)",
+    "fixed:sag (t=0.10)"
+   ],
+   "k": 72,
+   "LL": -23639.090929426537
+  },
+  {
+   "removed": [
+    "fixed:on_grade (t=1.46)"
+   ],
+   "k": 71,
+   "LL": -23640.179702594025
+  },
+  {
+   "removed": [
+    "fixed:Evening (t=1.48)"
+   ],
+   "k": 70,
+   "LL": -23641.2638900765
+  },
+  {
+   "removed": [
+    "fixed:uturn_decel_only (t=1.45)"
+   ],
+   "k": 69,
+   "LL": -23642.349954716185
+  },
+  {
+   "removed": [
+    "fixed:uturn_both_lanes (t=1.38)"
+   ],
+   "k": 68,
+   "LL": -23643.33520422173
+  },
+  {
+   "removed": [
+    "fixed:Eastern (t=1.55)"
+   ],
+   "k": 67,
+   "LL": -23644.5254898713
+  },
+  {
+   "removed": [
+    "fixed:Western [2017] (t=1.49)"
+   ],
+   "k": 66,
+   "LL": -23645.608726611623
+  },
+  {
+   "removed": [
+    "fixed:depressed_median (t=1.59)"
+   ],
+   "k": 65,
+   "LL": -23646.866383180077
+  }
+ ],
+ "seconds": 557
+}

@@ -1,0 +1,15 @@
+== S3 uncon_p6_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=10320, parameters=51, fixed-parameter LL=-2849.402
+RP screen (15 s): 7 of 50 significant; top 7 by LL gain enter the joint model: ['Northern [2022]', 'off_right_hit_object [2022]', 'new_year [2022]', 'barrier_median [2022]', 'main_carriageway [2022]', 'Peak hours [2022]', 'car_1 [2022]']
+  joint RP: 7 random, LL=-2838.835, min SD t=0.36
+  joint RP: 6 random, LL=-2839.672, min SD t=1.92
+  joint RP: 5 random, LL=-2839.741, min SD t=1.63
+  joint RP: 4 random, LL=-2841.094, min SD t=2.20
+  joint RP: 3 random, LL=-2842.779, min SD t=2.78
+  joint RP: 2 random, LL=-2845.344, min SD t=2.43
+RP model: ['Northern [2022]', 'car_1 [2022]']  LL=-2845.344
+hm: added off_right_hit_object [2022] -> Northern [2022]  (LL gain 3.24, LL=-2842.100, 60 tried, 25 s)
+hm: added Evening [2022] -> Northern [2022]  (LL gain 2.69, LL=-2839.407, 58 tried, 31 s)
+hv: added raining [2022] -> Northern [2022]  (LL gain 2.23, LL=-2837.179, 54 tried, 38 s)
+2000-draw confirmation removed: SD [], HM [], HV ['raining [2022]']
+FINAL (2000 draws): random=['Northern [2022]', 'car_1 [2022]'], HM=[('Northern [2022]', 'off_right_hit_object [2022]'), ('Northern [2022]', 'Evening [2022]')], HV=[], LL=-2838.949, k=53
+DONE uncon_p6_search: LL=-2838.949 k=53  (49 s)

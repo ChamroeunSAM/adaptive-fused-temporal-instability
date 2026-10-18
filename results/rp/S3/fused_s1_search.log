@@ -1,0 +1,18 @@
+== S3 fused_s1_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=8/3/1]: N=73731, parameters=69, fixed-parameter LL=-23748.792
+RP screen (39 s): 22 of 64 significant; top 16 by LL gain enter the joint model: ['off_hit_object_left_bend', 'on_grade', 'new_year', 'off_hit_object_right_bend [2021-2023]', 'songkran', 'normal_curve', 'Northern [2019-2023]', 'Western [2017]', 'concrete_surface', 'barrier_median [2019-2023]', 'off_hit_object_right_bend [2019-2020]', 'Northern [2016-2018]', 'under_construction', 'Western [2018-2023]', 'predestrain [2016-2022]', 'off_hit_object_right_bend [2016-2018]']
+  joint RP: 16 random, LL=-23646.164, min SD t=1.00
+  joint RP: 15 random, LL=-23654.782, min SD t=1.65
+  joint RP: 14 random, LL=-23665.329, min SD t=0.90
+  joint RP: 13 random, LL=-23663.841, min SD t=2.05
+  joint RP: 12 random, LL=-23668.584, min SD t=1.92
+  joint RP: 11 random, LL=-23667.523, min SD t=2.28
+  joint RP: 10 random, LL=-23670.154, min SD t=2.96
+  joint RP: 9 random, LL=-23673.439, min SD t=3.35
+  joint RP: 8 random, LL=-23682.140, min SD t=2.45
+RP model: ['off_hit_object_left_bend', 'new_year', 'songkran', 'normal_curve', 'Northern [2019-2023]', 'concrete_surface', 'barrier_median [2019-2023]', 'predestrain [2016-2022]']  LL=-23682.140
+hm: added Northeastern -> predestrain [2016-2022]  (LL gain 11.04, LL=-23671.101, 113 tried, 235 s)
+hm: added dark_with_lighting -> normal_curve  (LL gain 9.82, LL=-23661.285, 105 tried, 348 s)
+hm: added raining [2020-2023] -> normal_curve  (LL gain 7.58, LL=-23653.704, 98 tried, 455 s)
+hv: added raining [2016-2019] -> normal_curve  (LL gain 9.63, LL=-23644.078, 90 tried, 559 s)
+FINAL (2000 draws): random=['off_hit_object_left_bend', 'new_year', 'songkran', 'normal_curve', 'Northern [2019-2023]', 'concrete_surface', 'barrier_median [2019-2023]', 'predestrain [2016-2022]'], HM=[('predestrain [2016-2022]', 'Northeastern'), ('normal_curve', 'dark_with_lighting'), ('normal_curve', 'raining [2020-2023]')], HV=[('normal_curve', 'raining [2016-2019]')], LL=-23638.630, k=77
+DONE fused_s1_search: LL=-23638.630 k=77  (761 s)

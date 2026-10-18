@@ -1,0 +1,15 @@
+data/raw/
+data/processed/
+results/*
+!results/stage1/
+!results/rp/
+!results/final/
+!results/tables/
+!results/environment.json
+!results/stage2_run.log
+validation/output/
+__pycache__/
+*.pyc
+.venv/
+biogeme.toml
+*.iter

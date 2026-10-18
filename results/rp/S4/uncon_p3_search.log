@@ -1,0 +1,20 @@
+== S4 uncon_p3_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=4281, parameters=45, fixed-parameter LL=-1651.412
+RP screen (11 s): 14 of 44 significant; top 14 by LL gain enter the joint model: ['normal_curve [2019]', 'Southern [2019]', 'Midnight/early morning [2019]', 'dark_no_lighting [2019]', 'painted_median [2019]', 'sideswipe_parallel [2019]', 'Western [2019]', 'truck_6_1 [2019]', 'head_on [2019]', 'Northern [2019]', 'pickup_1 [2019]', 'cutting_in_too_close [2019]', 'depressed_median [2019]', 'truck_>10_1 [2019]']
+  joint RP: 14 random, LL=-1617.201, min SD t=0.05
+  joint RP: 13 random, LL=-1616.660, min SD t=0.65
+  joint RP: 12 random, LL=-1617.755, min SD t=0.02
+  joint RP: 11 random, LL=-1618.781, min SD t=1.38
+  joint RP: 10 random, LL=-1619.245, min SD t=1.79
+  joint RP: 9 random, LL=-1622.979, min SD t=2.00
+  joint RP: 8 random, LL=-1622.609, min SD t=2.11
+  joint RP: 7 random, LL=-1630.702, min SD t=1.83
+  joint RP: 6 random, LL=-1632.206, min SD t=1.84
+  joint RP: 5 random, LL=-1633.988, min SD t=1.84
+  joint RP: 4 random, LL=-1635.275, min SD t=2.30
+  joint RP: 3 random, LL=-1639.422, min SD t=2.12
+  joint RP: 2 random, LL=-1640.337, min SD t=2.79
+RP model: ['normal_curve [2019]', 'pickup_1 [2019]']  LL=-1640.337
+hm: no qualifying term (46 pairings tried, 23 s)
+hv: no qualifying term (46 pairings tried, 27 s)
+FINAL (2000 draws): random=['normal_curve [2019]', 'pickup_1 [2019]'], HM=[], HV=[], LL=-1640.235, k=47
+DONE uncon_p3_search: LL=-1640.235 k=47  (31 s)

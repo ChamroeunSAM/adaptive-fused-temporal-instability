@@ -1,0 +1,154 @@
+{
+ "subset": "S3",
+ "tag": "fused_rp_c0",
+ "mode": "prune",
+ "structure": "results/rp/S3/fused_rp_c0_struct.json",
+ "period": null,
+ "draws_search": 100,
+ "draws_final": 2000,
+ "caps": {
+  "random_parameters": 8,
+  "het_means": 3,
+  "het_variances": 1
+ },
+ "N": 73731,
+ "P_structure": 66,
+ "LL_fixed": -23767.22927362946,
+ "LL": -23662.898364156536,
+ "k": 63,
+ "AIC": 47451.79672831307,
+ "BIC": 48031.91198098826,
+ "random": [
+  "on_grade",
+  "off_hit_object_left_bend",
+  "new_year",
+  "songkran",
+  "Northern",
+  "concrete_surface",
+  "under_construction",
+  "barrier_median [2019-2023]"
+ ],
+ "HM": [
+  [
+   "on_grade",
+   "raining [2020-2023]"
+  ],
+  [
+   "on_grade",
+   "raining [2016-2019]"
+  ],
+  [
+   "Northern",
+   "normal_curve [2021-2023]"
+  ]
+ ],
+ "HV": [
+  [
+   "concrete_surface",
+   "sag"
+  ]
+ ],
+ "dropped": [
+  "Peak hours",
+  "depressed_median",
+  "normal_curve [2016-2020]",
+  "bridge [2016]",
+  "dark_with_lighting",
+  "crest",
+  "uturn_both_lanes",
+  "uturn_decel_only",
+  "Northeastern",
+  "Eastern",
+  "holiday"
+ ],
+ "start": "fused_rp_c0_search",
+ "start_spec": {
+  "rnd": [
+   54,
+   33,
+   13,
+   12,
+   17,
+   51,
+   43,
+   48
+  ],
+  "hm": [
+   [
+    54,
+    62
+   ],
+   [
+    54,
+    61
+   ],
+   [
+    17,
+    50
+   ]
+  ],
+  "hv": [
+   [
+    51,
+    53
+   ]
+  ],
+  "drop": []
+ },
+ "prune_history": [
+  {
+   "removed": [
+    "fixed:Peak hours (t=0.64)",
+    "fixed:depressed_median (t=0.92)",
+    "fixed:normal_curve [2016-2020] (t=0.90)",
+    "fixed:bridge [2016] (t=0.70)",
+    "fixed:dark_with_lighting (t=0.65)"
+   ],
+   "k": 69,
+   "LL": -23656.216973923423
+  },
+  {
+   "removed": [
+    "fixed:crest (t=1.13)"
+   ],
+   "k": 68,
+   "LL": -23656.84457623752
+  },
+  {
+   "removed": [
+    "fixed:uturn_both_lanes (t=1.48)"
+   ],
+   "k": 67,
+   "LL": -23657.97268185203
+  },
+  {
+   "removed": [
+    "fixed:uturn_decel_only (t=1.49)"
+   ],
+   "k": 66,
+   "LL": -23659.113372114785
+  },
+  {
+   "removed": [
+    "fixed:Northeastern (t=1.59)"
+   ],
+   "k": 65,
+   "LL": -23660.383573132
+  },
+  {
+   "removed": [
+    "fixed:Eastern (t=1.50)"
+   ],
+   "k": 64,
+   "LL": -23661.50427070335
+  },
+  {
+   "removed": [
+    "fixed:holiday (t=1.64)"
+   ],
+   "k": 63,
+   "LL": -23662.898364156536
+  }
+ ],
+ "seconds": 445
+}

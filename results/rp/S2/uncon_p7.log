@@ -1,0 +1,10 @@
+== S2 uncon_p7 [mode prune, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=2624, parameters=46, fixed-parameter LL=-1474.537
+start from uncon_p7_search: k=48, LL=-1461.791
+  removed 13: ['fixed:motor_1 [2023] (t=0.23)', 'fixed:truck_6_1 [2023] (t=0.85)', 'fixed:weekend [2023] (t=0.83)', 'fixed:Peak hours [2023] (t=0.10)', 'fixed:rear_end_same_lane [2023] (t=0.59)', 'fixed:running_red_light [2023] (t=0.58)', 'fixed:painted_median [2023] (t=0.94)', 'fixed:t_intersection [2023] (t=0.45)', 'fixed:plus_intersection [2023] (t=0.15)', 'fixed:uturn_decel_only [2023] (t=0.79)', 'fixed:access_public_commercial [2023] (t=0.71)', 'fixed:dark_no_lighting [2023] (t=0.63)', 'fixed:dark_with_lighting [2023] (t=0.29)'] -> k=35, LL=-1464.135  (3 s)
+  removed 1: ['fixed:normal_curve [2023] (t=1.08)'] -> k=34, LL=-1464.725  (3 s)
+  removed 1: ['fixed:uturn_both_lanes [2023] (t=1.19)'] -> k=33, LL=-1465.446  (3 s)
+  removed 1: ['fixed:raised_earth_median [2023] (t=1.27)'] -> k=32, LL=-1466.261  (4 s)
+  removed 1: ['fixed:cutting_in_too_close [2023] (t=1.63)'] -> k=31, LL=-1467.607  (4 s)
+  removed 1: ['fixed:speeding [2023] (t=1.40)'] -> k=30, LL=-1468.598  (4 s)
+FINAL (all significant at 90%): random=['concrete_surface [2023]', 'pickup_1 [2023]'], HM=[('concrete_surface [2023]', 'uturn_no_lane [2023]'), ('concrete_surface [2023]', 'Northern [2023]')], HV=[], dropped=18, LL=-1468.598, k=30
+DONE uncon_p7: LL=-1468.598 k=30  (4 s)

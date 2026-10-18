@@ -1,0 +1,20 @@
+== S4 uncon_p4_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=4933, parameters=45, fixed-parameter LL=-1774.605
+RP screen (11 s): 13 of 44 significant; top 13 by LL gain enter the joint model: ['truck_10_1 [2020]', 'Peak hours [2020]', 'Northern [2020]', 'new_year [2020]', 'Southern [2020]', 'normal_curve [2020]', 'car_>1 [2020]', 'head_on [2020]', 'truck_>10_1 [2020]', 'raised_earth_median [2020]', 'Western [2020]', 'pickup_>1 [2020]', 'Evening [2020]']
+  joint RP: 13 random, LL=-1749.910, min SD t=0.53
+  joint RP: 12 random, LL=-1748.961, min SD t=0.60
+  joint RP: 11 random, LL=-1749.425, min SD t=1.27
+  joint RP: 10 random, LL=-1748.688, min SD t=0.59
+  joint RP: 9 random, LL=-1747.128, min SD t=2.13
+  joint RP: 8 random, LL=-1750.548, min SD t=2.42
+  joint RP: 7 random, LL=-1754.025, min SD t=2.58
+  joint RP: 6 random, LL=-1755.379, min SD t=2.14
+  joint RP: 5 random, LL=-1760.791, min SD t=2.24
+  joint RP: 4 random, LL=-1763.627, min SD t=2.74
+  joint RP: 3 random, LL=-1764.547, min SD t=2.86
+  joint RP: 2 random, LL=-1769.702, min SD t=2.69
+RP model: ['Peak hours [2020]', 'Evening [2020]']  LL=-1769.702
+hm: added truck_>10_1 [2020] -> Evening [2020]  (LL gain 6.21, LL=-1763.489, 52 tried, 23 s)
+hm: added new_year [2020] -> Evening [2020]  (LL gain 1.90, LL=-1761.589, 50 tried, 28 s)
+hv: added depressed_median [2020] -> Evening [2020]  (LL gain 1.90, LL=-1759.694, 48 tried, 33 s)
+FINAL (2000 draws): random=['Peak hours [2020]', 'Evening [2020]'], HM=[('Evening [2020]', 'truck_>10_1 [2020]'), ('Evening [2020]', 'new_year [2020]')], HV=[('Evening [2020]', 'depressed_median [2020]')], LL=-1759.048, k=47
+DONE uncon_p4_search: LL=-1759.048 k=47  (37 s)

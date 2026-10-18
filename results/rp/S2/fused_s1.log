@@ -1,0 +1,13 @@
+== S2 fused_s1 [mode prune, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=8/3/1]: N=21371, parameters=66, fixed-parameter LL=-12218.167
+start from fused_s1_search: k=74, LL=-12080.145
+  removed 7: ['fixed:holiday (t=0.53)', 'fixed:Southern [2016-2017] (t=1.00)', 'fixed:Peak hours (t=0.72)', 'fixed:speeding [2019-2023] (t=0.69)', 'fixed:main_carriageway (t=0.88)', 'fixed:under_construction [2016-2022] (t=0.47)', 'fixed:access_public_commercial (t=0.10)'] -> k=67, LL=-12081.881  (74 s)
+  removed 1: ['fixed:painted_median [2016-2021] (t=0.95)'] -> k=66, LL=-12082.338  (91 s)
+  removed 1: ['fixed:raining [2018-2023] (t=1.02)'] -> k=65, LL=-12082.860  (107 s)
+  removed 1: ['fixed:Evening (t=1.26)'] -> k=64, LL=-12083.650  (123 s)
+  removed 1: ['fixed:songkran [2016] (t=1.25)'] -> k=63, LL=-12084.440  (139 s)
+  removed 1: ['fixed:raining [2016-2017] (t=1.41)'] -> k=62, LL=-12085.433  (154 s)
+  removed 1: ['fixed:pickup_1 [2020-2023] (t=1.49)'] -> k=61, LL=-12086.548  (170 s)
+  removed 1: ['fixed:weekend (t=1.50)'] -> k=60, LL=-12087.671  (185 s)
+  removed 1: ['fixed:concrete_surface [2022-2023] (t=1.54)'] -> k=59, LL=-12088.865  (200 s)
+FINAL (all significant at 90%): random=['songkran [2017-2023]', 'truck_>10_1', 'new_year [2019-2023]', 'cutting_in_too_close', 'pickup_1 [2016-2019]', 'normal_curve', 't_intersection', 'depressed_median'], HM=[('pickup_1 [2016-2019]', 'dark_with_lighting [2016-2019]'), ('depressed_median', 'wet_road [2019-2023]'), ('cutting_in_too_close', 'van')], HV=[], dropped=15, LL=-12088.865, k=59
+DONE fused_s1: LL=-12088.865 k=59  (200 s)

@@ -1,0 +1,18 @@
+== S4 fused_rp_c0_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=8/3/1]: N=33646, parameters=83, fixed-parameter LL=-12721.818
+RP screen (44 s): 35 of 78 significant; top 16 by LL gain enter the joint model: ['normal_curve [2017-2023]', 'truck_>10_1', 'truck_10_1', 'on_grade', 'sideswipe_parallel [2020-2023]', 'Midnight/early morning', 'truck_>10_>1', 'falling_asleep [2021-2023]', 'pickup_>1', 'depressed_median [2019-2023]', 'Western', 'truck_6_1', 'dark_no_lighting [2016-2019]', 'head_on [2016-2020]', 'cutting_in_too_close [2016-2021]', 'Southern [2016-2020]']
+  joint RP: 16 random, LL=-12621.843, min SD t=1.11
+  joint RP: 15 random, LL=-12622.080, min SD t=1.50
+  joint RP: 14 random, LL=-12615.958, min SD t=2.12
+  joint RP: 13 random, LL=-12616.359, min SD t=2.57
+  joint RP: 12 random, LL=-12622.684, min SD t=2.86
+  joint RP: 11 random, LL=-12621.792, min SD t=2.85
+  joint RP: 10 random, LL=-12626.431, min SD t=3.93
+  joint RP: 9 random, LL=-12633.042, min SD t=4.13
+  joint RP: 8 random, LL=-12636.120, min SD t=4.57
+RP model: ['normal_curve [2017-2023]', 'truck_>10_1', 'truck_10_1', 'sideswipe_parallel [2020-2023]', 'truck_>10_>1', 'pickup_>1', 'truck_6_1', 'cutting_in_too_close [2016-2021]']  LL=-12636.120
+hm: added Evening [2017-2023] -> truck_>10_1  (LL gain 9.83, LL=-12626.291, 155 tried, 208 s)
+hm: added t_intersection [2016-2017] -> cutting_in_too_close [2016-2021]  (LL gain 6.13, LL=-12620.160, 141 tried, 320 s)
+hm: added raining [2020-2023] -> normal_curve [2017-2023]  (LL gain 5.78, LL=-12614.380, 134 tried, 423 s)
+hv: added songkran [2016-2021] -> truck_10_1  (LL gain 4.21, LL=-12610.169, 126 tried, 522 s)
+FINAL (2000 draws): random=['normal_curve [2017-2023]', 'truck_>10_1', 'truck_10_1', 'sideswipe_parallel [2020-2023]', 'truck_>10_>1', 'pickup_>1', 'truck_6_1', 'cutting_in_too_close [2016-2021]'], HM=[('truck_>10_1', 'Evening [2017-2023]'), ('cutting_in_too_close [2016-2021]', 't_intersection [2016-2017]'), ('normal_curve [2017-2023]', 'raining [2020-2023]')], HV=[('truck_10_1', 'songkran [2016-2021]')], LL=-12603.749, k=91
+DONE fused_rp_c0_search: LL=-12603.749 k=91  (624 s)

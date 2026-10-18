@@ -1,0 +1,158 @@
+{
+ "subset": "S1",
+ "tag": "fused_s1",
+ "mode": "prune",
+ "structure": "results/stage1/struct_S1_fused.json",
+ "period": null,
+ "draws_search": 100,
+ "draws_final": 2000,
+ "caps": {
+  "random_parameters": 8,
+  "het_means": 3,
+  "het_variances": 1
+ },
+ "N": 7325,
+ "P_structure": 59,
+ "LL_fixed": -4579.676716578193,
+ "LL": -4534.139511612675,
+ "k": 45,
+ "AIC": 9158.27902322535,
+ "BIC": 9468.736202750188,
+ "random": [
+  "concrete_surface",
+  "songkran",
+  "new_year",
+  "raised_earth_median",
+  "Eastern [2016-21]",
+  "Northeastern [2016-21]",
+  "mounts_traffic_island"
+ ],
+ "HM": [
+  [
+   "concrete_surface",
+   "Eastern [2022-23]"
+  ],
+  [
+   "concrete_surface",
+   "Midnight/early morning"
+  ]
+ ],
+ "HV": [
+  [
+   "songkran",
+   "Northern"
+  ]
+ ],
+ "dropped": [
+  "weekend",
+  "Western [2016-19]",
+  "Peak hours",
+  "rear_end_same_lane",
+  "sideswipe_parallel [2020-23]",
+  "off_left [2016-17]",
+  "out_of_control [2016-17]",
+  "off_left_bend",
+  "speeding [2016-17]",
+  "cutting_in_too_close [2016-17]",
+  "falling_asleep [2016-21]",
+  "frontage_road [2020-23]",
+  "under_construction",
+  "normal_curve",
+  "t_intersection",
+  "raining [2016-19]",
+  "drunk_driving [2020-23]",
+  "sideswipe_parallel [2016-19]",
+  "predestrain",
+  "off_right_bend [2018-23]",
+  "Southern"
+ ],
+ "start": "fused_s1_search",
+ "start_spec": {
+  "rnd": [
+   51,
+   4,
+   5,
+   47,
+   6,
+   8,
+   19
+  ],
+  "hm": [
+   [
+    51,
+    7
+   ],
+   [
+    51,
+    15
+   ]
+  ],
+  "hv": [
+   [
+    4,
+    10
+   ]
+  ],
+  "drop": []
+ },
+ "prune_history": [
+  {
+   "removed": [
+    "fixed:weekend (t=0.74)",
+    "fixed:Western [2016-19] (t=0.66)",
+    "fixed:Peak hours (t=0.46)",
+    "fixed:rear_end_same_lane (t=0.62)",
+    "fixed:sideswipe_parallel [2020-23] (t=0.94)",
+    "fixed:off_left [2016-17] (t=0.49)",
+    "fixed:out_of_control [2016-17] (t=0.35)",
+    "fixed:off_left_bend (t=0.12)",
+    "fixed:speeding [2016-17] (t=0.34)",
+    "fixed:cutting_in_too_close [2016-17] (t=0.39)",
+    "fixed:falling_asleep [2016-21] (t=0.42)",
+    "fixed:frontage_road [2020-23] (t=0.98)",
+    "fixed:under_construction (t=0.11)",
+    "fixed:normal_curve (t=0.57)",
+    "fixed:t_intersection (t=0.04)",
+    "fixed:raining [2016-19] (t=0.43)"
+   ],
+   "k": 50,
+   "LL": -4528.986121255634
+  },
+  {
+   "removed": [
+    "fixed:drunk_driving [2020-23] (t=1.33)"
+   ],
+   "k": 49,
+   "LL": -4529.883004716876
+  },
+  {
+   "removed": [
+    "fixed:sideswipe_parallel [2016-19] (t=1.41)"
+   ],
+   "k": 48,
+   "LL": -4530.862343096242
+  },
+  {
+   "removed": [
+    "fixed:predestrain (t=1.46)"
+   ],
+   "k": 47,
+   "LL": -4531.931543755537
+  },
+  {
+   "removed": [
+    "fixed:off_right_bend [2018-23] (t=1.38)"
+   ],
+   "k": 46,
+   "LL": -4532.8894597337585
+  },
+  {
+   "removed": [
+    "fixed:Southern (t=1.55)"
+   ],
+   "k": 45,
+   "LL": -4534.139511612675
+  }
+ ],
+ "seconds": 90
+}

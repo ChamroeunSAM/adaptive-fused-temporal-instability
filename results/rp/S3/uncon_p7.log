@@ -1,0 +1,12 @@
+== S3 uncon_p7 [mode prune, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=10968, parameters=51, fixed-parameter LL=-2987.850
+start from uncon_p7_search: k=53, LL=-2974.478
+  removed 15: ['fixed:songkran [2023] (t=0.88)', 'fixed:Northern [2023] (t=0.80)', 'fixed:Peak hours [2023] (t=0.97)', 'fixed:off_hit_object_left_bend [2023] (t=0.74)', 'fixed:main_carriageway [2023] (t=0.30)', 'fixed:under_construction [2023] (t=0.60)', 'fixed:painted_median [2023] (t=0.55)', 'fixed:depressed_median [2023] (t=0.97)', 'fixed:normal_curve [2023] (t=0.59)', 'fixed:concrete_surface [2023] (t=0.47)', 'fixed:crest [2023] (t=0.16)', 'fixed:sag [2023] (t=0.52)', 'fixed:on_grade [2023] (t=0.40)', 'fixed:raining [2023] (t=0.07)', 'fixed:dark_with_lighting [2023] (t=0.51)'] -> k=38, LL=-2978.362  (11 s)
+  removed 1: ['fixed:uturn_decel_only [2023] (t=1.09)'] -> k=37, LL=-2978.978  (12 s)
+  removed 1: ['fixed:truck_10_1 [2023] (t=1.13)'] -> k=36, LL=-2979.648  (14 s)
+  removed 1: ['fixed:holiday [2023] (t=1.14)'] -> k=35, LL=-2980.342  (15 s)
+  removed 1: ['fixed:raised_earth_median [2023] (t=1.35)'] -> k=34, LL=-2981.265  (16 s)
+  removed 1: ['fixed:car_1 [2023] (t=1.31)'] -> k=33, LL=-2982.105  (17 s)
+  removed 1: ['fixed:new_year [2023] (t=1.47)'] -> k=32, LL=-2983.237  (18 s)
+  removed 1: ['fixed:uturn_both_lanes [2023] (t=1.59)'] -> k=31, LL=-2984.429  (20 s)
+FINAL (all significant at 90%): random=['off_left_hit_object [2023]', 'mounts_traffic_island [2023]'], HM=[('off_left_hit_object [2023]', 'dark_no_lighting [2023]')], HV=[('off_left_hit_object [2023]', 'truck_6_1 [2023]')], dropped=22, LL=-2984.429, k=31
+DONE uncon_p7: LL=-2984.429 k=31  (20 s)

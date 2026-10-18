@@ -1,0 +1,17 @@
+== S3 uncon_p3_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=8808, parameters=51, fixed-parameter LL=-3028.933
+RP screen (15 s): 10 of 50 significant; top 10 by LL gain enter the joint model: ['normal_curve [2019]', 'on_grade [2019]', 'Western [2019]', 'new_year [2019]', 'songkran [2019]', 'concrete_surface [2019]', 'van [2019]', 'raised_earth_median [2019]', 'off_left [2019]', 'dark_with_lighting [2019]']
+  joint RP: 10 random, LL=-3015.953, min SD t=0.66
+  joint RP: 9 random, LL=-3017.045, min SD t=0.17
+  joint RP: 8 random, LL=-3014.351, min SD t=1.22
+  joint RP: 7 random, LL=-3016.791, min SD t=1.54
+  joint RP: 6 random, LL=-3020.150, min SD t=1.66
+  joint RP: 5 random, LL=-3020.370, min SD t=2.34
+  joint RP: 4 random, LL=-3021.642, min SD t=2.33
+  joint RP: 3 random, LL=-3022.989, min SD t=2.17
+  joint RP: 2 random, LL=-3023.617, min SD t=3.17
+RP model: ['normal_curve [2019]', 'raised_earth_median [2019]']  LL=-3023.617
+hm: added Eastern [2019] -> normal_curve [2019]  (LL gain 5.84, LL=-3017.774, 56 tried, 27 s)
+hm: added Northern [2019] -> normal_curve [2019]  (LL gain 2.83, LL=-3014.939, 54 tried, 32 s)
+hv: added raining [2019] -> normal_curve [2019]  (LL gain 2.42, LL=-3012.519, 52 tried, 39 s)
+FINAL (2000 draws): random=['normal_curve [2019]', 'raised_earth_median [2019]'], HM=[('normal_curve [2019]', 'Eastern [2019]'), ('normal_curve [2019]', 'Northern [2019]')], HV=[('normal_curve [2019]', 'raining [2019]')], LL=-3012.110, k=53
+DONE uncon_p3_search: LL=-3012.110 k=53  (47 s)

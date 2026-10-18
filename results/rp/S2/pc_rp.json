@@ -1,0 +1,204 @@
+{
+ "subset": "S2",
+ "tag": "pc_rp",
+ "mode": "prune",
+ "structure": "results/rp/S2/pc_rp_structure.json",
+ "period": null,
+ "draws_search": 100,
+ "draws_final": 2000,
+ "caps": {
+  "random_parameters": 8,
+  "het_means": 3,
+  "het_variances": 1
+ },
+ "N": 21371,
+ "P_structure": 105,
+ "LL_fixed": -12162.15298599618,
+ "LL": -11992.493633231901,
+ "k": 86,
+ "AIC": 24156.987266463802,
+ "BIC": 24842.389218657758,
+ "random": [
+  "new_year",
+  "songkran [2017-2023]",
+  "raining",
+  "cutting_in_too_close [2016-2021]",
+  "Southern [2020-2023]",
+  "normal_curve",
+  "depressed_median [2018-2023]",
+  "Northeastern [2018-2023]"
+ ],
+ "HM": [
+  [
+   "Northeastern [2018-2023]",
+   "t_intersection [2019-2023]"
+  ],
+  [
+   "Southern [2020-2023]",
+   "Evening [2018-2023]"
+  ],
+  [
+   "songkran [2017-2023]",
+   "Midnight/early morning [2016-2017]"
+  ]
+ ],
+ "HV": [
+  [
+   "new_year",
+   "speeding [2019-2021]"
+  ]
+ ],
+ "dropped": [
+  "pickup_1 [2022-2023]",
+  "van [2020-2023]",
+  "songkran [2016]",
+  "holiday [2016-2021]",
+  "Northern [2023]",
+  "Peak hours",
+  "rear_end_same_lane [2022-2023]",
+  "running_red_light [2017]",
+  "running_red_light [2023]",
+  "under_construction [2016-2022]",
+  "raised_earth_median [2020]",
+  "depressed_median [2016-2017]",
+  "concrete_surface [2016-2017]",
+  "concrete_surface [2019]",
+  "plus_intersection [2016-2017]",
+  "uturn_decel_only [2021-2023]",
+  "access_public_commercial",
+  "dark_with_lighting [2019]",
+  "uturn_no_lane [2022]",
+  "concrete_surface [2022-2023]",
+  "painted_median [2016-2021]",
+  "wet_road [2016-2020]",
+  "holiday [2022-2023]",
+  "van [2016]",
+  "plus_intersection [2020-2023]",
+  "cutting_in_too_close [2023]",
+  "pickup_1 [2016-2017]"
+ ],
+ "start": "pc_rp_search",
+ "start_spec": {
+  "rnd": [
+   25,
+   24,
+   99,
+   52,
+   37,
+   78,
+   75,
+   31
+  ],
+  "hm": [
+   [
+    31,
+    86
+   ],
+   [
+    37,
+    40
+   ],
+   [
+    24,
+    41
+   ]
+  ],
+  "hv": [
+   [
+    25,
+    49
+   ]
+  ],
+  "drop": []
+ },
+ "prune_history": [
+  {
+   "removed": [
+    "fixed:pickup_1 [2022-2023] (t=0.69)",
+    "fixed:van [2020-2023] (t=0.91)",
+    "fixed:songkran [2016] (t=0.45)",
+    "fixed:holiday [2016-2021] (t=0.52)",
+    "fixed:Northern [2023] (t=0.22)",
+    "fixed:Peak hours (t=0.34)",
+    "fixed:rear_end_same_lane [2022-2023] (t=0.37)",
+    "fixed:running_red_light [2017] (t=0.08)",
+    "fixed:running_red_light [2023] (t=0.24)",
+    "fixed:under_construction [2016-2022] (t=0.08)",
+    "fixed:raised_earth_median [2020] (t=0.10)",
+    "fixed:depressed_median [2016-2017] (t=0.27)",
+    "fixed:concrete_surface [2016-2017] (t=0.62)",
+    "fixed:concrete_surface [2019] (t=0.88)",
+    "fixed:plus_intersection [2016-2017] (t=0.18)",
+    "fixed:uturn_decel_only [2021-2023] (t=0.89)",
+    "fixed:access_public_commercial (t=0.12)",
+    "fixed:dark_with_lighting [2019] (t=0.56)"
+   ],
+   "k": 95,
+   "LL": -11984.516699965947
+  },
+  {
+   "removed": [
+    "fixed:uturn_no_lane [2022] (t=1.06)"
+   ],
+   "k": 94,
+   "LL": -11985.092965600434
+  },
+  {
+   "removed": [
+    "fixed:concrete_surface [2022-2023] (t=1.07)"
+   ],
+   "k": 93,
+   "LL": -11985.673320532967
+  },
+  {
+   "removed": [
+    "fixed:painted_median [2016-2021] (t=1.06)"
+   ],
+   "k": 92,
+   "LL": -11986.238420483325
+  },
+  {
+   "removed": [
+    "fixed:wet_road [2016-2020] (t=1.27)"
+   ],
+   "k": 91,
+   "LL": -11987.048798469605
+  },
+  {
+   "removed": [
+    "fixed:holiday [2022-2023] (t=1.28)"
+   ],
+   "k": 90,
+   "LL": -11987.865246419577
+  },
+  {
+   "removed": [
+    "fixed:van [2016] (t=1.40)"
+   ],
+   "k": 89,
+   "LL": -11988.869083467485
+  },
+  {
+   "removed": [
+    "fixed:plus_intersection [2020-2023] (t=1.57)"
+   ],
+   "k": 88,
+   "LL": -11990.112881608766
+  },
+  {
+   "removed": [
+    "fixed:cutting_in_too_close [2023] (t=1.50)"
+   ],
+   "k": 87,
+   "LL": -11991.240176164862
+  },
+  {
+   "removed": [
+    "fixed:pickup_1 [2016-2017] (t=1.58)"
+   ],
+   "k": 86,
+   "LL": -11992.493633231901
+  }
+ ],
+ "seconds": 258
+}

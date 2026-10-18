@@ -1,0 +1,8 @@
+== S4 uncon_p2 [mode prune, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=3505, parameters=45, fixed-parameter LL=-1535.489
+start from uncon_p2_search: k=47, LL=-1519.348
+  removed 15: ['fixed:truck_6_1 [2018] (t=0.40)', 'fixed:weekend [2018] (t=0.44)', 'fixed:songkran [2018] (t=0.16)', 'fixed:new_year [2018] (t=0.61)', 'fixed:Northern [2018] (t=0.84)', 'fixed:Evening [2018] (t=0.51)', 'fixed:Midnight/early morning [2018] (t=0.58)', 'fixed:Peak hours [2018] (t=0.18)', 'fixed:speeding [2018] (t=0.13)', 'fixed:cutting_in_too_close [2018] (t=0.73)', 'fixed:main_carriageway [2018] (t=0.98)', 'fixed:under_construction [2018] (t=0.16)', 'fixed:painted_median [2018] (t=0.81)', 'fixed:uturn_both_lanes [2018] (t=0.24)', 'fixed:raining [2018] (t=0.86)'] -> k=32, LL=-1524.514  (3 s)
+  removed 1: ['fixed:large_bas [2018] (t=1.23)'] -> k=31, LL=-1525.294  (3 s)
+  removed 1: ['fixed:on_grade [2018] (t=1.35)'] -> k=30, LL=-1526.241  (4 s)
+  removed 1: ['fixed:t_intersection [2018] (t=1.50)'] -> k=29, LL=-1527.417  (4 s)
+FINAL (all significant at 90%): random=['truck_10_1 [2018]', 'pickup_>1 [2018]'], HM=[('truck_10_1 [2018]', 'normal_curve [2018]'), ('pickup_>1 [2018]', 'truck_>10_>1 [2018]')], HV=[], dropped=18, LL=-1527.417, k=29
+DONE uncon_p2: LL=-1527.417 k=29  (4 s)

@@ -1,0 +1,17 @@
+== S2 uncon_p6_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=2511, parameters=46, fixed-parameter LL=-1458.146
+RP screen (13 s): 9 of 45 significant; top 9 by LL gain enter the joint model: ['normal_curve [2022]', 'Western [2022]', 'songkran [2022]', 'wet_road [2022]', 'pickup_>1 [2022]', 'new_year [2022]', 't_intersection [2022]', 'raining [2022]', 'Evening [2022]']
+  joint RP: 9 random, LL=-1431.375, min SD t=0.98
+  joint RP: 8 random, LL=-1434.963, min SD t=0.26
+  joint RP: 7 random, LL=-1435.334, min SD t=1.69
+  joint RP: 6 random, LL=-1438.997, min SD t=1.65
+  joint RP: 5 random, LL=-1439.550, min SD t=1.87
+  joint RP: 4 random, LL=-1444.535, min SD t=1.74
+  joint RP: 3 random, LL=-1444.997, min SD t=2.26
+  joint RP: 2 random, LL=-1449.084, min SD t=2.08
+RP model: ['normal_curve [2022]', 'new_year [2022]']  LL=-1449.084
+hm: added Peak hours [2022] -> new_year [2022]  (LL gain 3.79, LL=-1445.294, 40 tried, 23 s)
+hm: added access_public_commercial [2022] -> normal_curve [2022]  (LL gain 2.43, LL=-1442.860, 40 tried, 27 s)
+hv: added pickup_1 [2022] -> normal_curve [2022]  (LL gain 1.99, LL=-1440.867, 38 tried, 36 s)
+2000-draw confirmation removed: SD [], HM [], HV ['pickup_1 [2022]']
+FINAL (2000 draws): random=['normal_curve [2022]', 'new_year [2022]'], HM=[('new_year [2022]', 'Peak hours [2022]'), ('normal_curve [2022]', 'access_public_commercial [2022]')], HV=[], LL=-1442.781, k=48
+DONE uncon_p6_search: LL=-1442.781 k=48  (38 s)

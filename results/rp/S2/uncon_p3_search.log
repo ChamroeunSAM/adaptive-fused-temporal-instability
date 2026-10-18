@@ -1,0 +1,16 @@
+== S2 uncon_p3_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=2583, parameters=46, fixed-parameter LL=-1518.459
+RP screen (29 s): 8 of 45 significant; top 8 by LL gain enter the joint model: ['concrete_surface [2019]', 'songkran [2019]', 'new_year [2019]', 'pickup_1 [2019]', 'painted_median [2019]', 'Midnight/early morning [2019]', 'normal_curve [2019]', 'weekend [2019]']
+  joint RP: 8 random, LL=-1498.867, min SD t=1.01
+  joint RP: 7 random, LL=-1498.991, min SD t=1.17
+  joint RP: 6 random, LL=-1499.452, min SD t=1.46
+  joint RP: 5 random, LL=-1500.959, min SD t=2.28
+  joint RP: 4 random, LL=-1502.974, min SD t=2.36
+  joint RP: 3 random, LL=-1505.686, min SD t=2.55
+  joint RP: 2 random, LL=-1508.469, min SD t=2.68
+RP model: ['songkran [2019]', 'pickup_1 [2019]']  LL=-1508.469
+hm: added Evening [2019] -> pickup_1 [2019]  (LL gain 1.57, LL=-1506.896, 44 tried, 46 s)
+hm: added Peak hours [2019] -> pickup_1 [2019]  (LL gain 2.04, LL=-1504.861, 42 tried, 51 s)
+hv: added concrete_surface [2019] -> pickup_1 [2019]  (LL gain 2.50, LL=-1502.360, 40 tried, 57 s)
+2000-draw confirmation removed: SD [], HM [], HV ['concrete_surface [2019]']
+FINAL (2000 draws): random=['songkran [2019]', 'pickup_1 [2019]'], HM=[('pickup_1 [2019]', 'Evening [2019]'), ('pickup_1 [2019]', 'Peak hours [2019]')], HV=[], LL=-1504.884, k=48
+DONE uncon_p3_search: LL=-1504.884 k=48  (61 s)

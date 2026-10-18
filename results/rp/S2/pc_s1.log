@@ -1,0 +1,14 @@
+== S2 pc_s1 [mode prune, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=8/3/1]: N=21371, parameters=109, fixed-parameter LL=-12140.477
+start from pc_s1_search: k=117, LL=-11966.696
+  removed 23: ['fixed:pickup_1 [2022-2023] (t=0.86)', 'fixed:pickup_>1 [2018] (t=0.55)', 'fixed:songkran [2016] (t=0.37)', 'fixed:holiday [2016-2018] (t=0.66)', 'fixed:Northern [2023] (t=0.42)', 'fixed:Evening [2016-2021] (t=0.16)', 'fixed:Midnight/early morning [2016] (t=0.68)', 'fixed:Peak hours [2021-2023] (t=0.67)', 'fixed:speeding [2019-2022] (t=0.04)', 'fixed:running_red_light [2017] (t=0.08)', 'fixed:running_red_light [2023] (t=0.47)', 'fixed:frontage_road [2021] (t=0.76)', 'fixed:under_construction [2016-2022] (t=0.12)', 'fixed:painted_median [2016-2021] (t=0.99)', 'fixed:raised_earth_median [2020] (t=0.62)', 'fixed:depressed_median [2016-2017] (t=0.73)', 'fixed:concrete_surface [2016-2017] (t=0.87)', 'fixed:concrete_surface [2019] (t=0.85)', 'fixed:t_intersection [2019-2023] (t=0.55)', 'fixed:plus_intersection [2016-2017] (t=0.33)', 'fixed:access_public_commercial (t=0.70)', 'fixed:wet_road [2016-2018] (t=0.89)', 'fixed:dark_with_lighting [2019] (t=0.18)'] -> k=94, LL=-11971.063  (76 s)
+  removed 1: ['fixed:concrete_surface [2022-2023] (t=1.13)'] -> k=93, LL=-11971.704  (94 s)
+  removed 1: ['fixed:pickup_1 [2016-2017] (t=1.12)'] -> k=92, LL=-11972.328  (112 s)
+  removed 1: ['fixed:uturn_both_lanes [2017-2020] (t=1.23)'] -> k=91, LL=-11973.089  (129 s)
+  removed 1: ['fixed:plus_intersection [2020-2023] (t=1.27)'] -> k=90, LL=-11973.903  (147 s)
+  removed 1: ['fixed:cutting_in_too_close [2023] (t=1.19)'] -> k=89, LL=-11974.616  (164 s)
+  removed 1: ['fixed:pickup_>1 [2016-2017] (t=1.41)'] -> k=88, LL=-11975.615  (182 s)
+  removed 1: ['fixed:holiday [2019-2021] (t=1.46)'] -> k=87, LL=-11976.701  (201 s)
+  removed 1: ['fixed:Peak hours [2016-2020] (t=1.47)'] -> k=86, LL=-11977.787  (218 s)
+  removed 1: ['fixed:van [2023] (t=1.56)'] -> k=85, LL=-11979.042  (235 s)
+FINAL (all significant at 90%): random=['new_year [2016-2018]', 'songkran [2017-2023]', 'truck_>10_1', 'new_year [2019-2023]', 'cutting_in_too_close [2016-2022]', 'wet_road [2019-2023]', 'normal_curve [2017-2023]', 'Southern [2018-2023]'], HM=[('Southern [2018-2023]', 'rear_end_same_lane [2019-2023]'), ('cutting_in_too_close [2016-2022]', 'van [2016-2022]'), ('cutting_in_too_close [2016-2022]', 'main_carriageway [2022-2023]')], HV=[], dropped=32, LL=-11979.042, k=85
+DONE pc_s1: LL=-11979.042 k=85  (235 s)

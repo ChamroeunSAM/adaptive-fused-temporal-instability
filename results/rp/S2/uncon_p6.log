@@ -1,0 +1,8 @@
+== S2 uncon_p6 [mode prune, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=2511, parameters=46, fixed-parameter LL=-1458.146
+start from uncon_p6_search: k=48, LL=-1442.781
+  removed 13: ['fixed:motor_1 [2022] (t=0.33)', 'fixed:pickup_1 [2022] (t=0.75)', 'fixed:van [2022] (t=0.86)', 'fixed:rear_end_same_lane [2022] (t=0.44)', 'fixed:main_carriageway [2022] (t=0.61)', 'fixed:under_construction [2022] (t=0.80)', 'fixed:depressed_median [2022] (t=0.96)', 'fixed:concrete_surface [2022] (t=0.47)', 'fixed:uturn_no_lane [2022] (t=0.74)', 'fixed:uturn_decel_only [2022] (t=0.04)', 'fixed:wet_road [2022] (t=0.66)', 'fixed:raining [2022] (t=0.63)', 'fixed:dark_with_lighting [2022] (t=0.29)'] -> k=35, LL=-1445.517  (2 s)
+  removed 1: ['fixed:holiday [2022] (t=1.07)'] -> k=34, LL=-1446.081  (2 s)
+  removed 1: ['fixed:t_intersection [2022] (t=1.16)'] -> k=33, LL=-1446.754  (3 s)
+  removed 1: ['fixed:weekend [2022] (t=1.15)'] -> k=32, LL=-1447.424  (3 s)
+FINAL (all significant at 90%): random=['normal_curve [2022]', 'new_year [2022]'], HM=[('new_year [2022]', 'Peak hours [2022]'), ('normal_curve [2022]', 'access_public_commercial [2022]')], HV=[], dropped=16, LL=-1447.424, k=32
+DONE uncon_p6: LL=-1447.424 k=32  (3 s)

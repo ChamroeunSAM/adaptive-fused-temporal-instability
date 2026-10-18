@@ -1,0 +1,100 @@
+﻿Variable description,Estimated parameter,t-statistic,Marginal effects,
+,,,PDO / minor injury,Serious injury / fatal
+Constant [serious injury / fatal],,,,
+Constant [2016],-0.247,-1.76,,
+Constant [2017],-0.360,-2.72,,
+Constant [2018–2020],-0.629,-5.79,,
+Constant [2021],-0.426,-3.36,,
+Constant [2022–2023],-0.521,-4.31,,
+Variables producing the same parameter value across all periods [2016–2023],,,,
+Vehicle involvement,,,,
+"Two or more pickup trucks involved (1 if yes, 0 otherwise) [2016–2023]",-1.813,-11.20,0.0976,-0.0976
+(Standard deviation of parameter distribution; 13.5% above zero),1.647,8.93,,
+"One 6-wheel truck involved (1 if yes, 0 otherwise) [2016–2023]",-0.431,-3.34,0.0046,-0.0046
+(Standard deviation of parameter distribution; 38.5% above zero),1.472,6.03,,
+"One 10-wheel truck involved (1 if yes, 0 otherwise) [2016–2023]",-0.424,-2.94,-0.0072,0.0072
+(Standard deviation of parameter distribution; 39.7% above zero),1.619,5.90,,
+"One truck with more than 10 wheels involved (1 if yes, 0 otherwise) [2016–2023]",-0.309,-2.82,-0.0243,0.0243
+(Standard deviation of parameter distribution; 42.6% above zero),1.656,9.14,,
+"Two or more trucks with more than 10 wheels involved (1 if yes, 0 otherwise) [2016–2023]",-1.841,-3.66,0.0286,-0.0286
+(Standard deviation of parameter distribution; 27.4% above zero),3.062,4.50,,
+"Bus involved (1 if yes, 0 otherwise) [2016–2023]",-0.210,-1.75,0.0174,-0.0174
+Crash type,,,,
+"Rear-end collision in the same lane (1 if yes, 0 otherwise) [2016–2023]",-0.436,-8.23,0.0376,-0.0376
+Roadway characteristics,,,,
+"Concrete pavement surface (1 if yes, 0 otherwise) [2016–2023]",-0.178,-2.74,0.0149,-0.0149
+"On grade (1 if yes, 0 otherwise) [2016–2023]",-0.346,-2.16,0.0279,-0.0279
+Temporal characteristics,,,,
+"Midnight / early morning (1 if yes, 0 otherwise) [2016–2023]",0.448,7.05,-0.0407,0.0407
+"Peak hours (1 if yes, 0 otherwise) [2016–2023]",0.116,1.93,-0.0101,0.0101
+Region,,,,
+"Eastern region (1 if yes, 0 otherwise) [2016–2023]",0.570,8.38,-0.0526,0.0526
+"Western region (1 if yes, 0 otherwise) [2016–2023]",0.585,6.97,-0.0550,0.0550
+Variables with temporally varying parameters,,,,
+Vehicle involvement,,,,
+"One passenger car involved (1 if yes, 0 otherwise) [2016–2017]",-0.966,-9.07,0.0943,-0.0943
+"One passenger car involved (1 if yes, 0 otherwise) [2018–2023]",-0.728,-11.20,0.0589,-0.0589
+"Two or more passenger cars involved (1 if yes, 0 otherwise) [2016–2017]",-1.894,-13.27,0.1683,-0.1683
+"Two or more passenger cars involved (1 if yes, 0 otherwise) [2018–2019]",-1.182,-9.44,0.1026,-0.1026
+"Two or more passenger cars involved (1 if yes, 0 otherwise) [2020–2023]",-1.454,-13.28,0.0947,-0.0947
+"One pickup truck involved (1 if yes, 0 otherwise) [2016–2021]",-0.570,-8.77,0.0511,-0.0511
+"One pickup truck involved (1 if yes, 0 otherwise) [2022–2023]",-0.411,-4.42,0.0305,-0.0305
+Crash type,,,,
+"Sideswipe (parallel movement) (1 if yes, 0 otherwise) [2016–2019]",-0.830,-7.37,0.0723,-0.0723
+"Sideswipe (parallel movement) (1 if yes, 0 otherwise) [2020–2023]",-2.220,-4.23,0.0383,-0.0383
+(Standard deviation of parameter distribution; 23.7% above zero),3.098,5.43,,
+"Head-on collision (1 if yes, 0 otherwise) [2016–2020]",1.264,12.78,-0.1437,0.1437
+"Head-on collision (1 if yes, 0 otherwise) [2021–2023]",1.027,9.70,-0.0916,0.0916
+Crash cause,,,,
+"Cutting in too closely (1 if yes, 0 otherwise) [2016–2021]",-0.986,-4.11,0.0225,-0.0225
+(Standard deviation of parameter distribution; 31.3% above zero),2.030,5.87,,
+"Driver fell asleep (1 if yes, 0 otherwise) [2016–2020]",0.681,5.52,-0.0709,0.0709
+"Driver fell asleep (1 if yes, 0 otherwise) [2021–2023]",0.502,3.06,-0.0415,0.0415
+Roadway characteristics,,,,
+"Crash on the main carriageway (1 if yes, 0 otherwise) [2016–2017]",-0.556,-3.57,0.0516,-0.0516
+"Road under construction (1 if yes, 0 otherwise) [2016–2019]",0.749,3.97,-0.0828,0.0828
+"Painted median (1 if yes, 0 otherwise) [2016–2020]",0.358,3.56,-0.0354,0.0354
+"Raised or earth median (1 if yes, 0 otherwise) [2016–2018]",-0.498,-5.39,0.0482,-0.0482
+"Raised or earth median (1 if yes, 0 otherwise) [2021–2022]",-0.320,-3.12,0.0242,-0.0242
+"Raised or earth median (1 if yes, 0 otherwise) [2023]",-0.597,-4.41,0.0407,-0.0407
+"Depressed median (1 if yes, 0 otherwise) [2016–2018]",-0.436,-5.07,0.0425,-0.0425
+"Depressed median (1 if yes, 0 otherwise) [2019–2023]",-0.210,-2.97,0.0163,-0.0163
+"Barrier median (1 if yes, 0 otherwise) [2016–2018]",-1.160,-9.82,0.1040,-0.1040
+"Barrier median (1 if yes, 0 otherwise) [2019–2023]",-2.036,-20.82,0.1422,-0.1422
+"Horizontal curve (1 if yes, 0 otherwise) [2016]",0.578,3.08,-0.0634,0.0634
+"Horizontal curve (1 if yes, 0 otherwise) [2017–2023]",-0.545,-2.91,-0.0135,0.0135
+(Standard deviation of parameter distribution; 40.3% above zero),2.229,6.19,,
+"T-intersection (1 if yes, 0 otherwise) [2018–2023]",-0.339,-3.04,0.0264,-0.0264
+"Four-leg intersection (1 if yes, 0 otherwise) [2016]",-0.513,-2.12,0.0477,-0.0477
+"Four-leg intersection (1 if yes, 0 otherwise) [2017–2018]",0.375,2.19,-0.0399,0.0399
+"Four-leg intersection (1 if yes, 0 otherwise) [2019–2023]",-0.317,-2.84,0.0239,-0.0239
+Environmental characteristics,,,,
+"Wet road surface (1 if yes, 0 otherwise) [2016]",-0.422,-1.97,0.0398,-0.0398
+"Wet road surface (1 if yes, 0 otherwise) [2018–2020]",-0.450,-3.95,0.0379,-0.0379
+"Wet road surface (1 if yes, 0 otherwise) [2021–2023]",-0.557,-4.34,0.0385,-0.0385
+"Dark, no street lighting (1 if yes, 0 otherwise) [2016–2019]",1.289,12.32,-0.1533,0.1533
+"Dark, no street lighting (1 if yes, 0 otherwise) [2020–2023]",0.773,7.08,-0.0675,0.0675
+"Dark, with street lighting (1 if yes, 0 otherwise) [2016–2020]",0.499,7.42,-0.0480,0.0480
+"Dark, with street lighting (1 if yes, 0 otherwise) [2021–2023]",0.319,3.82,-0.0247,0.0247
+Temporal characteristics,,,,
+"New Year festival period (1 if yes, 0 otherwise) [2019–2023]",-0.369,-3.50,0.0275,-0.0275
+Region,,,,
+"Northeastern region (1 if yes, 0 otherwise) [2016]",0.870,5.99,-0.0974,0.0974
+"Northeastern region (1 if yes, 0 otherwise) [2017–2023]",0.659,10.66,-0.0604,0.0604
+"Northern region (1 if yes, 0 otherwise) [2021–2023]",-0.491,-3.47,0.0342,-0.0342
+"Southern region (1 if yes, 0 otherwise) [2016–2020]",0.507,5.99,-0.0506,0.0506
+Heterogeneity in the means of random parameters,,,,
+One truck with more than 10 wheels involved [2016–2023]: Evening [2017–2023],0.572,4.34,,
+Cutting in too closely [2016–2021]: T-intersection [2016–2017],1.490,3.36,,
+Horizontal curve [2017–2023]: Raining [2020–2023],-1.144,-3.24,,
+Heterogeneity in the variances of random parameters,,,,
+One 10-wheel truck involved [2016–2023]: Songkran festival period [2016–2021],1.315,2.37,,
+Model statistics,,,,
+Number of observations,"33,646",,,
+Number of estimated parameters,72,,,
+"Log-likelihood at zero, LL(0)",-23321.63,,,
+"Log-likelihood with constant only, LL(C)",-15177.81,,,
+"Log-likelihood at convergence, LL(β)",-12617.43,,,
+McFadden pseudo ρ^2 = 1 - LL(β)/LL(0),0.459,,,
+AIC / BIC,"25,378.9 / 25,985.4",,,
+Random parameter distribution; simulation,"Normal; 2,000 Halton draws",,,

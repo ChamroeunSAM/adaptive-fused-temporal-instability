@@ -1,0 +1,18 @@
+== S1 fused_rp_c0_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=8/3/1]: N=7325, parameters=49, fixed-parameter LL=-4610.926
+RP screen (57 s): 15 of 47 significant; top 15 by LL gain enter the joint model: ['concrete_surface', 'songkran', 'new_year', 'barrier_median [2018-23]', 'main_carriageway [2016-17]', 'cutting_in_too_close [2016-19]', 'drunk_driving', 'predestrain', 'frontage_road [2020-23]', 'under_construction', 'raised_earth_median', 'off_right_bend', 'mounts_traffic_island', 'Northeastern', 'Eastern']
+  joint RP: 15 random, LL=-4558.702, min SD t=0.07
+  joint RP: 14 random, LL=-4561.117, min SD t=0.77
+  joint RP: 13 random, LL=-4559.474, min SD t=1.10
+  joint RP: 12 random, LL=-4563.067, min SD t=1.03
+  joint RP: 11 random, LL=-4558.759, min SD t=1.49
+  joint RP: 10 random, LL=-4564.538, min SD t=1.51
+  joint RP: 9 random, LL=-4564.407, min SD t=1.49
+  joint RP: 8 random, LL=-4566.593, min SD t=1.57
+  joint RP: 7 random, LL=-4566.953, min SD t=2.47
+RP model: ['concrete_surface', 'songkran', 'new_year', 'raised_earth_median', 'off_right_bend', 'Northeastern', 'Eastern']  LL=-4566.953
+hm: added Midnight/early morning -> concrete_surface  (LL gain 7.99, LL=-4558.961, 154 tried, 165 s)
+hm: added rear_end_same_lane -> Eastern  (LL gain 4.26, LL=-4554.698, 147 tried, 239 s)
+hm: added speeding -> Eastern  (LL gain 4.98, LL=-4549.723, 140 tried, 311 s)
+hv: added Northern -> songkran  (LL gain 3.12, LL=-4546.605, 133 tried, 387 s)
+FINAL (2000 draws): random=['concrete_surface', 'songkran', 'new_year', 'raised_earth_median', 'off_right_bend', 'Northeastern', 'Eastern'], HM=[('concrete_surface', 'Midnight/early morning'), ('Eastern', 'rear_end_same_lane'), ('Eastern', 'speeding')], HV=[('songkran', 'Northern')], LL=-4548.238, k=56
+DONE fused_rp_c0_search: LL=-4548.238 k=56  (444 s)

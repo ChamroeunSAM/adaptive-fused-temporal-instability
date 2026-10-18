@@ -1,0 +1,66 @@
+﻿Variable description,2016–2017,2018–2019,2020–2021,2022–2023
+Constant [serious injury / fatal],,,,
+Constant,0.643 (2.58),0.852 (5.30),0.438 (2.37),-0.352 (-1.93)
+Vehicle involvement,,,,
+"Pedestrian involved (1 if yes, 0 otherwise)",,-0.623 (-2.04),,
+Crash type,,,,
+"Rear-end collision in the same lane (1 if yes, 0 otherwise)",,,,0.750 (2.14)
+"Ran off road to the left and hit an object (1 if yes, 0 otherwise)",,,0.482 (1.76),
+"Sideswipe (parallel movement) (1 if yes, 0 otherwise)",,-0.634 (-2.07),0.832 (2.09),
+"Ran off road to the left (1 if yes, 0 otherwise)",-0.191 (-1.02),-1.119 (-7.39),-0.535 (-3.06),-0.375 (-2.34)
+(Standard deviation of parameter distribution),2.071 (2.22),,,
+"Ran off road to the right (1 if yes, 0 otherwise)",-0.434 (-2.17),-0.689 (-3.05),-0.608 (-2.33),
+"Loss of vehicle control (1 if yes, 0 otherwise)",,-1.418 (-7.63),-1.418 (-7.14),-1.119 (-6.02)
+"Ran off road on a left bend (1 if yes, 0 otherwise)",,-0.711 (-2.92),,
+"Ran off road on a right bend (1 if yes, 0 otherwise)",,-0.899 (-4.04),,
+Crash cause,,,,
+"Speeding (1 if yes, 0 otherwise)",-0.453 (-1.97),,,0.377 (2.23)
+"Cutting in too closely (1 if yes, 0 otherwise)",-0.665 (-2.32),,-0.988 (-3.08),
+"Driver fell asleep (1 if yes, 0 otherwise)",,,,1.449 (3.22)
+"Drunk driving (1 if yes, 0 otherwise)",-0.732 (-2.69),,0.485 (1.90),
+Roadway characteristics,,,,
+"Crash on the main carriageway (1 if yes, 0 otherwise)",-0.631 (-2.54),,,0.654 (2.25)
+"Crash on a frontage road (1 if yes, 0 otherwise)",-1.371 (-4.32),-1.060 (-3.54),,
+"Road under construction (1 if yes, 0 otherwise)",,0.928 (2.02),,
+"Painted median (1 if yes, 0 otherwise)",,,-0.469 (-1.97),-0.551 (-2.20)
+"Raised or earth median (1 if yes, 0 otherwise)",-0.431 (-2.79),0.126 (0.73),-0.338 (-2.15),
+(Standard deviation of parameter distribution),,1.705 (3.15),,
+"Depressed median (1 if yes, 0 otherwise)",0.384 (2.08),0.280 (1.90),,0.566 (3.10)
+"Barrier median (1 if yes, 0 otherwise)",-0.519 (-2.14),,-0.584 (-2.52),-0.490 (-2.63)
+"Horizontal curve (1 if yes, 0 otherwise)",0.868 (2.17),,0.207 (0.53),
+(Standard deviation of parameter distribution),2.327 (2.20),,2.490 (1.82),
+"Concrete pavement surface (1 if yes, 0 otherwise)",,-0.513 (-2.90),,-0.368 (-2.04)
+Environmental characteristics,,,,
+"Raining (1 if yes, 0 otherwise)",,0.885 (2.83),,
+"Dark, no street lighting (1 if yes, 0 otherwise)",1.341 (5.76),0.743 (3.80),0.457 (2.35),
+"Dark, with street lighting (1 if yes, 0 otherwise)",0.764 (4.60),0.889 (5.19),0.351 (2.39),
+Temporal characteristics,,,,
+"Weekend (1 if yes, 0 otherwise)",,,-0.985 (-2.12),
+(Standard deviation of parameter distribution),,,2.178 (3.17),
+"Songkran festival period (1 if yes, 0 otherwise)",-0.549 (-3.48),-0.788 (-5.73),-0.679 (-3.22),-0.987 (-3.48)
+(Standard deviation of parameter distribution),,,,2.146 (2.44)
+"New Year festival period (1 if yes, 0 otherwise)",-0.514 (-3.56),-0.973 (-7.07),-0.596 (-3.82),-1.046 (-3.54)
+(Standard deviation of parameter distribution),,,,2.373 (2.71)
+"Evening (1 if yes, 0 otherwise)",-0.718 (-4.29),-0.598 (-3.86),,
+"Midnight / early morning (1 if yes, 0 otherwise)",,,0.643 (3.95),0.944 (6.30)
+"Peak hours (1 if yes, 0 otherwise)",,-0.281 (-1.70),,
+Region,,,,
+"Eastern region (1 if yes, 0 otherwise)",0.961 (3.35),0.726 (2.91),0.815 (2.88),
+"Northeastern region (1 if yes, 0 otherwise)",0.622 (4.17),0.632 (4.49),0.648 (3.80),1.345 (7.04)
+"Northern region (1 if yes, 0 otherwise)",,,-0.516 (-2.88),
+"Southern region (1 if yes, 0 otherwise)",,,,0.354 (1.69)
+"Western region (1 if yes, 0 otherwise)",,,1.190 (3.69),0.548 (2.34)
+Heterogeneity in the means of random parameters,,,,
+Raised or earth median: Rear-end collision in the same lane,,-3.398 (-3.18),,
+Horizontal curve: Weekend,-1.090 (-2.08),,,
+Weekend: Speeding,,,1.250 (2.32),
+Weekend: Raining,,,-1.763 (-2.30),
+New Year festival period: Eastern region,,,,2.517 (2.62)
+Model statistics,,,,
+Number of observations,"1,874","1,932","1,791","1,728"
+Number of estimated parameters,22,24,26,20
+Random parameters / heterogeneity in means / in variances,2 / 1 / 0,1 / 1 / 0,2 / 2 / 0,2 / 1 / 0
+"Log-likelihood at zero, LL(0)",-1298.96,-1339.16,-1241.43,-1197.76
+"Log-likelihood with constant only, LL(C)",-1297.57,-1338.56,-1238.46,-1197.75
+"Log-likelihood at convergence, LL(β)",-1192.09,-1162.28,-1096.24,-1059.50
+McFadden pseudo ρ^2 = 1 - LL(β)/LL(0),0.082,0.132,0.117,0.115

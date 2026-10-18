@@ -1,0 +1,13 @@
+== S4 uncon_p6 [mode prune, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=4647, parameters=45, fixed-parameter LL=-1574.737
+start from uncon_p6_search: k=47, LL=-1555.681
+  removed 8: ['fixed:truck_10_1 [2022] (t=0.83)', 'fixed:Peak hours [2022] (t=0.18)', 'fixed:normal_curve [2022] (t=0.46)', 'fixed:on_grade [2022] (t=0.22)', 'fixed:t_intersection [2022] (t=0.89)', 'fixed:uturn_decel_only [2022] (t=0.49)', 'fixed:uturn_both_lanes [2022] (t=0.23)', 'fixed:raining [2022] (t=0.14)'] -> k=39, LL=-1556.768  (4 s)
+  removed 1: ['fixed:painted_median [2022] (t=1.09)'] -> k=38, LL=-1557.355  (5 s)
+  removed 1: ['fixed:truck_6_1 [2022] (t=1.11)'] -> k=37, LL=-1557.961  (5 s)
+  removed 1: ['fixed:weekend [2022] (t=1.12)'] -> k=36, LL=-1558.580  (5 s)
+  removed 1: ['fixed:plus_intersection [2022] (t=1.19)'] -> k=35, LL=-1559.305  (6 s)
+  removed 1: ['fixed:large_bas [2022] (t=1.19)'] -> k=34, LL=-1559.994  (6 s)
+  removed 1: ['fixed:main_carriageway [2022] (t=1.28)'] -> k=33, LL=-1560.780  (6 s)
+  removed 1: ['fixed:new_year [2022] (t=1.54)'] -> k=32, LL=-1562.029  (7 s)
+  removed 1: ['fixed:truck_>10_>1 [2022] (t=1.60)'] -> k=31, LL=-1563.364  (7 s)
+FINAL (all significant at 90%): random=['sideswipe_parallel [2022]', 'truck_>10_1 [2022]'], HM=[('truck_>10_1 [2022]', 'van [2022]'), ('truck_>10_1 [2022]', 'concrete_surface [2022]')], HV=[('truck_>10_1 [2022]', 'dark_with_lighting [2022]')], dropped=16, LL=-1563.364, k=31
+DONE uncon_p6: LL=-1563.364 k=31  (7 s)

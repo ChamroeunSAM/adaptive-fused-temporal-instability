@@ -1,0 +1,20 @@
+== S4 uncon_p0_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=3509, parameters=45, fixed-parameter LL=-1429.871
+RP screen (12 s): 13 of 44 significant; top 13 by LL gain enter the joint model: ['truck_6_1 [2016]', 'cutting_in_too_close [2016]', 'truck_>10_1 [2016]', 't_intersection [2016]', 'Southern [2016]', 'raised_earth_median [2016]', 'Midnight/early morning [2016]', 'falling_asleep [2016]', 'dark_with_lighting [2016]', 'pickup_>1 [2016]', 'songkran [2016]', 'normal_curve [2016]', 'concrete_surface [2016]']
+  joint RP: 13 random, LL=-1394.763, min SD t=0.45
+  joint RP: 12 random, LL=-1398.660, min SD t=1.03
+  joint RP: 11 random, LL=-1399.099, min SD t=0.31
+  joint RP: 10 random, LL=-1399.678, min SD t=0.35
+  joint RP: 9 random, LL=-1398.863, min SD t=1.34
+  joint RP: 8 random, LL=-1399.292, min SD t=2.07
+  joint RP: 7 random, LL=-1401.189, min SD t=2.08
+  joint RP: 6 random, LL=-1415.175, min SD t=2.17
+  joint RP: 5 random, LL=-1416.663, min SD t=1.88
+  joint RP: 4 random, LL=-1417.349, min SD t=2.38
+  joint RP: 3 random, LL=-1418.739, min SD t=2.23
+  joint RP: 2 random, LL=-1419.704, min SD t=2.62
+RP model: ['cutting_in_too_close [2016]', 'truck_>10_1 [2016]']  LL=-1419.704
+hm: added t_intersection [2016] -> cutting_in_too_close [2016]  (LL gain 3.36, LL=-1416.340, 36 tried, 22 s)
+hm: no qualifying term (34 pairings tried, 25 s)
+hv: added dark_with_lighting [2016] -> truck_>10_1 [2016]  (LL gain 3.82, LL=-1412.522, 34 tried, 28 s)
+FINAL (2000 draws): random=['cutting_in_too_close [2016]', 'truck_>10_1 [2016]'], HM=[('cutting_in_too_close [2016]', 't_intersection [2016]')], HV=[('truck_>10_1 [2016]', 'dark_with_lighting [2016]')], LL=-1412.379, k=47
+DONE uncon_p0_search: LL=-1412.379 k=47  (31 s)

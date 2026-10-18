@@ -1,0 +1,156 @@
+{
+ "subset": "S4",
+ "tag": "uncon_p6",
+ "mode": "prune",
+ "structure": null,
+ "period": 6,
+ "draws_search": 100,
+ "draws_final": 2000,
+ "caps": {
+  "random_parameters": 2,
+  "het_means": 2,
+  "het_variances": 1
+ },
+ "N": 4647,
+ "P_structure": 45,
+ "LL_fixed": -1574.7372270326669,
+ "LL": -1563.3637732012908,
+ "k": 31,
+ "AIC": 3188.7275464025815,
+ "BIC": 3388.4908374042157,
+ "random": [
+  "sideswipe_parallel [2022]",
+  "truck_>10_1 [2022]"
+ ],
+ "HM": [
+  [
+   "truck_>10_1 [2022]",
+   "van [2022]"
+  ],
+  [
+   "truck_>10_1 [2022]",
+   "concrete_surface [2022]"
+  ]
+ ],
+ "HV": [
+  [
+   "truck_>10_1 [2022]",
+   "dark_with_lighting [2022]"
+  ]
+ ],
+ "dropped": [
+  "truck_10_1 [2022]",
+  "Peak hours [2022]",
+  "normal_curve [2022]",
+  "on_grade [2022]",
+  "t_intersection [2022]",
+  "uturn_decel_only [2022]",
+  "uturn_both_lanes [2022]",
+  "raining [2022]",
+  "painted_median [2022]",
+  "truck_6_1 [2022]",
+  "weekend [2022]",
+  "plus_intersection [2022]",
+  "large_bas [2022]",
+  "main_carriageway [2022]",
+  "new_year [2022]",
+  "truck_>10_>1 [2022]"
+ ],
+ "start": "uncon_p6_search",
+ "start_spec": {
+  "rnd": [
+   23,
+   7
+  ],
+  "hm": [
+   [
+    7,
+    9
+   ],
+   [
+    7,
+    35
+   ]
+  ],
+  "hv": [
+   [
+    7,
+    44
+   ]
+  ],
+  "drop": []
+ },
+ "prune_history": [
+  {
+   "removed": [
+    "fixed:truck_10_1 [2022] (t=0.83)",
+    "fixed:Peak hours [2022] (t=0.18)",
+    "fixed:normal_curve [2022] (t=0.46)",
+    "fixed:on_grade [2022] (t=0.22)",
+    "fixed:t_intersection [2022] (t=0.89)",
+    "fixed:uturn_decel_only [2022] (t=0.49)",
+    "fixed:uturn_both_lanes [2022] (t=0.23)",
+    "fixed:raining [2022] (t=0.14)"
+   ],
+   "k": 39,
+   "LL": -1556.7684853918736
+  },
+  {
+   "removed": [
+    "fixed:painted_median [2022] (t=1.09)"
+   ],
+   "k": 38,
+   "LL": -1557.3547038765985
+  },
+  {
+   "removed": [
+    "fixed:truck_6_1 [2022] (t=1.11)"
+   ],
+   "k": 37,
+   "LL": -1557.961309857274
+  },
+  {
+   "removed": [
+    "fixed:weekend [2022] (t=1.12)"
+   ],
+   "k": 36,
+   "LL": -1558.5801026479392
+  },
+  {
+   "removed": [
+    "fixed:plus_intersection [2022] (t=1.19)"
+   ],
+   "k": 35,
+   "LL": -1559.3053069289447
+  },
+  {
+   "removed": [
+    "fixed:large_bas [2022] (t=1.19)"
+   ],
+   "k": 34,
+   "LL": -1559.9943320658535
+  },
+  {
+   "removed": [
+    "fixed:main_carriageway [2022] (t=1.28)"
+   ],
+   "k": 33,
+   "LL": -1560.7797912659362
+  },
+  {
+   "removed": [
+    "fixed:new_year [2022] (t=1.54)"
+   ],
+   "k": 32,
+   "LL": -1562.02921894653
+  },
+  {
+   "removed": [
+    "fixed:truck_>10_>1 [2022] (t=1.60)"
+   ],
+   "k": 31,
+   "LL": -1563.3637732012908
+  }
+ ],
+ "seconds": 7
+}

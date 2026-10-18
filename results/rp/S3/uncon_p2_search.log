@@ -1,0 +1,20 @@
+== S3 uncon_p2_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=8693, parameters=51, fixed-parameter LL=-2959.710
+RP screen (15 s): 13 of 50 significant; top 13 by LL gain enter the joint model: ['van [2018]', 'Northern [2018]', 'concrete_surface [2018]', 'songkran [2018]', 'new_year [2018]', 'dark_no_lighting [2018]', 'Midnight/early morning [2018]', 'off_left [2018]', 'weekend [2018]', 'main_carriageway [2018]', 'car_1 [2018]', 'cutting_in_too_close [2018]', 'truck_>10_1 [2018]']
+  joint RP: 13 random, LL=-2936.954, min SD t=0.30
+  joint RP: 12 random, LL=-2938.461, min SD t=0.45
+  joint RP: 11 random, LL=-2935.176, min SD t=1.10
+  joint RP: 10 random, LL=-2938.036, min SD t=0.99
+  joint RP: 9 random, LL=-2938.477, min SD t=1.90
+  joint RP: 8 random, LL=-2937.685, min SD t=1.82
+  joint RP: 7 random, LL=-2939.194, min SD t=1.84
+  joint RP: 6 random, LL=-2946.539, min SD t=1.67
+  joint RP: 5 random, LL=-2946.504, min SD t=2.27
+  joint RP: 4 random, LL=-2948.591, min SD t=2.22
+  joint RP: 3 random, LL=-2950.808, min SD t=2.50
+  joint RP: 2 random, LL=-2953.323, min SD t=3.42
+RP model: ['Northern [2018]', 'new_year [2018]']  LL=-2953.323
+hm: added raining [2018] -> Northern [2018]  (LL gain 1.41, LL=-2951.915, 52 tried, 29 s)
+hm: added concrete_surface [2018] -> Northern [2018]  (LL gain 1.40, LL=-2950.515, 48 tried, 34 s)
+hv: no qualifying term (42 pairings tried, 38 s)
+FINAL (2000 draws): random=['Northern [2018]', 'new_year [2018]'], HM=[('Northern [2018]', 'raining [2018]'), ('Northern [2018]', 'concrete_surface [2018]')], HV=[], LL=-2950.793, k=53
+DONE uncon_p2_search: LL=-2950.793 k=53  (46 s)

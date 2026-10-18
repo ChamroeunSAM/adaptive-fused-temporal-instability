@@ -1,0 +1,19 @@
+== S1 pc_rp_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=8/3/1]: N=7325, parameters=68, fixed-parameter LL=-4572.860
+RP screen (99 s): 16 of 65 significant; top 16 by LL gain enter the joint model: ['songkran', 'off_left_hit_object', 'concrete_surface [2022-23]', 'new_year [2018-19]', 'drunk_driving [2016-19]', 'concrete_surface [2018-21]', 'under_construction', 'barrier_median', 'frontage_road [2020-23]', 'mounts_traffic_island', 'Northeastern [2016-21]', 'main_carriageway [2016-17]', 'raised_earth_median', 'predestrain', 'new_year [2020-23]', 'out_of_control [2018-23]']
+  joint RP: 16 random, LL=-4511.475, min SD t=0.15
+  joint RP: 15 random, LL=-4513.860, min SD t=0.40
+  joint RP: 14 random, LL=-4511.091, min SD t=0.06
+  joint RP: 13 random, LL=-4512.651, min SD t=0.13
+  joint RP: 12 random, LL=-4512.660, min SD t=1.20
+  joint RP: 11 random, LL=-4512.375, min SD t=0.55
+  joint RP: 10 random, LL=-4513.331, min SD t=0.99
+  joint RP: 9 random, LL=-4512.241, min SD t=1.85
+  joint RP: 8 random, LL=-4514.282, min SD t=1.82
+RP model: ['songkran', 'off_left_hit_object', 'concrete_surface [2022-23]', 'new_year [2018-19]', 'concrete_surface [2018-21]', 'mounts_traffic_island', 'predestrain', 'new_year [2020-23]']  LL=-4514.282
+hm: added Southern -> songkran  (LL gain 4.01, LL=-4510.272, 156 tried, 272 s)
+hm: added Northern [2016-19] -> songkran  (LL gain 4.08, LL=-4506.196, 148 tried, 378 s)
+hm: added Peak hours -> mounts_traffic_island  (LL gain 3.26, LL=-4502.938, 142 tried, 475 s)
+hv: added frontage_road [2020-23] -> new_year [2020-23]  (LL gain 2.62, LL=-4500.321, 134 tried, 580 s)
+2000-draw confirmation removed: SD ['concrete_surface [2022-23]'], HM [], HV []
+FINAL (2000 draws): random=['songkran', 'off_left_hit_object', 'new_year [2018-19]', 'concrete_surface [2018-21]', 'mounts_traffic_island', 'predestrain', 'new_year [2020-23]'], HM=[('songkran', 'Southern'), ('songkran', 'Northern [2016-19]'), ('mounts_traffic_island', 'Peak hours')], HV=[('new_year [2020-23]', 'frontage_road [2020-23]')], LL=-4508.158, k=75
+DONE pc_rp_search: LL=-4508.158 k=75  (647 s)

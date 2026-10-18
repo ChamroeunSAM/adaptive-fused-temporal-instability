@@ -1,0 +1,13 @@
+== S3 fused_rp_c1 [mode prune, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=8/3/1]: N=73731, parameters=78, fixed-parameter LL=-23730.088
+start from fused_rp_c1_search: k=82, LL=-23690.381
+  removed 10: ['fixed:Western [2016] (t=0.26)', 'fixed:Peak hours (t=0.47)', 'fixed:off_hit_object_right_bend [2019-2020] (t=0.44)', 'fixed:under_construction [2016-2017] (t=0.29)', 'fixed:crest (t=0.84)', 'fixed:sag [2019-2023] (t=0.60)', 'fixed:on_grade (t=0.60)', 'fixed:uturn_decel_only [2016-2019] (t=0.13)', 'fixed:bridge [2016] (t=0.67)', 'fixed:dark_with_lighting (t=0.71)'] -> k=72, LL=-23691.924  (120 s)
+  removed 1: ['fixed:normal_curve [2021-2023] (t=0.91)'] -> k=71, LL=-23692.342  (133 s)
+  removed 1: ['fixed:depressed_median (t=1.11)'] -> k=70, LL=-23692.956  (145 s)
+  removed 1: ['fixed:Southern [2019-2022] (t=1.11)'] -> k=69, LL=-23693.568  (157 s)
+  removed 1: ['fixed:Northeastern (t=1.27)'] -> k=68, LL=-23694.373  (170 s)
+  removed 1: ['fixed:Western [2017] (t=1.38)'] -> k=67, LL=-23695.297  (182 s)
+  removed 1: ['fixed:holiday (t=1.49)'] -> k=66, LL=-23696.441  (193 s)
+  removed 1: ['fixed:uturn_both_lanes (t=1.50)'] -> k=65, LL=-23697.599  (205 s)
+  removed 1: ['fixed:dark_no_lighting [2023] (t=1.64)'] -> k=64, LL=-23698.906  (216 s)
+FINAL (all significant at 90%): random=['new_year', 'songkran', 'concrete_surface', 'Northern [2016-2018]'], HM=[('Northern [2016-2018]', 'raining [2016-2019]')], HV=[], dropped=18, LL=-23698.906, k=64
+DONE fused_rp_c1: LL=-23698.906 k=64  (216 s)

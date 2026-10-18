@@ -1,0 +1,16 @@
+== S3 uncon_p1_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=7911, parameters=51, fixed-parameter LL=-2756.774
+RP screen (15 s): 9 of 50 significant; top 9 by LL gain enter the joint model: ['Western [2017]', 'off_left_hit_object [2017]', 'main_carriageway [2017]', 'truck_6_1 [2017]', 'weekend [2017]', 'barrier_median [2017]', 'concrete_surface [2017]', 'truck_10_1 [2017]', 'dark_with_lighting [2017]']
+  joint RP: 9 random, LL=-2742.916, min SD t=0.83
+  joint RP: 8 random, LL=-2743.964, min SD t=0.48
+  joint RP: 7 random, LL=-2743.474, min SD t=0.53
+  joint RP: 6 random, LL=-2743.870, min SD t=0.97
+  joint RP: 5 random, LL=-2743.594, min SD t=1.61
+  joint RP: 4 random, LL=-2744.482, min SD t=1.32
+  joint RP: 3 random, LL=-2744.796, min SD t=3.39
+  joint RP: 2 random, LL=-2752.343, min SD t=3.04
+RP model: ['weekend [2017]', 'barrier_median [2017]']  LL=-2752.343
+hm: added depressed_median [2017] -> weekend [2017]  (LL gain 1.96, LL=-2750.384, 52 tried, 25 s)
+hm: no qualifying term (50 pairings tried, 30 s)
+hv: no qualifying term (50 pairings tried, 36 s)
+FINAL (2000 draws): random=['weekend [2017]', 'barrier_median [2017]'], HM=[('weekend [2017]', 'depressed_median [2017]')], HV=[], LL=-2750.557, k=53
+DONE uncon_p1_search: LL=-2750.557 k=53  (43 s)

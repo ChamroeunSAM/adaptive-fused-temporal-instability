@@ -1,0 +1,10 @@
+== S3 uncon_p0_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=7482, parameters=51, fixed-parameter LL=-2860.617
+RP screen (16 s): 3 of 50 significant; top 3 by LL gain enter the joint model: ['songkran [2016]', 'new_year [2016]', 'dark_with_lighting [2016]']
+  joint RP: 3 random, LL=-2854.202, min SD t=0.91
+  joint RP: 2 random, LL=-2854.301, min SD t=3.01
+RP model: ['songkran [2016]', 'new_year [2016]']  LL=-2854.301
+hm: added dark_with_lighting [2016] -> songkran [2016]  (LL gain 4.73, LL=-2849.567, 50 tried, 22 s)
+hm: added Northern [2016] -> new_year [2016]  (LL gain 3.51, LL=-2846.054, 46 tried, 27 s)
+hv: added Peak hours [2016] -> songkran [2016]  (LL gain 2.78, LL=-2843.278, 42 tried, 32 s)
+FINAL (2000 draws): random=['songkran [2016]', 'new_year [2016]'], HM=[('songkran [2016]', 'dark_with_lighting [2016]'), ('new_year [2016]', 'Northern [2016]')], HV=[('songkran [2016]', 'Peak hours [2016]')], LL=-2843.232, k=53
+DONE uncon_p0_search: LL=-2843.232 k=53  (38 s)

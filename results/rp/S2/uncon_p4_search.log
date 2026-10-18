@@ -1,0 +1,19 @@
+== S2 uncon_p4_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=3327, parameters=46, fixed-parameter LL=-1837.122
+RP screen (16 s): 11 of 45 significant; top 11 by LL gain enter the joint model: ['new_year [2020]', 'normal_curve [2020]', 'pickup_1 [2020]', 'cutting_in_too_close [2020]', 'Peak hours [2020]', 'truck_>10_1 [2020]', 'wet_road [2020]', 'depressed_median [2020]', 'Southern [2020]', 'raining [2020]', 'plus_intersection [2020]']
+  joint RP: 11 random, LL=-1798.779, min SD t=0.06
+  joint RP: 10 random, LL=-1798.859, min SD t=1.66
+  joint RP: 9 random, LL=-1798.928, min SD t=1.97
+  joint RP: 8 random, LL=-1800.173, min SD t=2.58
+  joint RP: 7 random, LL=-1810.384, min SD t=2.09
+  joint RP: 6 random, LL=-1811.070, min SD t=2.46
+  joint RP: 5 random, LL=-1812.458, min SD t=2.72
+  joint RP: 4 random, LL=-1817.134, min SD t=2.81
+  joint RP: 3 random, LL=-1820.262, min SD t=3.29
+  joint RP: 2 random, LL=-1830.575, min SD t=3.68
+RP model: ['pickup_1 [2020]', 'cutting_in_too_close [2020]']  LL=-1830.575
+hm: added Evening [2020] -> pickup_1 [2020]  (LL gain 4.24, LL=-1826.332, 44 tried, 30 s)
+hm: added holiday [2020] -> cutting_in_too_close [2020]  (LL gain 2.10, LL=-1824.231, 40 tried, 35 s)
+hv: added car_1 [2020] -> pickup_1 [2020]  (LL gain 2.90, LL=-1821.332, 38 tried, 40 s)
+2000-draw confirmation removed: SD [], HM [], HV ['car_1 [2020]']
+FINAL (2000 draws): random=['pickup_1 [2020]', 'cutting_in_too_close [2020]'], HM=[('pickup_1 [2020]', 'Evening [2020]'), ('cutting_in_too_close [2020]', 'holiday [2020]')], HV=[], LL=-1824.534, k=48
+DONE uncon_p4_search: LL=-1824.534 k=48  (45 s)

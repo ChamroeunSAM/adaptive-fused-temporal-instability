@@ -1,0 +1,20 @@
+== S1 fused_rp_c2_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=8/3/1]: N=7325, parameters=57, fixed-parameter LL=-4592.061
+RP screen (74 s): 16 of 55 significant; top 16 by LL gain enter the joint model: ['concrete_surface', 'songkran', 'barrier_median [2018-23]', 'new_year', 'cutting_in_too_close [2016-19]', 'main_carriageway [2016-17]', 'drunk_driving [2016-19]', 'frontage_road [2020-23]', 'raised_earth_median [2016-17]', 'predestrain', 'under_construction', 'Northeastern', 'off_left [2016-17]', 'mounts_traffic_island', 'Eastern', 'raised_earth_median [2018-23]']
+  joint RP: 16 random, LL=-4540.102, min SD t=0.05
+  joint RP: 15 random, LL=-4539.759, min SD t=0.70
+  joint RP: 14 random, LL=-4538.144, min SD t=0.55
+  joint RP: 13 random, LL=-4541.323, min SD t=0.47
+  joint RP: 12 random, LL=-4547.187, min SD t=1.16
+  joint RP: 11 random, LL=-4545.851, min SD t=1.03
+  joint RP: 10 random, LL=-4546.579, min SD t=1.40
+  joint RP: 9 random, LL=-4550.471, min SD t=1.89
+  joint RP: 8 random, LL=-4551.410, min SD t=0.21
+  joint RP: 7 random, LL=-4550.920, min SD t=2.01
+RP model: ['songkran', 'barrier_median [2018-23]', 'new_year', 'raised_earth_median [2016-17]', 'Northeastern', 'Eastern', 'raised_earth_median [2018-23]']  LL=-4550.920
+hm: added rear_end_same_lane -> Eastern  (LL gain 4.00, LL=-4546.922, 152 tried, 207 s)
+hm: added off_left [2016-17] -> raised_earth_median [2016-17]  (LL gain 3.27, LL=-4543.654, 151 tried, 293 s)
+hm: added Peak hours -> raised_earth_median [2016-17]  (LL gain 3.12, LL=-4540.530, 146 tried, 380 s)
+hv: added Northern -> songkran  (LL gain 4.57, LL=-4535.956, 139 tried, 469 s)
+2000-draw confirmation removed: SD ['raised_earth_median [2016-17]'], HM [], HV []
+FINAL (2000 draws): random=['songkran', 'barrier_median [2018-23]', 'new_year', 'Northeastern', 'Eastern', 'raised_earth_median [2018-23]'], HM=[('Eastern', 'rear_end_same_lane')], HV=[('songkran', 'Northern')], LL=-4545.325, k=63
+DONE fused_rp_c2_search: LL=-4545.325 k=63  (533 s)

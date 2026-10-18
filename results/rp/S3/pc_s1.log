@@ -1,0 +1,23 @@
+== S3 pc_s1 [mode prune, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=8/3/1]: N=73731, parameters=103, fixed-parameter LL=-23668.373
+start from pc_s1_search: k=110, LL=-23571.239
+  removed 9: ['fixed:van [2020] (t=0.43)', 'fixed:Northern [2016-2017] (t=0.79)', 'fixed:Southern [2019-2021] (t=0.10)', 'fixed:Peak hours (t=0.76)', 'fixed:cutting_in_too_close [2017-2018] (t=0.56)', 'fixed:normal_curve [2016] (t=0.02)', 'fixed:sag [2021-2023] (t=0.63)', 'fixed:bridge [2016] (t=0.56)', 'fixed:dark_with_lighting (t=0.63)'] -> k=101, LL=-23572.658  (204 s)
+  removed 1: ['fixed:crest (t=1.05)'] -> k=100, LL=-23573.206  (241 s)
+  removed 1: ['fixed:weekend [2016-2022] (t=1.13)'] -> k=99, LL=-23573.845  (279 s)
+  removed 1: ['fixed:main_carriageway [2021-2023] (t=1.16)'] -> k=98, LL=-23574.536  (315 s)
+  removed 1: ['fixed:new_year [2016-2017] (t=1.23)'] -> k=97, LL=-23575.307  (352 s)
+  removed 1: ['fixed:off_right_bend [2016-2017] (t=1.24)'] -> k=96, LL=-23576.062  (388 s)
+  removed 1: ['fixed:off_hit_object_right_bend [2019-2020] (t=1.19)'] -> k=95, LL=-23576.768  (423 s)
+  removed 1: ['fixed:uturn_both_lanes (t=1.27)'] -> k=94, LL=-23577.592  (459 s)
+  removed 1: ['fixed:new_year [2023] (t=1.31)'] -> k=93, LL=-23578.481  (494 s)
+  removed 1: ['fixed:off_left_bend [2021-2023] (t=1.46)'] -> k=92, LL=-23579.517  (528 s)
+  removed 1: ['fixed:off_left_bend [2016-2017] (t=1.47)'] -> k=91, LL=-23580.579  (563 s)
+  removed 1: ['fixed:uturn_decel_only [2016-2018] (t=1.52)'] -> k=90, LL=-23581.811  (597 s)
+  removed 1: ['fixed:holiday (t=1.56)'] -> k=89, LL=-23583.067  (630 s)
+  removed 1: ['fixed:dark_no_lighting [2023] (t=1.58)'] -> k=88, LL=-23584.279  (663 s)
+  removed 1: ['fixed:uturn_decel_only [2020-2023] (t=1.62)'] -> k=87, LL=-23585.653  (696 s)
+  removed 1: ['fixed:truck_10_1 [2023] (t=1.61)'] -> k=86, LL=-23587.056  (729 s)
+  removed 1: ['fixed:Northeastern (t=1.64)'] -> k=85, LL=-23588.397  (761 s)
+  removed 1: ['fixed:Northern [2018] (t=1.47)'] -> k=84, LL=-23589.457  (793 s)
+  removed 1: ['fixed:Western [2016-2017] (t=1.42)'] -> k=83, LL=-23590.445  (824 s)
+FINAL (all significant at 90%): random=['on_grade', 'off_hit_object_left_bend [2019-2023]', 'songkran', 'new_year [2018-2022]', 'Northern [2019-2023]', 'Western [2018-2020]', 'concrete_surface'], HM=[('on_grade', 'raining'), ('Northern [2019-2023]', 'normal_curve [2021-2023]'), ('on_grade', 'Eastern [2016-2019]')], HV=[('on_grade', 'under_construction [2016-2017]')], dropped=27, LL=-23590.445, k=83
+DONE pc_s1: LL=-23590.445 k=83  (824 s)

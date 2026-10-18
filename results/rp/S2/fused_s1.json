@@ -1,0 +1,164 @@
+{
+ "subset": "S2",
+ "tag": "fused_s1",
+ "mode": "prune",
+ "structure": "results/stage1/struct_S2_fused.json",
+ "period": null,
+ "draws_search": 100,
+ "draws_final": 2000,
+ "caps": {
+  "random_parameters": 8,
+  "het_means": 3,
+  "het_variances": 1
+ },
+ "N": 21371,
+ "P_structure": 66,
+ "LL_fixed": -12218.166871155634,
+ "LL": -12088.864925338523,
+ "k": 59,
+ "AIC": 24295.729850677046,
+ "BIC": 24765.94746904267,
+ "random": [
+  "songkran [2017-2023]",
+  "truck_>10_1",
+  "new_year [2019-2023]",
+  "cutting_in_too_close",
+  "pickup_1 [2016-2019]",
+  "normal_curve",
+  "t_intersection",
+  "depressed_median"
+ ],
+ "HM": [
+  [
+   "pickup_1 [2016-2019]",
+   "dark_with_lighting [2016-2019]"
+  ],
+  [
+   "depressed_median",
+   "wet_road [2019-2023]"
+  ],
+  [
+   "cutting_in_too_close",
+   "van"
+  ]
+ ],
+ "HV": [],
+ "dropped": [
+  "holiday",
+  "Southern [2016-2017]",
+  "Peak hours",
+  "speeding [2019-2023]",
+  "main_carriageway",
+  "under_construction [2016-2022]",
+  "access_public_commercial",
+  "painted_median [2016-2021]",
+  "raining [2018-2023]",
+  "Evening",
+  "songkran [2016]",
+  "raining [2016-2017]",
+  "pickup_1 [2020-2023]",
+  "weekend",
+  "concrete_surface [2022-2023]"
+ ],
+ "start": "fused_s1_search",
+ "start_spec": {
+  "rnd": [
+   15,
+   11,
+   17,
+   36,
+   6,
+   48,
+   51,
+   46
+  ],
+  "hm": [
+   [
+    6,
+    64
+   ],
+   [
+    46,
+    59
+   ],
+   [
+    36,
+    12
+   ]
+  ],
+  "hv": [],
+  "drop": []
+ },
+ "prune_history": [
+  {
+   "removed": [
+    "fixed:holiday (t=0.53)",
+    "fixed:Southern [2016-2017] (t=1.00)",
+    "fixed:Peak hours (t=0.72)",
+    "fixed:speeding [2019-2023] (t=0.69)",
+    "fixed:main_carriageway (t=0.88)",
+    "fixed:under_construction [2016-2022] (t=0.47)",
+    "fixed:access_public_commercial (t=0.10)"
+   ],
+   "k": 67,
+   "LL": -12081.881285720603
+  },
+  {
+   "removed": [
+    "fixed:painted_median [2016-2021] (t=0.95)"
+   ],
+   "k": 66,
+   "LL": -12082.33790827014
+  },
+  {
+   "removed": [
+    "fixed:raining [2018-2023] (t=1.02)"
+   ],
+   "k": 65,
+   "LL": -12082.859860198649
+  },
+  {
+   "removed": [
+    "fixed:Evening (t=1.26)"
+   ],
+   "k": 64,
+   "LL": -12083.649670137387
+  },
+  {
+   "removed": [
+    "fixed:songkran [2016] (t=1.25)"
+   ],
+   "k": 63,
+   "LL": -12084.439881738786
+  },
+  {
+   "removed": [
+    "fixed:raining [2016-2017] (t=1.41)"
+   ],
+   "k": 62,
+   "LL": -12085.432728180895
+  },
+  {
+   "removed": [
+    "fixed:pickup_1 [2020-2023] (t=1.49)"
+   ],
+   "k": 61,
+   "LL": -12086.548393256522
+  },
+  {
+   "removed": [
+    "fixed:weekend (t=1.50)"
+   ],
+   "k": 60,
+   "LL": -12087.670882139513
+  },
+  {
+   "removed": [
+    "fixed:concrete_surface [2022-2023] (t=1.54)"
+   ],
+   "k": 59,
+   "LL": -12088.864925338523
+  }
+ ],
+ "seconds": 200
+}

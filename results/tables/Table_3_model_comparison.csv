@@ -1,0 +1,17 @@
+﻿Temporal approach,Temporal structure selected in^b,Number of parameters,Random parameters / heterogeneity in means / in variances,Variables with temporally varying parameters,LL(β),AIC,BIC,"LR test against the fully unconstrained model, χ^2 (df)^c",Confidence of rejection
+"S1: single-motorcycle crashes (two-year periods); N = 7,325",,,,,,,,,
+Fully unconstrained (separate period models)^a,–,92,7 / 5 / 0,all,"-4,510.10","9,204.2","9,838.9",–,–
+"Partially constrained (LR tests, 90%)",Fixed-parameter logit,52,6 / 3 / 0,23,"-4,526.94","9,157.9","9,516.6",33.7 (40),0.251
+Adaptive fused (90% rule),Fixed-parameter logit,45,7 / 2 / 1,16,"-4,534.14","9,158.3","9,468.7",48.1 (47),0.571
+"S2: motorcycle and another vehicle type; N = 21,371",,,,,,,,,
+Fully unconstrained (separate period models)^a,–,239,15 / 15 / 0,all,"-12,010.21","24,498.4","26,403.2",–,–
+"Partially constrained (LR tests, 90%)",Fixed-parameter logit,85,8 / 3 / 0,36,"-11,979.04","24,128.1","24,805.5",-62.3 (154),0.000
+Adaptive fused (90% rule),Random parameters model,56,8 / 3 / 1,10,"-12,052.03","24,216.1","24,662.4",83.6 (183),0.000
+"S3: single vehicle, no motorcycle; N = 73,731",,,,,,,,,
+Fully unconstrained (separate period models)^a,–,238,16 / 14 / 4,all,"-23,555.97","47,587.9","49,779.5",–,–
+"Partially constrained (LR tests, 90%)",Fixed-parameter logit,83,7 / 3 / 1,32,"-23,590.45","47,346.9","48,111.2",69.0 (155),0.000
+Adaptive fused (90% rule),Fixed-parameter logit,65,8 / 3 / 1,12,"-23,646.87","47,423.7","48,022.3",181.8 (173),0.692
+"S4: multi-vehicle, no motorcycle; N = 33,646",,,,,,,,,
+Fully unconstrained (separate period models)^a,–,215,15 / 12 / 4,all,"-12,541.73","25,513.5","27,324.5",–,–
+"Partially constrained (LR tests, 90%)",Random parameters model,81,8 / 3 / 1,26,"-12,598.28","25,358.6","26,040.9",113.1 (134),0.095
+Adaptive fused (90% rule),Random parameters model,72,8 / 3 / 1,24,"-12,617.43","25,378.9","25,985.4",151.4 (143),0.701

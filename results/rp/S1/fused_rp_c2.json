@@ -1,0 +1,152 @@
+{
+ "subset": "S1",
+ "tag": "fused_rp_c2",
+ "mode": "prune",
+ "structure": "results/rp/S1/fused_rp_c2_struct.json",
+ "period": null,
+ "draws_search": 100,
+ "draws_final": 2000,
+ "caps": {
+  "random_parameters": 8,
+  "het_means": 3,
+  "het_variances": 1
+ },
+ "N": 7325,
+ "P_structure": 57,
+ "LL_fixed": -4592.060572830713,
+ "LL": -4552.457205844632,
+ "k": 43,
+ "AIC": 9190.914411689264,
+ "BIC": 9487.57349434633,
+ "random": [
+  "songkran",
+  "barrier_median [2018-23]",
+  "new_year",
+  "Northeastern",
+  "Eastern",
+  "raised_earth_median [2018-23]"
+ ],
+ "HM": [
+  [
+   "Eastern",
+   "rear_end_same_lane"
+  ]
+ ],
+ "HV": [
+  [
+   "songkran",
+   "Northern"
+  ]
+ ],
+ "dropped": [
+  "weekend",
+  "Western [2016-19]",
+  "Peak hours",
+  "sideswipe_parallel [2020-23]",
+  "off_left [2016-17]",
+  "out_of_control [2016-17]",
+  "off_left_bend",
+  "speeding [2016-17]",
+  "cutting_in_too_close [2016-19]",
+  "falling_asleep [2016-21]",
+  "under_construction",
+  "normal_curve",
+  "t_intersection",
+  "raining [2016-19]",
+  "mounts_traffic_island",
+  "frontage_road [2020-23]",
+  "drunk_driving [2020-23]",
+  "Midnight/early morning",
+  "sideswipe_parallel [2016-19]",
+  "painted_median [2020-23]"
+ ],
+ "start": "fused_rp_c2_search",
+ "start_spec": {
+  "rnd": [
+   4,
+   47,
+   5,
+   7,
+   6,
+   44
+  ],
+  "hm": [
+   [
+    6,
+    15
+   ]
+  ],
+  "hv": [
+   [
+    4,
+    8
+   ]
+  ],
+  "drop": []
+ },
+ "prune_history": [
+  {
+   "removed": [
+    "fixed:weekend (t=0.58)",
+    "fixed:Western [2016-19] (t=0.39)",
+    "fixed:Peak hours (t=0.68)",
+    "fixed:sideswipe_parallel [2020-23] (t=0.96)",
+    "fixed:off_left [2016-17] (t=0.62)",
+    "fixed:out_of_control [2016-17] (t=0.18)",
+    "fixed:off_left_bend (t=0.27)",
+    "fixed:speeding [2016-17] (t=0.16)",
+    "fixed:cutting_in_too_close [2016-19] (t=0.74)",
+    "fixed:falling_asleep [2016-21] (t=0.22)",
+    "fixed:under_construction (t=0.18)",
+    "fixed:normal_curve (t=0.82)",
+    "fixed:t_intersection (t=0.24)",
+    "fixed:raining [2016-19] (t=0.24)"
+   ],
+   "k": 49,
+   "LL": -4547.210031429645
+  },
+  {
+   "removed": [
+    "fixed:mounts_traffic_island (t=0.99)"
+   ],
+   "k": 48,
+   "LL": -4547.713584373261
+  },
+  {
+   "removed": [
+    "fixed:frontage_road [2020-23] (t=1.27)"
+   ],
+   "k": 47,
+   "LL": -4548.544385102343
+  },
+  {
+   "removed": [
+    "fixed:drunk_driving [2020-23] (t=1.22)"
+   ],
+   "k": 46,
+   "LL": -4549.294489966489
+  },
+  {
+   "removed": [
+    "fixed:Midnight/early morning (t=1.36)"
+   ],
+   "k": 45,
+   "LL": -4550.21747787061
+  },
+  {
+   "removed": [
+    "fixed:sideswipe_parallel [2016-19] (t=1.42)"
+   ],
+   "k": 44,
+   "LL": -4551.2228584787945
+  },
+  {
+   "removed": [
+    "fixed:painted_median [2020-23] (t=1.57)"
+   ],
+   "k": 43,
+   "LL": -4552.457205844632
+  }
+ ],
+ "seconds": 85
+}

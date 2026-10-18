@@ -1,0 +1,18 @@
+== S4 uncon_p6_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=4647, parameters=45, fixed-parameter LL=-1574.737
+RP screen (11 s): 11 of 44 significant; top 11 by LL gain enter the joint model: ['sideswipe_parallel [2022]', 'truck_>10_1 [2022]', 'truck_10_1 [2022]', 'dark_with_lighting [2022]', 'cutting_in_too_close [2022]', 'raised_earth_median [2022]', 'Northeastern [2022]', 'normal_curve [2022]', 'wet_road [2022]', 'Midnight/early morning [2022]', 'raining [2022]']
+  joint RP: 11 random, LL=-1551.748, min SD t=0.58
+  joint RP: 10 random, LL=-1551.908, min SD t=0.81
+  joint RP: 9 random, LL=-1552.480, min SD t=1.37
+  joint RP: 8 random, LL=-1552.794, min SD t=1.85
+  joint RP: 7 random, LL=-1554.364, min SD t=1.93
+  joint RP: 6 random, LL=-1556.246, min SD t=2.04
+  joint RP: 5 random, LL=-1557.280, min SD t=2.50
+  joint RP: 4 random, LL=-1560.431, min SD t=2.64
+  joint RP: 3 random, LL=-1562.965, min SD t=2.13
+  joint RP: 2 random, LL=-1563.484, min SD t=2.97
+RP model: ['sideswipe_parallel [2022]', 'truck_>10_1 [2022]']  LL=-1563.484
+hm: added van [2022] -> truck_>10_1 [2022]  (LL gain 3.00, LL=-1560.481, 44 tried, 21 s)
+hm: added concrete_surface [2022] -> truck_>10_1 [2022]  (LL gain 2.18, LL=-1558.297, 42 tried, 25 s)
+hv: added dark_with_lighting [2022] -> truck_>10_1 [2022]  (LL gain 2.84, LL=-1555.457, 40 tried, 29 s)
+FINAL (2000 draws): random=['sideswipe_parallel [2022]', 'truck_>10_1 [2022]'], HM=[('truck_>10_1 [2022]', 'van [2022]'), ('truck_>10_1 [2022]', 'concrete_surface [2022]')], HV=[('truck_>10_1 [2022]', 'dark_with_lighting [2022]')], LL=-1555.681, k=47
+DONE uncon_p6_search: LL=-1555.681 k=47  (34 s)

@@ -1,0 +1,52 @@
+"""Descriptions and categories of the candidate indicators, used by the tables and figures."""
+DESC = {
+ 'motor_1': ('Vehicle involvement', 'One motorcycle involved'), 'motor_>1': ('Vehicle involvement', 'Two or more motorcycles involved'),
+ 'car_1': ('Vehicle involvement', 'One passenger car involved'), 'car_>1': ('Vehicle involvement', 'Two or more passenger cars involved'),
+ 'pickup_1': ('Vehicle involvement', 'One pickup truck involved'), 'pickup_>1': ('Vehicle involvement', 'Two or more pickup trucks involved'),
+ 'truck_6_1': ('Vehicle involvement', 'One 6-wheel truck involved'), 'truck_10_1': ('Vehicle involvement', 'One 10-wheel truck involved'),
+ 'truck_>10_1': ('Vehicle involvement', 'One truck with more than 10 wheels involved'),
+ 'truck_>10_>1': ('Vehicle involvement', 'Two or more trucks with more than 10 wheels involved'),
+ 'three_wheels': ('Vehicle involvement', 'Three-wheeler involved'), 'van': ('Vehicle involvement', 'Van involved'),
+ 'large_bas': ('Vehicle involvement', 'Bus involved'), 'predestrain': ('Vehicle involvement', 'Pedestrian involved'),
+ 'rear_end_same_lane': ('Crash type', 'Rear-end collision in the same lane'),
+ 'off_left_hit_object': ('Crash type', 'Ran off road to the left and hit an object'),
+ 'mounts_traffic_island': ('Crash type', 'Vehicle mounted a traffic island'),
+ 'off_right_hit_object': ('Crash type', 'Ran off road to the right and hit an object'),
+ 'sideswipe_parallel': ('Crash type', 'Sideswipe (parallel movement)'), 'off_left': ('Crash type', 'Ran off road to the left'),
+ 'off_hit_object_right_bend': ('Crash type', 'Ran off road on a right bend and hit an object'),
+ 'off_hit_object_left_bend': ('Crash type', 'Ran off road on a left bend and hit an object'),
+ 'off_right': ('Crash type', 'Ran off road to the right'), 'head_on': ('Crash type', 'Head-on collision'),
+ 'out_of_control': ('Crash type', 'Loss of vehicle control'), 'off_left_bend': ('Crash type', 'Ran off road on a left bend'),
+ 'off_right_bend': ('Crash type', 'Ran off road on a right bend'),
+ 'speeding': ('Crash cause', 'Speeding'), 'cutting_in_too_close': ('Crash cause', 'Cutting in too closely'),
+ 'falling_asleep': ('Crash cause', 'Driver fell asleep'), 'drunk_driving': ('Crash cause', 'Drunk driving'),
+ 'running_red_light': ('Crash cause', 'Running a red light'),
+ 'main_carriageway': ('Roadway characteristics', 'Crash on the main carriageway'), 'frontage_road': ('Roadway characteristics', 'Crash on a frontage road'),
+ 'under_construction': ('Roadway characteristics', 'Road under construction'),
+ 'painted_median': ('Roadway characteristics', 'Painted median'), 'raised_earth_median': ('Roadway characteristics', 'Raised or earth median'),
+ 'depressed_median': ('Roadway characteristics', 'Depressed median'), 'barrier_median': ('Roadway characteristics', 'Barrier median'),
+ 'normal_curve': ('Roadway characteristics', 'Horizontal curve'), 'sharp_curve': ('Roadway characteristics', 'Sharp horizontal curve'),
+ 'concrete_surface': ('Roadway characteristics', 'Concrete pavement surface'), 'crest': ('Roadway characteristics', 'Crest vertical curve'),
+ 'sag': ('Roadway characteristics', 'Sag vertical curve'), 'on_grade': ('Roadway characteristics', 'On grade'),
+ 't_intersection': ('Roadway characteristics', 'T-intersection'), 'plus_intersection': ('Roadway characteristics', 'Four-leg intersection'),
+ 'y_intersection': ('Roadway characteristics', 'Y-intersection'), 'uturn_no_lane': ('Roadway characteristics', 'U-turn without auxiliary lane'),
+ 'uturn_decel_only': ('Roadway characteristics', 'U-turn with deceleration lane only'),
+ 'uturn_both_lanes': ('Roadway characteristics', 'U-turn with deceleration and acceleration lanes'),
+ 'access_public_commercial': ('Roadway characteristics', 'Public or commercial access point'),
+ 'access_private': ('Roadway characteristics', 'Private access point'), 'bridge': ('Roadway characteristics', 'Bridge section'),
+ 'wet_road': ('Environmental characteristics', 'Wet road surface'), 'raining': ('Environmental characteristics', 'Raining'),
+ 'dark_no_lighting': ('Environmental characteristics', 'Dark, no street lighting'),
+ 'dark_with_lighting': ('Environmental characteristics', 'Dark, with street lighting'),
+ 'weekend': ('Temporal characteristics', 'Weekend'), 'songkran': ('Temporal characteristics', 'Songkran festival period'),
+ 'new_year': ('Temporal characteristics', 'New Year festival period'), 'holiday': ('Temporal characteristics', 'Public holiday'),
+ 'Evening': ('Temporal characteristics', 'Evening'), 'Midnight/early morning': ('Temporal characteristics', 'Midnight / early morning'),
+ 'Peak hours': ('Temporal characteristics', 'Peak hours'),
+ 'Eastern': ('Region', 'Eastern region'), 'Northeastern': ('Region', 'Northeastern region'), 'Northern': ('Region', 'Northern region'),
+ 'Southern': ('Region', 'Southern region'), 'Western': ('Region', 'Western region')}
+CATS = ['Vehicle involvement', 'Crash type', 'Crash cause', 'Roadway characteristics', 'Environmental characteristics',
+        'Temporal characteristics', 'Region']
+ORDER = {v: i for i, v in enumerate(DESC)}
+
+
+def desc(v):
+    return DESC.get(v, ('Other', v))

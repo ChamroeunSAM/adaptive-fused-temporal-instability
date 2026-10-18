@@ -1,0 +1,8 @@
+== S2 uncon_p4 [mode prune, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=3327, parameters=46, fixed-parameter LL=-1837.122
+start from uncon_p4_search: k=48, LL=-1824.534
+  removed 15: ['fixed:car_1 [2020] (t=0.67)', 'fixed:van [2020] (t=0.27)', 'fixed:weekend [2020] (t=0.34)', 'fixed:songkran [2020] (t=0.45)', 'fixed:speeding [2020] (t=0.58)', 'fixed:main_carriageway [2020] (t=0.65)', 'fixed:under_construction [2020] (t=0.72)', 'fixed:painted_median [2020] (t=0.22)', 'fixed:raised_earth_median [2020] (t=0.45)', 'fixed:normal_curve [2020] (t=0.20)', 'fixed:t_intersection [2020] (t=0.11)', 'fixed:uturn_both_lanes [2020] (t=0.67)', 'fixed:access_public_commercial [2020] (t=0.47)', 'fixed:wet_road [2020] (t=0.19)', 'fixed:raining [2020] (t=0.07)'] -> k=33, LL=-1826.441  (4 s)
+  removed 1: ['fixed:plus_intersection [2020] (t=1.10)'] -> k=32, LL=-1827.051  (4 s)
+  removed 1: ['fixed:rear_end_same_lane [2020] (t=1.40)'] -> k=31, LL=-1828.028  (5 s)
+  removed 1: ['fixed:Peak hours [2020] (t=1.44)'] -> k=30, LL=-1829.081  (6 s)
+FINAL (all significant at 90%): random=['pickup_1 [2020]', 'cutting_in_too_close [2020]'], HM=[('pickup_1 [2020]', 'Evening [2020]'), ('cutting_in_too_close [2020]', 'holiday [2020]')], HV=[], dropped=18, LL=-1829.081, k=30
+DONE uncon_p4: LL=-1829.081 k=30  (6 s)

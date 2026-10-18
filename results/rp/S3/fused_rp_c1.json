@@ -1,0 +1,146 @@
+{
+ "subset": "S3",
+ "tag": "fused_rp_c1",
+ "mode": "prune",
+ "structure": "results/rp/S3/fused_rp_c1_struct.json",
+ "period": null,
+ "draws_search": 100,
+ "draws_final": 2000,
+ "caps": {
+  "random_parameters": 8,
+  "het_means": 3,
+  "het_variances": 1
+ },
+ "N": 73731,
+ "P_structure": 78,
+ "LL_fixed": -23730.087641598868,
+ "LL": -23698.906043785846,
+ "k": 64,
+ "AIC": 47525.81208757169,
+ "BIC": 48115.13551886077,
+ "random": [
+  "new_year",
+  "songkran",
+  "concrete_surface",
+  "Northern [2016-2018]"
+ ],
+ "HM": [
+  [
+   "Northern [2016-2018]",
+   "raining [2016-2019]"
+  ]
+ ],
+ "HV": [],
+ "dropped": [
+  "Western [2016]",
+  "Peak hours",
+  "off_hit_object_right_bend [2019-2020]",
+  "under_construction [2016-2017]",
+  "crest",
+  "sag [2019-2023]",
+  "on_grade",
+  "uturn_decel_only [2016-2019]",
+  "bridge [2016]",
+  "dark_with_lighting",
+  "normal_curve [2021-2023]",
+  "depressed_median",
+  "Southern [2019-2022]",
+  "Northeastern",
+  "Western [2017]",
+  "holiday",
+  "uturn_both_lanes",
+  "dark_no_lighting [2023]"
+ ],
+ "start": "fused_rp_c1_search",
+ "start_spec": {
+  "rnd": [
+   13,
+   12,
+   60,
+   17
+  ],
+  "hm": [
+   [
+    17,
+    72
+   ]
+  ],
+  "hv": [],
+  "drop": []
+ },
+ "prune_history": [
+  {
+   "removed": [
+    "fixed:Western [2016] (t=0.26)",
+    "fixed:Peak hours (t=0.47)",
+    "fixed:off_hit_object_right_bend [2019-2020] (t=0.44)",
+    "fixed:under_construction [2016-2017] (t=0.29)",
+    "fixed:crest (t=0.84)",
+    "fixed:sag [2019-2023] (t=0.60)",
+    "fixed:on_grade (t=0.60)",
+    "fixed:uturn_decel_only [2016-2019] (t=0.13)",
+    "fixed:bridge [2016] (t=0.67)",
+    "fixed:dark_with_lighting (t=0.71)"
+   ],
+   "k": 72,
+   "LL": -23691.924232736987
+  },
+  {
+   "removed": [
+    "fixed:normal_curve [2021-2023] (t=0.91)"
+   ],
+   "k": 71,
+   "LL": -23692.341816348628
+  },
+  {
+   "removed": [
+    "fixed:depressed_median (t=1.11)"
+   ],
+   "k": 70,
+   "LL": -23692.956281361407
+  },
+  {
+   "removed": [
+    "fixed:Southern [2019-2022] (t=1.11)"
+   ],
+   "k": 69,
+   "LL": -23693.567522539608
+  },
+  {
+   "removed": [
+    "fixed:Northeastern (t=1.27)"
+   ],
+   "k": 68,
+   "LL": -23694.37327798319
+  },
+  {
+   "removed": [
+    "fixed:Western [2017] (t=1.38)"
+   ],
+   "k": 67,
+   "LL": -23695.296767627613
+  },
+  {
+   "removed": [
+    "fixed:holiday (t=1.49)"
+   ],
+   "k": 66,
+   "LL": -23696.44147775424
+  },
+  {
+   "removed": [
+    "fixed:uturn_both_lanes (t=1.50)"
+   ],
+   "k": 65,
+   "LL": -23697.59891035771
+  },
+  {
+   "removed": [
+    "fixed:dark_no_lighting [2023] (t=1.64)"
+   ],
+   "k": 64,
+   "LL": -23698.906043785846
+  }
+ ],
+ "seconds": 216
+}

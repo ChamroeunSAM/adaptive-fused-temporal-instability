@@ -1,0 +1,21 @@
+﻿Temporal approach,Number of parameters,Variables with temporally varying parameters,Variables restricted to a proportional trend,LL(β),AIC,BIC,"LR test against the fully unconstrained model, χ^2 (df)",Confidence of rejection
+"S1: single-motorcycle crashes (two-year periods); N = 7,325; 40 candidate variables (including the constant)",,,,,,,,
+Fully unconstrained (separate-period logits),160,all,–,"-4,520.92","9,361.8","10,465.7",–,–
+"Partially constrained (LR tests, 90%)",73,26 of 40,–,"-4,552.26","9,250.5","9,754.2",62.7 (87),0.023
+Spline indicator (90%),78,40 of 40,12,"-4,558.15","9,272.3","9,810.4",74.5 (82),0.289
+Adaptive fused (90% rule),59,17 of 40,–,"-4,579.68","9,277.4","9,684.4",117.5 (101),0.875
+"S2: motorcycle and another vehicle type; N = 21,371; 46 candidate variables (including the constant)",,,,,,,,
+Fully unconstrained (separate-period logits),368,all,–,"-12,052.15","24,840.3","27,773.2",–,–
+"Partially constrained (LR tests, 90%)",109,38 of 46,–,"-12,140.48","24,499.0","25,367.7",176.7 (259),0.000
+Spline indicator (90%),143,46 of 46,4,"-12,123.32","24,532.6","25,672.3",142.3 (225),0.000
+Adaptive fused (90% rule),66,19 of 46,–,"-12,218.17","24,568.3","25,094.3",332.0 (302),0.887
+"S3: single vehicle, no motorcycle; N = 73,731; 51 candidate variables (including the constant)",,,,,,,,
+Fully unconstrained (separate-period logits),408,all,–,"-23,563.23","47,942.5","51,699.4",–,–
+"Partially constrained (LR tests, 90%)",103,32 of 51,–,"-23,668.37","47,542.7","48,491.2",210.3 (305),0.000
+Spline indicator (90%),135,51 of 51,8,"-23,653.82","47,577.6","48,820.7",181.2 (273),0.000
+Adaptive fused (90% rule),69,13 of 51,–,"-23,748.79","47,635.6","48,270.9",371.1 (339),0.889
+"S4: multi-vehicle, no motorcycle; N = 33,646; 45 candidate variables (including the constant)",,,,,,,,
+Fully unconstrained (separate-period logits),360,all,–,"-12,583.17","25,886.3","28,918.9",–,–
+"Partially constrained (LR tests, 90%)",99,31 of 45,–,"-12,673.08","25,544.2","26,378.1",179.8 (261),0.000
+Spline indicator (90%),137,45 of 45,5,"-12,653.02","25,580.0","26,734.1",139.7 (223),0.000
+Adaptive fused (90% rule),68,18 of 45,–,"-12,743.54","25,623.1","26,195.9",320.7 (292),0.881

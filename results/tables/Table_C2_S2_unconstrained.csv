@@ -1,0 +1,85 @@
+﻿Variable description,2016,2017,2018,2019,2020,2021,2022,2023
+Constant [serious injury / fatal],,,,,,,,
+Constant,0.799 (2.27),0.554 (1.65),0.320 (0.97),0.338 (0.93),-0.539 (-1.92),0.013 (0.09),-0.669 (-2.63),0.004 (0.02)
+Vehicle involvement,,,,,,,,
+"One motorcycle involved (1 if yes, 0 otherwise)",-0.868 (-2.65),-0.608 (-1.90),-0.603 (-2.02),-0.522 (-1.67),-0.689 (-2.61),,,
+"One passenger car involved (1 if yes, 0 otherwise)",-0.555 (-4.69),,-0.645 (-5.55),-0.389 (-2.20),,-0.663 (-6.03),-0.498 (-4.62),-1.012 (-6.00)
+"One pickup truck involved (1 if yes, 0 otherwise)",,,,-0.402 (-1.92),0.226 (1.73),,,-0.376 (-2.17)
+(Standard deviation of parameter distribution),,,,1.516 (3.71),1.382 (4.22),,,1.081 (2.57)
+"Two or more pickup trucks involved (1 if yes, 0 otherwise)",,,,-0.899 (-2.26),-0.500 (-1.65),,-1.050 (-2.85),-0.585 (-1.88)
+"One 6-wheel truck involved (1 if yes, 0 otherwise)",0.942 (3.13),1.158 (3.58),1.500 (4.42),0.550 (1.81),1.450 (6.41),0.486 (2.17),0.815 (3.36),
+"One 10-wheel truck involved (1 if yes, 0 otherwise)",1.280 (4.08),1.146 (3.66),1.183 (3.71),1.087 (3.13),2.008 (7.03),0.734 (2.66),1.195 (4.00),0.758 (2.21)
+"One truck with more than 10 wheels involved (1 if yes, 0 otherwise)",1.161 (4.81),1.785 (7.57),1.401 (5.93),1.283 (5.05),1.738 (9.07),1.127 (5.46),1.392 (6.89),1.081 (4.46)
+"Van involved (1 if yes, 0 otherwise)",,0.888 (2.76),,,,,,-0.953 (-2.36)
+Crash type,,,,,,,,
+"Rear-end collision in the same lane (1 if yes, 0 otherwise)",-0.436 (-3.28),,-0.444 (-3.41),,,-0.270 (-1.91),,
+"Sideswipe (parallel movement) (1 if yes, 0 otherwise)",-0.824 (-4.96),-0.277 (-1.82),-1.112 (-4.20),-0.800 (-4.91),-0.544 (-4.27),-0.672 (-4.19),-0.660 (-4.93),-0.861 (-5.82)
+(Standard deviation of parameter distribution),,,2.010 (3.22),,,,,
+"Head-on collision (1 if yes, 0 otherwise)",0.838 (1.90),1.116 (3.75),0.772 (3.69),1.255 (4.28),1.495 (6.12),0.912 (4.07),0.860 (3.48),1.174 (4.95)
+Crash cause,,,,,,,,
+"Speeding (1 if yes, 0 otherwise)",,-0.322 (-3.01),,,,,0.491 (2.13),
+"Cutting in too closely (1 if yes, 0 otherwise)",0.016 (0.08),,0.151 (0.93),,0.208 (1.63),-0.166 (-1.09),0.541 (2.24),
+(Standard deviation of parameter distribution),2.394 (4.15),,2.200 (4.66),,1.333 (3.53),1.339 (2.96),,
+"Running a red light (1 if yes, 0 otherwise)",1.229 (3.10),,1.072 (3.40),0.742 (2.35),1.007 (3.70),0.515 (2.02),0.968 (2.86),
+Roadway characteristics,,,,,,,,
+"Crash on the main carriageway (1 if yes, 0 otherwise)",,-0.568 (-2.80),,,,0.631 (2.25),,-0.630 (-2.22)
+"Crash on a frontage road (1 if yes, 0 otherwise)",-1.604 (-5.26),-1.923 (-5.98),-1.146 (-3.73),-0.524 (-1.89),-0.830 (-3.47),,-1.389 (-5.57),-0.858 (-3.66)
+"Road under construction (1 if yes, 0 otherwise)",,,,,,,,-0.818 (-2.73)
+"Painted median (1 if yes, 0 otherwise)",,,,,,,-0.612 (-3.46),
+"Raised or earth median (1 if yes, 0 otherwise)",-0.740 (-5.39),-0.334 (-2.62),-0.382 (-2.63),-0.383 (-2.80),,-0.318 (-2.53),-0.425 (-3.66),
+"Depressed median (1 if yes, 0 otherwise)",,0.001 (0.00),0.353 (2.15),0.307 (2.01),0.500 (3.82),0.520 (2.86),,0.477 (3.27)
+(Standard deviation of parameter distribution),,1.432 (2.43),,,,1.313 (2.50),,
+"Barrier median (1 if yes, 0 otherwise)",-1.425 (-6.53),-1.171 (-6.09),-0.811 (-3.93),-1.285 (-5.53),-0.691 (-3.87),-0.740 (-3.80),-1.035 (-5.60),-0.829 (-4.35)
+"Horizontal curve (1 if yes, 0 otherwise)",0.688 (3.14),,,,,0.413 (2.20),0.106 (0.28),
+(Standard deviation of parameter distribution),,,,,,,3.308 (2.34),
+"Concrete pavement surface (1 if yes, 0 otherwise)",,,-0.740 (-4.29),,-0.548 (-3.96),-0.665 (-4.60),,-0.862 (-2.56)
+(Standard deviation of parameter distribution),,,,,,,,2.755 (3.13)
+"T-intersection (1 if yes, 0 otherwise)",-0.401 (-1.70),,0.379 (1.66),-0.416 (-1.74),,,,
+"Four-leg intersection (1 if yes, 0 otherwise)",,,0.729 (2.77),,,,-0.419 (-1.99),
+"U-turn without auxiliary lane (1 if yes, 0 otherwise)",,,,,0.614 (1.77),,,
+"U-turn with deceleration lane only (1 if yes, 0 otherwise)",0.984 (2.50),0.567 (1.81),,,0.749 (2.25),,,
+"U-turn with deceleration and acceleration lanes (1 if yes, 0 otherwise)",0.937 (2.29),,,,,1.024 (2.47),0.731 (1.75),
+Environmental characteristics,,,,,,,,
+"Wet road surface (1 if yes, 0 otherwise)",,,,,,,,-1.081 (-2.12)
+"Raining (1 if yes, 0 otherwise)",1.051 (2.97),,,,,,,1.057 (1.88)
+"Dark, no street lighting (1 if yes, 0 otherwise)",0.807 (4.14),0.754 (4.00),0.999 (4.75),0.935 (4.06),0.943 (4.38),1.133 (5.06),0.411 (1.95),
+"Dark, with street lighting (1 if yes, 0 otherwise)",,0.219 (1.81),0.505 (3.96),,0.247 (1.88),,,
+Temporal characteristics,,,,,,,,
+"Songkran festival period (1 if yes, 0 otherwise)",,-0.442 (-3.16),-0.346 (-2.17),-0.638 (-2.29),,-0.572 (-3.20),-0.323 (-2.14),-0.359 (-2.14)
+(Standard deviation of parameter distribution),,,,2.992 (2.76),,,,
+"New Year festival period (1 if yes, 0 otherwise)",-0.328 (-2.09),,-0.365 (-2.39),-0.705 (-4.96),-0.431 (-2.71),-0.492 (-3.21),-0.787 (-1.96),-0.546 (-3.32)
+(Standard deviation of parameter distribution),,,,,,,2.834 (2.33),
+"Public holiday (1 if yes, 0 otherwise)",,,0.707 (1.66),,,,,0.594 (1.66)
+"Evening (1 if yes, 0 otherwise)",,,,,,,0.419 (3.29),0.509 (4.22)
+"Midnight / early morning (1 if yes, 0 otherwise)",0.328 (1.77),0.610 (3.30),0.613 (3.32),0.827 (4.52),0.871 (4.69),0.677 (3.31),0.615 (3.56),1.174 (6.19)
+"Peak hours (1 if yes, 0 otherwise)",-0.125 (-0.76),,,,,,,
+(Standard deviation of parameter distribution),1.408 (3.05),,,,,,,
+Region,,,,,,,,
+"Eastern region (1 if yes, 0 otherwise)",1.357 (5.59),0.972 (4.51),0.922 (4.18),1.394 (5.80),1.493 (6.34),0.786 (3.76),0.681 (3.78),1.198 (5.36)
+"Northeastern region (1 if yes, 0 otherwise)",1.046 (6.64),0.451 (3.61),1.113 (6.91),1.248 (7.67),1.436 (9.14),0.965 (6.35),1.045 (7.27),1.250 (7.87)
+"Northern region (1 if yes, 0 otherwise)",0.399 (2.13),,0.468 (2.34),0.692 (3.59),-0.317 (-2.16),-0.581 (-3.92),-0.350 (-2.14),
+"Southern region (1 if yes, 0 otherwise)",,,0.668 (3.98),0.905 (5.18),0.710 (4.40),0.530 (3.24),0.595 (3.60),0.592 (3.87)
+"Western region (1 if yes, 0 otherwise)",0.895 (3.71),0.426 (2.35),0.827 (3.38),0.873 (3.82),1.244 (5.56),0.748 (3.25),0.706 (3.44),0.823 (3.83)
+Heterogeneity in the means of random parameters,,,,,,,,
+One pickup truck involved: Evening,,,,0.445 (1.84),0.654 (2.79),,,
+One pickup truck involved: Peak hours,,,,0.451 (1.96),,,,
+Cutting in too closely: Two or more pickup trucks involved,-3.053 (-2.03),,,,,,,
+Cutting in too closely: Van involved,,,1.774 (1.94),,,,,
+Cutting in too closely: Depressed median,1.351 (2.63),,,,,,,
+Cutting in too closely: Raining,,,,,,1.647 (1.79),,
+Cutting in too closely: Public holiday,,,,,-1.570 (-1.96),,,
+Depressed median: U-turn without auxiliary lane,,3.240 (2.18),,,,,,
+Depressed median: Wet road surface,,,,,,-1.829 (-2.82),,
+Depressed median: Peak hours,,-0.683 (-1.76),,,,,,
+Horizontal curve: Public or commercial access point,,,,,,,3.898 (1.82),
+Concrete pavement surface: U-turn without auxiliary lane,,,,,,,,3.072 (2.00)
+Concrete pavement surface: Northern region,,,,,,,,1.659 (1.89)
+New Year festival period: Peak hours,,,,,,,-1.704 (-2.04),
+Model statistics,,,,,,,,
+Number of observations,"2,617","2,269","2,759","2,583","3,327","2,681","2,511","2,624"
+Number of estimated parameters,31,25,32,29,30,30,32,30
+Random parameters / heterogeneity in means / in variances,2 / 2 / 0,1 / 2 / 0,2 / 1 / 0,2 / 2 / 0,2 / 2 / 0,2 / 2 / 0,2 / 2 / 0,2 / 2 / 0
+"Log-likelihood at zero, LL(0)",-1813.97,-1572.75,-1912.39,-1790.40,-2306.10,-1858.33,-1740.49,-1818.82
+"Log-likelihood with constant only, LL(C)",-1784.04,-1570.03,-1907.69,-1788.35,-2284.92,-1847.48,-1722.89,-1808.90
+"Log-likelihood at convergence, LL(β)",-1396.36,-1304.26,-1519.03,-1512.96,-1829.08,-1532.50,-1447.42,-1468.60
+McFadden pseudo ρ^2 = 1 - LL(β)/LL(0),0.230,0.171,0.206,0.155,0.207,0.175,0.168,0.193

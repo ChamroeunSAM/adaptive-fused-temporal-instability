@@ -1,0 +1,18 @@
+== S3 uncon_p4_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=9667, parameters=51, fixed-parameter LL=-3207.955
+RP screen (15 s): 11 of 50 significant; top 11 by LL gain enter the joint model: ['new_year [2020]', 'predestrain [2020]', 'normal_curve [2020]', 'barrier_median [2020]', 'mounts_traffic_island [2020]', 'concrete_surface [2020]', 'Northern [2020]', 'wet_road [2020]', 'dark_with_lighting [2020]', 'Evening [2020]', 'Peak hours [2020]']
+  joint RP: 11 random, LL=-3176.802, min SD t=0.54
+  joint RP: 10 random, LL=-3170.917, min SD t=0.05
+  joint RP: 9 random, LL=-3166.805, min SD t=0.61
+  joint RP: 8 random, LL=-3166.975, min SD t=1.36
+  joint RP: 7 random, LL=-3173.634, min SD t=2.25
+  joint RP: 6 random, LL=-3190.190, min SD t=0.83
+  joint RP: 5 random, LL=-3190.088, min SD t=2.11
+  joint RP: 4 random, LL=-3196.119, min SD t=2.83
+  joint RP: 3 random, LL=-3201.868, min SD t=2.11
+  joint RP: 2 random, LL=-3202.537, min SD t=3.03
+RP model: ['normal_curve [2020]', 'wet_road [2020]']  LL=-3202.537
+hm: added Eastern [2020] -> normal_curve [2020]  (LL gain 3.22, LL=-3199.318, 56 tried, 31 s)
+hm: added under_construction [2020] -> wet_road [2020]  (LL gain 2.62, LL=-3196.697, 54 tried, 37 s)
+hv: added Northern [2020] -> wet_road [2020]  (LL gain 1.37, LL=-3195.327, 52 tried, 43 s)
+FINAL (2000 draws): random=['normal_curve [2020]', 'wet_road [2020]'], HM=[('normal_curve [2020]', 'Eastern [2020]'), ('wet_road [2020]', 'under_construction [2020]')], HV=[('wet_road [2020]', 'Northern [2020]')], LL=-3195.368, k=53
+DONE uncon_p4_search: LL=-3195.368 k=53  (52 s)

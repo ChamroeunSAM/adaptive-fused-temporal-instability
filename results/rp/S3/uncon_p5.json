@@ -1,0 +1,160 @@
+{
+ "subset": "S3",
+ "tag": "uncon_p5",
+ "mode": "prune",
+ "structure": null,
+ "period": 5,
+ "draws_search": 100,
+ "draws_final": 2000,
+ "caps": {
+  "random_parameters": 2,
+  "het_means": 2,
+  "het_variances": 1
+ },
+ "N": 9882,
+ "P_structure": 51,
+ "LL_fixed": -2911.984375138567,
+ "LL": -2907.8846743876825,
+ "k": 30,
+ "AIC": 5875.769348775365,
+ "BIC": 6091.723454757535,
+ "random": [
+  "concrete_surface [2021]",
+  "songkran [2021]"
+ ],
+ "HM": [
+  [
+   "concrete_surface [2021]",
+   "Southern [2021]"
+  ],
+  [
+   "concrete_surface [2021]",
+   "off_hit_object_left_bend [2021]"
+  ]
+ ],
+ "HV": [],
+ "dropped": [
+  "truck_6_1 [2021]",
+  "weekend [2021]",
+  "new_year [2021]",
+  "holiday [2021]",
+  "Northeastern [2021]",
+  "Evening [2021]",
+  "Midnight/early morning [2021]",
+  "off_left_hit_object [2021]",
+  "main_carriageway [2021]",
+  "depressed_median [2021]",
+  "normal_curve [2021]",
+  "crest [2021]",
+  "sag [2021]",
+  "uturn_both_lanes [2021]",
+  "raining [2021]",
+  "uturn_decel_only [2021]",
+  "Peak hours [2021]",
+  "t_intersection [2021]",
+  "off_hit_object_right_bend [2021]",
+  "off_right_hit_object [2021]",
+  "raised_earth_median [2021]",
+  "painted_median [2021]",
+  "on_grade [2021]"
+ ],
+ "start": "uncon_p5_search",
+ "start_spec": {
+  "rnd": [
+   39,
+   8
+  ],
+  "hm": [
+   [
+    39,
+    14
+   ],
+   [
+    39,
+    25
+   ]
+  ],
+  "hv": [],
+  "drop": []
+ },
+ "prune_history": [
+  {
+   "removed": [
+    "fixed:truck_6_1 [2021] (t=0.98)",
+    "fixed:weekend [2021] (t=0.40)",
+    "fixed:new_year [2021] (t=0.52)",
+    "fixed:holiday [2021] (t=0.99)",
+    "fixed:Northeastern [2021] (t=0.79)",
+    "fixed:Evening [2021] (t=0.36)",
+    "fixed:Midnight/early morning [2021] (t=0.02)",
+    "fixed:off_left_hit_object [2021] (t=0.98)",
+    "fixed:main_carriageway [2021] (t=0.32)",
+    "fixed:depressed_median [2021] (t=0.31)",
+    "fixed:normal_curve [2021] (t=0.13)",
+    "fixed:crest [2021] (t=0.09)",
+    "fixed:sag [2021] (t=0.97)",
+    "fixed:uturn_both_lanes [2021] (t=0.56)",
+    "fixed:raining [2021] (t=0.56)"
+   ],
+   "k": 38,
+   "LL": -2901.766054521437
+  },
+  {
+   "removed": [
+    "fixed:uturn_decel_only [2021] (t=0.93)"
+   ],
+   "k": 37,
+   "LL": -2902.2207949991653
+  },
+  {
+   "removed": [
+    "fixed:Peak hours [2021] (t=1.12)"
+   ],
+   "k": 36,
+   "LL": -2902.8482328915375
+  },
+  {
+   "removed": [
+    "fixed:t_intersection [2021] (t=1.25)"
+   ],
+   "k": 35,
+   "LL": -2903.6945955815
+  },
+  {
+   "removed": [
+    "fixed:off_hit_object_right_bend [2021] (t=1.32)"
+   ],
+   "k": 34,
+   "LL": -2904.5955138580703
+  },
+  {
+   "removed": [
+    "fixed:off_right_hit_object [2021] (t=1.22)"
+   ],
+   "k": 33,
+   "LL": -2905.3421769747
+  },
+  {
+   "removed": [
+    "fixed:raised_earth_median [2021] (t=1.20)"
+   ],
+   "k": 32,
+   "LL": -2906.0660221895632
+  },
+  {
+   "removed": [
+    "fixed:painted_median [2021] (t=1.15)"
+   ],
+   "k": 31,
+   "LL": -2906.752975462621
+  },
+  {
+   "removed": [
+    "fixed:on_grade [2021] (t=1.45)"
+   ],
+   "k": 30,
+   "LL": -2907.8846743876825
+  }
+ ],
+ "seconds": 12
+}

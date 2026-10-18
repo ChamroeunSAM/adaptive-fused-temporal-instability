@@ -1,0 +1,146 @@
+{
+ "subset": "S3",
+ "tag": "uncon_p1",
+ "mode": "prune",
+ "structure": null,
+ "period": 1,
+ "draws_search": 100,
+ "draws_final": 2000,
+ "caps": {
+  "random_parameters": 2,
+  "het_means": 2,
+  "het_variances": 1
+ },
+ "N": 7911,
+ "P_structure": 51,
+ "LL_fixed": -2756.7735025756324,
+ "LL": -2768.244896985086,
+ "k": 30,
+ "AIC": 5596.489793970172,
+ "BIC": 5805.770078220814,
+ "random": [
+  "weekend [2017]",
+  "barrier_median [2017]"
+ ],
+ "HM": [
+  [
+   "weekend [2017]",
+   "depressed_median [2017]"
+  ]
+ ],
+ "HV": [],
+ "dropped": [
+  "new_year [2017]",
+  "holiday [2017]",
+  "Eastern [2017]",
+  "Northeastern [2017]",
+  "Northern [2017]",
+  "off_left_bend [2017]",
+  "off_right_bend [2017]",
+  "cutting_in_too_close [2017]",
+  "concrete_surface [2017]",
+  "crest [2017]",
+  "sag [2017]",
+  "t_intersection [2017]",
+  "uturn_decel_only [2017]",
+  "uturn_both_lanes [2017]",
+  "wet_road [2017]",
+  "raining [2017]",
+  "songkran [2017]",
+  "under_construction [2017]",
+  "dark_with_lighting [2017]",
+  "truck_6_1 [2017]",
+  "Western [2017]",
+  "normal_curve [2017]",
+  "on_grade [2017]"
+ ],
+ "start": "uncon_p1_search",
+ "start_spec": {
+  "rnd": [
+   7,
+   37
+  ],
+  "hm": [
+   [
+    7,
+    36
+   ]
+  ],
+  "hv": [],
+  "drop": []
+ },
+ "prune_history": [
+  {
+   "removed": [
+    "fixed:new_year [2017] (t=0.91)",
+    "fixed:holiday [2017] (t=0.64)",
+    "fixed:Eastern [2017] (t=0.03)",
+    "fixed:Northeastern [2017] (t=0.13)",
+    "fixed:Northern [2017] (t=0.26)",
+    "fixed:off_left_bend [2017] (t=0.09)",
+    "fixed:off_right_bend [2017] (t=0.21)",
+    "fixed:cutting_in_too_close [2017] (t=0.59)",
+    "fixed:concrete_surface [2017] (t=0.19)",
+    "fixed:crest [2017] (t=0.55)",
+    "fixed:sag [2017] (t=0.19)",
+    "fixed:t_intersection [2017] (t=0.67)",
+    "fixed:uturn_decel_only [2017] (t=0.83)",
+    "fixed:uturn_both_lanes [2017] (t=0.56)",
+    "fixed:wet_road [2017] (t=0.44)",
+    "fixed:raining [2017] (t=0.14)"
+   ],
+   "k": 37,
+   "LL": -2762.4392306604327
+  },
+  {
+   "removed": [
+    "fixed:songkran [2017] (t=0.97)"
+   ],
+   "k": 36,
+   "LL": -2762.9251497279797
+  },
+  {
+   "removed": [
+    "fixed:under_construction [2017] (t=1.02)"
+   ],
+   "k": 35,
+   "LL": -2763.4704458099027
+  },
+  {
+   "removed": [
+    "fixed:dark_with_lighting [2017] (t=1.12)"
+   ],
+   "k": 34,
+   "LL": -2764.0872333882608
+  },
+  {
+   "removed": [
+    "fixed:truck_6_1 [2017] (t=1.25)"
+   ],
+   "k": 33,
+   "LL": -2764.9001081387833
+  },
+  {
+   "removed": [
+    "fixed:Western [2017] (t=1.36)"
+   ],
+   "k": 32,
+   "LL": -2765.8095618837865
+  },
+  {
+   "removed": [
+    "fixed:normal_curve [2017] (t=1.63)"
+   ],
+   "k": 31,
+   "LL": -2767.1464307986225
+  },
+  {
+   "removed": [
+    "fixed:on_grade [2017] (t=1.44)"
+   ],
+   "k": 30,
+   "LL": -2768.244896985086
+  }
+ ],
+ "seconds": 12
+}

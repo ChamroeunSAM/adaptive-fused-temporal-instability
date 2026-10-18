@@ -1,0 +1,198 @@
+{
+ "subset": "S1",
+ "tag": "pc_s1",
+ "mode": "prune",
+ "structure": "results/stage1/struct_S1_pc.json",
+ "period": null,
+ "draws_search": 100,
+ "draws_final": 2000,
+ "caps": {
+  "random_parameters": 8,
+  "het_means": 3,
+  "het_variances": 1
+ },
+ "N": 7325,
+ "P_structure": 73,
+ "LL_fixed": -4552.261835119592,
+ "LL": -4526.93855221284,
+ "k": 52,
+ "AIC": 9157.87710442568,
+ "BIC": 9516.627622987713,
+ "random": [
+  "songkran",
+  "concrete_surface [2018-23]",
+  "new_year [2018-19]",
+  "off_left [2016-17]",
+  "mounts_traffic_island",
+  "new_year [2020-23]"
+ ],
+ "HM": [
+  [
+   "concrete_surface [2018-23]",
+   "Eastern [2022-23]"
+  ],
+  [
+   "songkran",
+   "Southern"
+  ],
+  [
+   "songkran",
+   "Northern [2016-19]"
+  ]
+ ],
+ "HV": [],
+ "dropped": [
+  "weekend",
+  "Western [2016-19]",
+  "Western [2022-23]",
+  "Midnight/early morning",
+  "rear_end_same_lane [2016-19]",
+  "sideswipe_parallel [2022-23]",
+  "out_of_control [2016-17]",
+  "off_left_bend",
+  "off_right_bend [2018-23]",
+  "speeding [2018-19]",
+  "falling_asleep [2016-21]",
+  "frontage_road [2020-23]",
+  "barrier_median [2018-19]",
+  "normal_curve",
+  "concrete_surface [2016-17]",
+  "t_intersection",
+  "wet_road [2016-21]",
+  "raining [2016-19]",
+  "sideswipe_parallel [2016-19]",
+  "raised_earth_median [2018-23]",
+  "under_construction [2022-23]",
+  "cutting_in_too_close [2020-23]",
+  "cutting_in_too_close [2018-19]",
+  "under_construction [2016-21]",
+  "predestrain",
+  "raining [2020-23]",
+  "wet_road [2022-23]"
+ ],
+ "start": "pc_s1_search",
+ "start_spec": {
+  "rnd": [
+   4,
+   64,
+   6,
+   2,
+   29,
+   25,
+   7
+  ],
+  "hm": [
+   [
+    64,
+    9
+   ],
+   [
+    4,
+    14
+   ],
+   [
+    4,
+    12
+   ]
+  ],
+  "hv": [],
+  "drop": []
+ },
+ "prune_history": [
+  {
+   "removed": [
+    "fixed:weekend (t=0.02)",
+    "fixed:Western [2016-19] (t=0.03)",
+    "fixed:Western [2022-23] (t=0.86)",
+    "fixed:Midnight/early morning (t=0.76)",
+    "fixed:rear_end_same_lane [2016-19] (t=0.28)",
+    "fixed:sideswipe_parallel [2022-23] (t=0.39)",
+    "fixed:out_of_control [2016-17] (t=0.48)",
+    "fixed:off_left_bend (t=0.15)",
+    "fixed:off_right_bend [2018-23] (t=0.77)",
+    "fixed:speeding [2018-19] (t=0.08)",
+    "fixed:falling_asleep [2016-21] (t=0.47)",
+    "fixed:frontage_road [2020-23] (t=0.89)",
+    "fixed:barrier_median [2018-19] (t=0.34)",
+    "fixed:normal_curve (t=0.04)",
+    "fixed:concrete_surface [2016-17] (t=0.10)",
+    "fixed:t_intersection (t=0.28)",
+    "fixed:wet_road [2016-21] (t=0.71)",
+    "fixed:raining [2016-19] (t=0.62)"
+   ],
+   "k": 62,
+   "LL": -4518.718340642561
+  },
+  {
+   "removed": [
+    "fixed:sideswipe_parallel [2016-19] (t=1.13)"
+   ],
+   "k": 61,
+   "LL": -4519.351261886173
+  },
+  {
+   "removed": [
+    "fixed:raised_earth_median [2018-23] (t=1.18)"
+   ],
+   "k": 60,
+   "LL": -4520.046804675247
+  },
+  {
+   "removed": [
+    "fixed:under_construction [2022-23] (t=1.33)"
+   ],
+   "k": 59,
+   "LL": -4520.944935092688
+  },
+  {
+   "removed": [
+    "fixed:cutting_in_too_close [2020-23] (t=1.33)"
+   ],
+   "k": 58,
+   "LL": -4521.842483514369
+  },
+  {
+   "removed": [
+    "fixed:cutting_in_too_close [2018-19] (t=1.48)"
+   ],
+   "k": 57,
+   "LL": -4522.972686360679
+  },
+  {
+   "removed": [
+    "fixed:under_construction [2016-21] (t=1.60)"
+   ],
+   "k": 56,
+   "LL": -4524.277769078822
+  },
+  {
+   "removed": [
+    "sd:predestrain (t=1.60)"
+   ],
+   "k": 55,
+   "LL": -4524.903170637821
+  },
+  {
+   "removed": [
+    "fixed:predestrain (t=0.73)"
+   ],
+   "k": 54,
+   "LL": -4525.169600830405
+  },
+  {
+   "removed": [
+    "fixed:raining [2020-23] (t=1.64)"
+   ],
+   "k": 53,
+   "LL": -4526.514312046258
+  },
+  {
+   "removed": [
+    "fixed:wet_road [2022-23] (t=0.92)"
+   ],
+   "k": 52,
+   "LL": -4526.93855221284
+  }
+ ],
+ "seconds": 127
+}

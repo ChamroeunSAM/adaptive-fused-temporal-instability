@@ -1,0 +1,12 @@
+== S4 uncon_p1 [mode prune, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=3217, parameters=45, fixed-parameter LL=-1364.043
+start from uncon_p1_search: k=47, LL=-1351.826
+  removed 16: ['fixed:truck_6_1 [2017] (t=0.57)', 'fixed:truck_10_1 [2017] (t=0.82)', 'fixed:truck_>10_1 [2017] (t=0.90)', 'fixed:large_bas [2017] (t=0.20)', 'fixed:weekend [2017] (t=0.65)', 'fixed:songkran [2017] (t=0.83)', 'fixed:new_year [2017] (t=0.57)', 'fixed:Northern [2017] (t=0.63)', 'fixed:Southern [2017] (t=0.93)', 'fixed:Western [2017] (t=0.37)', 'fixed:Midnight/early morning [2017] (t=0.34)', 'fixed:speeding [2017] (t=0.30)', 'fixed:normal_curve [2017] (t=0.41)', 'fixed:uturn_both_lanes [2017] (t=0.71)', 'fixed:wet_road [2017] (t=0.00)', 'fixed:raining [2017] (t=0.00)'] -> k=31, LL=-1358.570  (3 s)
+  removed 1: ['fixed:t_intersection [2017] (t=1.13)'] -> k=30, LL=-1359.191  (3 s)
+  removed 1: ['fixed:on_grade [2017] (t=1.31)'] -> k=29, LL=-1360.095  (4 s)
+  removed 1: ['fixed:under_construction [2017] (t=1.18)'] -> k=28, LL=-1360.783  (4 s)
+  removed 1: ['fixed:uturn_decel_only [2017] (t=1.34)'] -> k=27, LL=-1361.635  (4 s)
+  removed 1: ['fixed:van [2017] (t=1.50)'] -> k=26, LL=-1362.793  (4 s)
+  removed 1: ['fixed:Eastern [2017] (t=1.41)'] -> k=25, LL=-1363.767  (4 s)
+  removed 1: ['fixed:painted_median [2017] (t=1.60)'] -> k=24, LL=-1365.029  (5 s)
+FINAL (all significant at 90%): random=['Northeastern [2017]', 'pickup_>1 [2017]'], HM=[('pickup_>1 [2017]', 'rear_end_same_lane [2017]')], HV=[('Northeastern [2017]', 'plus_intersection [2017]')], dropped=23, LL=-1365.029, k=24
+DONE uncon_p1: LL=-1365.029 k=24  (5 s)

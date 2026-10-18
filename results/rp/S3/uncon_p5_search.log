@@ -1,0 +1,19 @@
+== S3 uncon_p5_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=2/2/1]: N=9882, parameters=51, fixed-parameter LL=-2911.984
+RP screen (15 s): 12 of 50 significant; top 12 by LL gain enter the joint model: ['on_grade [2021]', 'Northern [2021]', 'concrete_surface [2021]', 'songkran [2021]', 'off_left_hit_object [2021]', 'falling_asleep [2021]', 'car_1 [2021]', 'off_right_hit_object [2021]', 'main_carriageway [2021]', 'raining [2021]', 'mounts_traffic_island [2021]', 'barrier_median [2021]']
+  joint RP: 12 random, LL=-2889.680, min SD t=0.21
+  joint RP: 11 random, LL=-2887.816, min SD t=0.07
+  joint RP: 10 random, LL=-2886.438, min SD t=2.26
+  joint RP: 9 random, LL=-2898.714, min SD t=1.71
+  joint RP: 8 random, LL=-2899.754, min SD t=1.23
+  joint RP: 7 random, LL=-2897.938, min SD t=1.82
+  joint RP: 6 random, LL=-2901.185, min SD t=0.77
+  joint RP: 5 random, LL=-2902.402, min SD t=2.91
+  joint RP: 4 random, LL=-2904.314, min SD t=2.38
+  joint RP: 3 random, LL=-2905.639, min SD t=1.43
+  joint RP: 2 random, LL=-2906.151, min SD t=2.93
+RP model: ['concrete_surface [2021]', 'songkran [2021]']  LL=-2906.151
+hm: added Southern [2021] -> concrete_surface [2021]  (LL gain 6.36, LL=-2899.787, 58 tried, 32 s)
+hm: added off_hit_object_left_bend [2021] -> concrete_surface [2021]  (LL gain 2.51, LL=-2897.281, 56 tried, 38 s)
+hv: no qualifying term (52 pairings tried, 44 s)
+FINAL (2000 draws): random=['concrete_surface [2021]', 'songkran [2021]'], HM=[('concrete_surface [2021]', 'Southern [2021]'), ('concrete_surface [2021]', 'off_hit_object_left_bend [2021]')], HV=[], LL=-2898.031, k=53
+DONE uncon_p5_search: LL=-2898.031 k=53  (53 s)

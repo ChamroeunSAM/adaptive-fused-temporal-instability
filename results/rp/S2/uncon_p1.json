@@ -1,0 +1,150 @@
+{
+ "subset": "S2",
+ "tag": "uncon_p1",
+ "mode": "prune",
+ "structure": null,
+ "period": 1,
+ "draws_search": 100,
+ "draws_final": 2000,
+ "caps": {
+  "random_parameters": 2,
+  "het_means": 2,
+  "het_variances": 1
+ },
+ "N": 2269,
+ "P_structure": 46,
+ "LL_fixed": -1296.578516113289,
+ "LL": -1304.2584398056426,
+ "k": 25,
+ "AIC": 2658.5168796112853,
+ "BIC": 2801.6942417307814,
+ "random": [
+  "depressed_median [2017]"
+ ],
+ "HM": [
+  [
+   "depressed_median [2017]",
+   "uturn_no_lane [2017]"
+  ],
+  [
+   "depressed_median [2017]",
+   "Peak hours [2017]"
+  ]
+ ],
+ "HV": [],
+ "dropped": [
+  "weekend [2017]",
+  "holiday [2017]",
+  "Northern [2017]",
+  "Southern [2017]",
+  "Evening [2017]",
+  "cutting_in_too_close [2017]",
+  "running_red_light [2017]",
+  "under_construction [2017]",
+  "painted_median [2017]",
+  "t_intersection [2017]",
+  "plus_intersection [2017]",
+  "uturn_both_lanes [2017]",
+  "access_public_commercial [2017]",
+  "wet_road [2017]",
+  "raining [2017]",
+  "rear_end_same_lane [2017]",
+  "pickup_1 [2017]",
+  "pickup_>1 [2017]",
+  "concrete_surface [2017]",
+  "new_year [2017]",
+  "car_1 [2017]",
+  "normal_curve [2017]"
+ ],
+ "start": "uncon_p1_search",
+ "start_spec": {
+  "rnd": [
+   32
+  ],
+  "hm": [
+   [
+    32,
+    38
+   ],
+   [
+    32,
+    20
+   ]
+  ],
+  "hv": [],
+  "drop": []
+ },
+ "prune_history": [
+  {
+   "removed": [
+    "fixed:weekend [2017] (t=0.20)",
+    "fixed:holiday [2017] (t=0.89)",
+    "fixed:Northern [2017] (t=0.08)",
+    "fixed:Southern [2017] (t=0.68)",
+    "fixed:Evening [2017] (t=0.29)",
+    "fixed:cutting_in_too_close [2017] (t=0.45)",
+    "fixed:running_red_light [2017] (t=0.09)",
+    "fixed:under_construction [2017] (t=0.29)",
+    "fixed:painted_median [2017] (t=0.51)",
+    "fixed:t_intersection [2017] (t=0.87)",
+    "fixed:plus_intersection [2017] (t=0.22)",
+    "fixed:uturn_both_lanes [2017] (t=0.17)",
+    "fixed:access_public_commercial [2017] (t=0.43)",
+    "fixed:wet_road [2017] (t=0.00)",
+    "fixed:raining [2017] (t=0.00)"
+   ],
+   "k": 32,
+   "LL": -1297.5636065501137
+  },
+  {
+   "removed": [
+    "fixed:rear_end_same_lane [2017] (t=1.30)"
+   ],
+   "k": 31,
+   "LL": -1298.4156386959116
+  },
+  {
+   "removed": [
+    "fixed:pickup_1 [2017] (t=1.40)"
+   ],
+   "k": 30,
+   "LL": -1299.388805841048
+  },
+  {
+   "removed": [
+    "fixed:pickup_>1 [2017] (t=1.30)"
+   ],
+   "k": 29,
+   "LL": -1300.235220553617
+  },
+  {
+   "removed": [
+    "fixed:concrete_surface [2017] (t=1.31)"
+   ],
+   "k": 28,
+   "LL": -1301.1008213462003
+  },
+  {
+   "removed": [
+    "fixed:new_year [2017] (t=1.30)"
+   ],
+   "k": 27,
+   "LL": -1301.9401164395256
+  },
+  {
+   "removed": [
+    "fixed:car_1 [2017] (t=1.41)"
+   ],
+   "k": 26,
+   "LL": -1302.9310484724037
+  },
+  {
+   "removed": [
+    "fixed:normal_curve [2017] (t=1.62)"
+   ],
+   "k": 25,
+   "LL": -1304.2584398056426
+  }
+ ],
+ "seconds": 7
+}

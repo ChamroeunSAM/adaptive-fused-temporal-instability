@@ -1,0 +1,114 @@
+{
+ "subset": "S1",
+ "tag": "uncon_p1",
+ "mode": "prune",
+ "structure": null,
+ "period": 1,
+ "draws_search": 100,
+ "draws_final": 2000,
+ "caps": {
+  "random_parameters": 2,
+  "het_means": 2,
+  "het_variances": 1
+ },
+ "N": 1932,
+ "P_structure": 40,
+ "LL_fixed": -1165.3330521444902,
+ "LL": -1162.2775225314983,
+ "k": 24,
+ "AIC": 2372.5550450629967,
+ "BIC": 2506.146509417536,
+ "random": [
+  "raised_earth_median [2018-19]"
+ ],
+ "HM": [
+  [
+   "raised_earth_median [2018-19]",
+   "rear_end_same_lane [2018-19]"
+  ]
+ ],
+ "HV": [],
+ "dropped": [
+  "weekend [2018-19]",
+  "Northern [2018-19]",
+  "Southern [2018-19]",
+  "Western [2018-19]",
+  "Midnight/early morning [2018-19]",
+  "off_left_hit_object [2018-19]",
+  "mounts_traffic_island [2018-19]",
+  "speeding [2018-19]",
+  "drunk_driving [2018-19]",
+  "barrier_median [2018-19]",
+  "normal_curve [2018-19]",
+  "t_intersection [2018-19]",
+  "wet_road [2018-19]",
+  "main_carriageway [2018-19]",
+  "falling_asleep [2018-19]",
+  "painted_median [2018-19]",
+  "cutting_in_too_close [2018-19]"
+ ],
+ "start": "uncon_p1_search",
+ "start_spec": {
+  "rnd": [
+   30
+  ],
+  "hm": [
+   [
+    30,
+    13
+   ]
+  ],
+  "hv": [],
+  "drop": []
+ },
+ "prune_history": [
+  {
+   "removed": [
+    "fixed:weekend [2018-19] (t=0.37)",
+    "fixed:Northern [2018-19] (t=0.39)",
+    "fixed:Southern [2018-19] (t=0.40)",
+    "fixed:Western [2018-19] (t=0.20)",
+    "fixed:Midnight/early morning [2018-19] (t=0.01)",
+    "fixed:off_left_hit_object [2018-19] (t=0.98)",
+    "fixed:mounts_traffic_island [2018-19] (t=0.00)",
+    "fixed:speeding [2018-19] (t=0.70)",
+    "fixed:drunk_driving [2018-19] (t=0.40)",
+    "fixed:barrier_median [2018-19] (t=0.12)",
+    "fixed:normal_curve [2018-19] (t=0.02)",
+    "fixed:t_intersection [2018-19] (t=0.76)",
+    "fixed:wet_road [2018-19] (t=0.07)"
+   ],
+   "k": 28,
+   "LL": -1159.1110408646728
+  },
+  {
+   "removed": [
+    "fixed:main_carriageway [2018-19] (t=1.09)"
+   ],
+   "k": 27,
+   "LL": -1159.716697248578
+  },
+  {
+   "removed": [
+    "fixed:falling_asleep [2018-19] (t=1.14)"
+   ],
+   "k": 26,
+   "LL": -1160.3689988737547
+  },
+  {
+   "removed": [
+    "fixed:painted_median [2018-19] (t=1.24)"
+   ],
+   "k": 25,
+   "LL": -1161.1424871093636
+  },
+  {
+   "removed": [
+    "fixed:cutting_in_too_close [2018-19] (t=1.51)"
+   ],
+   "k": 24,
+   "LL": -1162.2775225314983
+  }
+ ],
+ "seconds": 8
+}

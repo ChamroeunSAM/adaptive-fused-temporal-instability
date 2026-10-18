@@ -1,0 +1,18 @@
+== S4 pc_s1_search [mode search, backend torch, device cuda, draws 100/2000, caps RP/HM/HV=8/3/1]: N=33646, parameters=99, fixed-parameter LL=-12673.081
+RP screen (62 s): 40 of 96 significant; top 16 by LL gain enter the joint model: ['normal_curve [2017-2022]', 'truck_10_1', 'on_grade [2016-2021]', 'Midnight/early morning', 'truck_>10_>1', 'sideswipe_parallel [2020-2023]', 'truck_>10_1 [2019-2023]', 'truck_>10_1 [2016-2018]', 'falling_asleep', 'truck_6_1', 'head_on [2016-2020]', 'dark_no_lighting [2018-2019]', 'pickup_>1', 'Southern [2016-2020]', 'Western [2019-2021]', 'cutting_in_too_close [2016-2021]']
+  joint RP: 16 random, LL=-12576.066, min SD t=0.91
+  joint RP: 15 random, LL=-12576.258, min SD t=2.11
+  joint RP: 14 random, LL=-12576.905, min SD t=1.98
+  joint RP: 13 random, LL=-12569.959, min SD t=2.31
+  joint RP: 12 random, LL=-12584.707, min SD t=2.83
+  joint RP: 11 random, LL=-12577.810, min SD t=2.54
+  joint RP: 10 random, LL=-12577.023, min SD t=4.44
+  joint RP: 9 random, LL=-12582.284, min SD t=4.59
+  joint RP: 8 random, LL=-12599.402, min SD t=4.68
+RP model: ['normal_curve [2017-2022]', 'truck_10_1', 'sideswipe_parallel [2020-2023]', 'truck_>10_1 [2019-2023]', 'truck_>10_1 [2016-2018]', 'truck_6_1', 'pickup_>1', 'cutting_in_too_close [2016-2021]']  LL=-12599.402
+hm: added t_intersection [2016-2017] -> cutting_in_too_close [2016-2021]  (LL gain 5.62, LL=-12593.779, 157 tried, 249 s)
+hm: added speeding [2017-2023] -> truck_10_1  (LL gain 4.99, LL=-12588.792, 143 tried, 370 s)
+hm: added Peak hours -> pickup_>1  (LL gain 4.43, LL=-12584.363, 143 tried, 494 s)
+hv: added Northern [2016-2020] -> truck_>10_1 [2019-2023]  (LL gain 3.35, LL=-12581.010, 143 tried, 618 s)
+FINAL (2000 draws): random=['normal_curve [2017-2022]', 'truck_10_1', 'sideswipe_parallel [2020-2023]', 'truck_>10_1 [2019-2023]', 'truck_>10_1 [2016-2018]', 'truck_6_1', 'pickup_>1', 'cutting_in_too_close [2016-2021]'], HM=[('cutting_in_too_close [2016-2021]', 't_intersection [2016-2017]'), ('truck_10_1', 'speeding [2017-2023]'), ('pickup_>1', 'Peak hours')], HV=[('truck_>10_1 [2019-2023]', 'Northern [2016-2020]')], LL=-12577.630, k=107
+DONE pc_s1_search: LL=-12577.630 k=107  (724 s)
